@@ -1,0 +1,1002 @@
+[
+  {
+    "nom": "Ajida",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=ajida",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "1000 po",
+    "description": "Liquide inodore et incolore, ce poison à retardement peut faire perdre la vue définitivement.Une créature qui ingère ce poison doit réussir un jet de sauvegarde de Constitution DD 18 ou sentir des vertiges (sans grandes conséquences) durant 1d8 minutes. Passé ce délai, et en cas d'échec au premier jet, elle doit réussir un nouveau jet de sauvegarde de Constitution DD 14 ou être aveuglée. Seule la magie peut rendre la vue ainsi perdue.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Ajonc à feuilles bleues",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=ajonc-a-feuilles-bleues",
+    "type": "blessure",
+    "categorie": "Plante",
+    "prix": "200 po",
+    "description": "Cette plante typique à cause de la couleur de ses feuilles est aussi un poison qui en plus de sa couleur dégage une odeur si caractéristique qu'un herboriste le reconnaîtra immédiatement.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10. En cas d'échec, elle tombe inconsciente pour une durée de 6d10 minutes.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Amnésite",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=amnesite",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "400 po",
+    "description": "Ce poison végétal de couleur blanche tiré d'une plante d'altitude cause en quelques secondes un choc métabolique pouvant provoquer de graves lésions dans le cerveau.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10. En cas d'échec, la créature est empoisonnée et perd temporellement 1d4 points d'Intelligence jusqu'à ce qu'elle termine un repos long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Arbre à poison",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=arbre-a-poison",
+    "type": "blessure",
+    "categorie": "Plante",
+    "prix": "200 po",
+    "description": "L'arbre à poison est une plante rare qui ne pousse qu'au cœur des jungles tropicales. Pour se protéger des insectes, cet arbre produit un puissant poison orangé ; la moindre égratignure provoque d'atroces douleurs dans la plaie. Ses fleurs sont le seul antidote naturel connu.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10, subissant 7 (2d6) dégâts en cas d'échec.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Arsenic",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=arsenic",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "500 po",
+    "description": "Poison mortel sans odeur se présentant sous la forme d'un liquide incolore.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 15, devenant empoisonnée pour 1 heure et subissant 13 (3d8) dégâts en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Baiser de sorcière",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=baiser-de-sorciere",
+    "type": "contact",
+    "categorie": "Toxine",
+    "prix": "500 po",
+    "description": "Ce mélange de plusieurs toxines agit dans tout l'organisme. Il se présente sous la forme d'une gélatine brune.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 ou être empoisonnée et perdre temporellement 1 point de Constitution (sans affecter les points de vie), 1 point de Dextérité et 1 point d'Intelligence jusqu'à ce que la créature termine un repos long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Belladone",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=belladone",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "250 po",
+    "description": "Cette préparation à base des baies noires de belladone provoque dans un premier temps des troubles visuels (dilatation des pupilles) puis une accélération du rythme cardiaque pouvant causer la mort sur un sujet délicat. Elle se présente sous la forme d'un liquide noir qui passe cependant relativement inaperçu dans des aliments ou dans du vin.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou perdre temporairement 2 points de Dextérité et subir 2 (1d4) dégâts de poison. La créature doit répéter le jet de sauvegarde chaque 10 min durant 1 heure pour mettre fin à l'effet et récupérer ses points de Dextérité initiaux en cas de réussite, ou subir de nouveau 2 (1d4) dégâts de poison.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Bile de dragon vert",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=bile-de-dragon-vert",
+    "type": "inhalation",
+    "categorie": "Toxine",
+    "prix": "2500 po",
+    "description": "Ce gaz lourd verdâtre est l'un des poisons de masse les plus mortels. Heureusement, son prix, dû à la difficulté de rencontrer la substance de base, en fait un poison extrêmement rare.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 22, devenant empoisonnée pour 1 heure et subissant 45 (10d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Bluluka",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=bluluka",
+    "type": "contact",
+    "categorie": "Plante",
+    "prix": "200 po",
+    "description": "Cette substance bleuâtre à l'odeur aigre est un acide à action lente qui s'attaque aux tissus de la peau.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 12 ou après 1d6 minutes l'acide lui brûle la chair et fait apparaitre à l'endroit de la blessure une marque indélébile bleu clair. Seul des soins magiques peuvent débarrasser de cette tâche.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Bralia",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=bralia",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "250 po",
+    "description": "La bralia se présente sous la forme d'un liquide crémeux inodore mais qui possède un goût acidulé caractéristique. Peu dangereux, elle est plus utilisée plus mettre en garde que pour tuer.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 16, subissant 2 (1d4) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Brume de folie",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=brume-de-folie",
+    "type": "inhalation",
+    "categorie": "Mixture",
+    "prix": "2000 po",
+    "description": "La victime qui respire l'odeur de parfum dégagé par cette potion se met dans un état nerveux proche de la folie qui se termine souvent par le suicide.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 14 ou être empoisonnée. Tant qu'elle est empoisonnée de cette manière la créature perd 3d6 points de Sagesse. Si la créature tombe ainsi à 2 points de Sagesse ou moins, elle se suicide à la première occasion.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Caresse de sorcière",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=caresse-de-sorciere",
+    "type": "contact",
+    "categorie": "Toxine",
+    "prix": "200 po",
+    "description": "Ce poison se présente sous la forme d'un liquide incolore quasiment impossible à détecter visuellement. Il se lave facilement à l'eau, ce qui le rend immédiatement inoffensif. Certains bijoutiers peu scrupuleux l'utilisent sur leurs marchandises, dans leurs coffres-forts ou lorsqu'ils voyagent dans des contrées peu sûres.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 12, subissant 4 (1d8) dégâts en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Caustar",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=caustar",
+    "type": "blessure",
+    "categorie": "Plante",
+    "prix": "250 po",
+    "description": "Le caustar est une crème de couleur jaune préparée à partir d'herbes toxiques et il est souvent utilisé par des mercenaires au combat. Une fois que le poison est entré dans l'organisme il provoque une intense douleur, non mortelle cependant.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou subir 7 (3d4) dégâts de poison et être empoisonnée pendant 1d6 minutes. Les dommages ne peuvent réduire les points de vie de la créature à moins de 1 pv. Dès que le poison n'agit plus, la créature récupère les points perdus au rythme de 1 pv/round.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Cendres d'ungol",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=cendres-d-ungol",
+    "type": "inhalation",
+    "categorie": "Mixture",
+    "prix": "600 po",
+    "description": "Ce poison se présente sous la forme de paillettes d'un brun-roux poussiéreux. L'odeur dégagée par celles-ci lorsqu'elles se consument provoque de graves lésions respiratoires dont on ne se remet jamais tout à fait complètement.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 ou subir 2 points de Constitution. Cette diminution perdure jusqu'à ce que la créature bénéficie d'un sort derestauration supérieureou d'une magie similaire.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Cendres de liche",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=cendres-de-liche",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "400 po",
+    "description": "Ce sirop noir au léger goût de cendres peut neutraliser sa victime en quelques secondes. Il est généralement ajouté aux aliments de la victime et quelques gouttes suffisent, ce qui explique son faible prix s'agissant d'une mixture.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 14, subissant 10 (4d4) dégâts en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Coulabine",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=coulabine",
+    "type": "inhalation",
+    "categorie": "Toxine",
+    "prix": "800 po",
+    "description": "Ce gaz grisâtre très fin, une fois libéré, provoque une forte accélération de la respiration chez la ou les victimes. Toute action plus fatigante qu'une marche lente est généralement alors impossible.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 ou être empoisonnée pour un maximum de 8 heures. Tant qu'elle est empoisonnée, la créature est considérée comme ayant un niveau de fatigue de 4 (s'il n'était pas supérieur avant). Chaque heure, la créature peut effectuer un nouveau jet de sauvegarde. Chaque réussite réduit le niveau de fatigue de 1. Une fois au niveau 0, la créature n'est plus empoisonnée.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Curare",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=curare",
+    "type": "blessure",
+    "categorie": "Plante",
+    "prix": "150 po",
+    "description": "Ce poison tiré d'une plante tropicale provoque une paralysie des muscles.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 9 ou être empoisonnée pendant 1 minute. La créature est également paralysée tant qu'elle est empoisonnée. La créature peut effectuer un nouveau jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'état paralysé sur elle-même en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Cyanure",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=cyanure",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "600 po",
+    "description": "Ce poison de couleur noirâtre a une odeur caractéristique d'amandes amères. Vendu en poudre semblable à du sel, il cause la mort en quelques secondes seulement.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 15, devenant empoisonnée pour 1 heure et subissant 18 (4d8) dégâts en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Dernier verre",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=dernier-verre",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "300 po",
+    "description": "Ce poison est préparé pour être mélangé à du vin. Il n'en altère pas le goût mais en éclaircit très légèrement la couleur. Il réagit avec les acides digestifs et provoque nausée, convulsions et crampes abdominales. La victime est ensuite immunisée à ce poison pendant une semaine.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13, ou être empoisonnée pour 1d8 heures. Chaque heure, la créature peut effectuer un nouveau jet de sauvegarde. En cas de réussite elle n'est plus empoisonnée.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Diffenbache",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=diffenbache",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "400 po",
+    "description": "Cette mixture complexe provoque la relaxation complète des cordes vocales de la victime qui ne peut alors plus parler. C'est un liquide jaunâtre.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 15, devenant complètement muette pour 2d4 heures en cas d'échec, ou durant 1d4 heures en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Doshenkana",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=doshenkana",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "500 po",
+    "description": "Ce poison se présente sous la forme d'une fine poudre verdâtre. Il donne le souffle court et provoque nausées, perte de vision et crises de convulsions.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 ou être empoisonnée pour 1d8 heures. En cas d'échec de 10 ou plus, la créature perd définitivement la vue.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Droon",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=droon",
+    "type": "blessure",
+    "categorie": "Toxine",
+    "prix": "1600 po",
+    "description": "Ce poison liquide de couleur rouge est extrêmement puissant mais toutefois très instable (faible DD). C'est tout ou rien.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 8 ou subir 31 (7d8) dégâts de poison.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Emloc",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=emloc",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "600 po",
+    "description": "Ce poison qui ressemble à du sirop possède un fort goût sucré et une odeur de pêche. Il provoque la dégradation des parois du système sanguin. L'effet se produit environ une demi-heure après l'ingestion.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 ou être empoisonnée pendant 25+1d10 minutes. À la fin de cette période, le maximum de points de vie de la créature baisse de 1d10. N'importe quel soin magique redonne le maximum de points de vie initial.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Entolome zébré",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=entolome-zebre",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "300 po",
+    "description": "Ce poison gris est tiré d'un champignon blanc et noir qui ne vit que dans les profondeurs de la terre. Il provoque de graves troubles neurologiques au moment de la digestion.Une créature sujette à ce poison doit, environ 2 heures après son ingestion, réussir un jet de sauvegarde de Constitution DD 10 ou perdre 2 points d'Intelligence jusqu'à la fin de son prochain repos long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Envie du désert",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=envie-du-desert",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "200 po",
+    "description": "Ce poison liquide de couleur verte est réalisé à base d'une variété spéciale de cactus et cause une forte déshydratation (soif intense, fatigue, vertiges).Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou voir son niveau de fatigue augmenter de 2 pour 8+1d8 heures. Doubler la consommation d'eau normale permet de réduire le niveau de fatigue de 1.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Enzyme de triple-fleur",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=enzyme-de-triple-fleur",
+    "type": "contact",
+    "categorie": "Plante",
+    "prix": "200 po",
+    "description": "Ce liquide jaune collant inflige des dégâts au contact de la peau s'il n'est pas neutralisé. On peut facilement l'enlever en le lavant, mais les points de vie perdus ne sont pas récupérés automatiquement.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou être empoisonnée et subir 1 dégât de poison chaque minute durant 8 minutes.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Erwurg",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=erwurg",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "150 po",
+    "description": "Ce poison liquide vert clair, tiré d'une fleur des bois, provoque une forte toux.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11, ou bien être pris d'une forte toux durant 5+1d10 minutes.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Essence d'ombre",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=essence-d-ombre",
+    "type": "blessure",
+    "categorie": "Mixture",
+    "prix": "800 po",
+    "description": "Ce poison noir élaboré exclusivement par des clercs à partir d'essences de cette créature morte-vivante est très puissant. On ne s'en remet jamais complètement.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 14. La créature perd 1d4 points de Force en cas d'échec, ou 1d2 points de Force cas de réussite. Cette diminution perdure jusqu'à ce que la créature bénéficie d'un sort derestauration supérieureou d'une magie similaire.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Essence éthérée",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=essence-etheree",
+    "type": "inhalation",
+    "categorie": "Toxine",
+    "prix": "300 po",
+    "description": "Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 ou être empoisonnée durant 8 heures. La créature empoisonnée est inconsciente et se réveille si elle subit des dégâts ou si une autre créature prend une action pour la secouer et ainsi la réveiller.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Extrait de lotus noir",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=extrait-de-lotus-noir",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "4000 po",
+    "description": "Certainement le poison le plus dangereux au monde. Heureusement c'est également le plus difficile à trouver du fait de l'extrême rareté de cette plante et du soin exceptionnel à donner à la préparation. Personne n'y échappe et la mort est quasi instantanée. C'est un liquide inodore, incolore et pratiquement invisible.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 20, subissant 55 (10d10) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Extrait de sanvert",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=extrait-de-sanvert",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "150 po",
+    "description": "Ce poison provoque de fortes nausées, immédiatement après chaque ingestion de liquide ou d'aliment. Il se présente sous la forme d'une poudre soluble.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 10 ou être empoisonnée durant 1d6 minutes.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Fleur voilée",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=fleur-voilee",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "150 po",
+    "description": "Cette petite herbe se trouve relativement facilement dans les prairies. Elle contient un petit poison paralysant qui inquiète toujours les propriétaires de troupeaux. Cependant le goût de cette herbe est très fort et très désagréable, ce qui permet souvent dès la première bouchée de nourriture de s'apercevoir qu'on s'empoisonne.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 9 ou être entravée pendant 1 minute.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Fluna",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=fluna",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "200 po",
+    "description": "Le fluna est un coléoptère des marais qui ne devient agressif que lors des périodes de reproduction. Son venin administré à hautes doses est très dangereux.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 10 ou subir 7 (2d6) dégâts de poison.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Fumées d'othur",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=fumees-d-othur",
+    "type": "inhalation",
+    "categorie": "Mixture",
+    "prix": "500 po",
+    "description": "Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 ou prendre 10 (3d6) dégâts de poison, et doit répéter le jet de sauvegarde au début de chacun de ses tours. Pour chaque jet de sauvegarde successif raté, le personnage prend 3 (1d6) dégâts de poison. Après trois jets réussis, le poison cesse d'agir.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Garaban",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=garaban",
+    "type": "blessure",
+    "categorie": "Toxine",
+    "prix": "300 po",
+    "description": "Poison liquide de couleur rouge courant chez les chasseurs et qui endort rapidement sa victime. Malgré le fait que ce soit un poison de blessure, il sert très peu en combat. Les chasseurs l'utilisent principalement avec des armes de jet pour faciliter leur approche.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Sagesse DD 12 pour ne pas tomber de sommeil durant 1d4 minutes. Le sommeil est « naturel », donc tout bruit un peu fort autour de la créature la réveillera.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Gaz des marais",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=gaz-des-marais",
+    "type": "inhalation",
+    "categorie": "Toxine",
+    "prix": "600 po",
+    "description": "Ce gaz grisâtre affaiblit ses victimes en les ralentissant, voire en les endormant.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Sagesse DD 14 pour ne pas tomber de sommeil durant 1d6 round. Un bruit fort ne réveillera pas la créature, mais tout dégât qu'on lui inflige mettra fin à son sommeil.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Gomme de jaraba",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=gomme-de-jaraba",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "800 po",
+    "description": "Ce poison apparaît sous la forme d'une pâte caoutchouteuse de couleur gris clair. Mélangée à des aliments, il se dissout à la cuisson pour devenir indécelable par le goût ou l'odeur.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 ou être empoisonnée. Tant qu'elle est empoisonnée de cette manière, la créature voit également son maximum de points de vie baisser de moitié. La créature peut effectuer un nouveau jet de sauvegarde chaque minute (10 rounds) pour mettre fin à l'effet et retrouver son maximum de points de vie (mais pas ses points de vie actuels). Le DD diminue de 1 à chaque fois.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Herbe aux loups",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=herbe-aux-loups",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "250 po",
+    "description": "Cette plante très toxique généralement utilisée pour tuer les renards et les loups peut être également mortelle pour un humanoïde. Bien préparée, elle sert aussi d'antidote au venin des scorpions.Une créature sujette à ce poison doit réussir un premier jet de sauvegarde de Constitution DD 9 ou subir 7 (3d4) dégâts de poison. En cas d'échec, la créature doit réussir un second jet de sauvegarde de Constitution DD 10 ou être également paralysée durant 1 minute.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Herbe du diable",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=herbe-du-diable",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "300 po",
+    "description": "Si inhaler les vapeurs de cette plante suffit à provoquer de faibles hallucinations durant quelques heures, c'est en l'ingérant qu'elle devient un vrai poison qui provoque de fortes hallucinations et une perte de la voix.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 10 ou souffrir d'hallucinations et ne plus pouvoir parler intelligiblement jusqu'à ce qu'elle termine un repos long. À la fin du repos long la créature n'a plus aucun souvenir précis de ce qui s'est passé depuis qu'elle a ingurgité le poison.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Huile de taggit",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=huile-de-taggit",
+    "type": "contact",
+    "categorie": "Toxine",
+    "prix": "400 po",
+    "description": "Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 ou être empoisonnée durant 24 heures. La créature empoisonnée est inconsciente et se réveille si elle subit des dégâts.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Huile noire",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=huile-noire",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "500 po",
+    "description": "Ce liquide noir n'affecte que les mammifères. Il provoque la coloration en noir des pupilles de ses victimes, mais permet de mieux résister à la douleur. Certains diplomates ou espions l'utilisent quand ils craignent d'être torturés.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 20. En cas d'échec, la créature ne voit plus que comme un humain dans l'obscurité (zone de ténèbres) mais obtient également une résistance aux dégâts contondants, le tout durant 1d4 heures.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Illumination du moissonneur",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=illumination-du-moissonneur",
+    "type": "blessure",
+    "categorie": "Mixture",
+    "prix": "400 po",
+    "description": "Une fois ce poison liquide et collant au contact du sang de sa victime, celle-ci perd temporairement l'ouïe.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 ou être assourdie jusqu'à la fin de son prochain repos court ou long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Illusion de Lomat",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=illusion-de-lomat",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "500 po",
+    "description": "Liquide ou poudre de couleur sable sans goût qui une fois ingurgitée fait croire à la victime qu'elle est épiée et surveillée en permanence.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Sagesse DD 15. En cas d'échec, la créature devient complètement paranoïaque (effrayée) pour une durée de 6d10 minutes.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Jalwun jiwin",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=jalwun-jiwin",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "400 po",
+    "description": "Comparé aux autres poisons utilisés par les elfes noirs, celui-ci semble n'être qu'un sympathique avertissement. Ce poison noir est préparé à partir du venin d'un crapaud souterrain. La victime est prise de nausées, de fièvre et de vomissements.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 14 ou être empoisonnée durant plusieurs jours. À la fin de chaque repos long, la créature peut effectuer un nouveau jet de sauvegarde pour mettre fin à l'effet, lequel ne dépasse jamais une semaine.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Jatropha curcas",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=jatropha-curcas",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "200 po",
+    "description": "La menace de ces noix réside dans leur goût délicieux car celui qui en goûte une en remange instinctivement plusieurs autres. Au-delà d'une dizaine de noix surviennent les crampes dans les jambes. L'arbre ne pousse qu'aux tropiques.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 10 ou voir sa vitesse être réduite à 1,50 m durant 1d6 x 10 minutes. De plus, la créature ne peut prendre l'action Foncer durant cette période.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Kintal de mage",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=kintal-de-mage",
+    "type": "blessure",
+    "categorie": "Mixture",
+    "prix": "700 po",
+    "description": "Ce poison qui nécessite entre autres de nombreux petits scorpions pour sa préparation coupe les cordes vocales de la victime. Cette substance est essentiellement employée contre les magiciens et autres lanceurs de sorts.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 19 ou être incapable d'émettre le moindre son jusqu'à la fin de son prochain repos long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Larmes de drider",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=larmes-de-drider",
+    "type": "blessure",
+    "categorie": "Toxine",
+    "prix": "400 po",
+    "description": "Malgré son nom, c'est de la salive de ces monstres qu'est élaboré ce poison. Au contact du sang, ce poison fait augmenter le volume des globes oculaires, les yeux deviennent injectés de sang et des larmes coulent de couleur rouge sang.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 ou perdre temporairement 4 points de Charisme jusqu'à ce qu'elle termine un repos long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Larmes de minuit",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=larmes-de-minuit",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "1500 po",
+    "description": "Une créature qui ingère ce poison ne souffre d'aucun effet jusqu'au coup de minuit. Si le poison n'a pas été neutralisé avant, la créature doit réussir un jet de sauvegarde de Constitution DD 17, subissant 31 (9d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Malice",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=malice",
+    "type": "inhalation",
+    "categorie": "Toxine",
+    "prix": "250 po",
+    "description": "Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 ou être empoisonnée durant 1 heure. La créature empoisonnée est aveuglée.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Mandragore",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=mandragore",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "300 po",
+    "description": "À la base une plante bénéfique, en surdose la mandragore est un véritable poison au goût amer.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 10 ou être empoisonnée pendant 2d6 minutes. Tant qu'elle est empoisonnée, la créature perd temporairement 1d4 points de Sagesse et souffre d'hallucinations.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Marchand de sable",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=marchand-de-sable",
+    "type": "blessure",
+    "categorie": "Mixture",
+    "prix": "600 po",
+    "description": "Ce poison sous forme de poudre induit un sommeil magique qui n'affecte pas les elfes ou les demi-elfes.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Sagesse DD 14 ou tomber de sommeil durant 1d6 minutes.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Mortelame",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=mortelame",
+    "type": "blessure",
+    "categorie": "Toxine",
+    "prix": "1600 po",
+    "description": "Ce puissant poison à base de venin d'araignée est très prisé par les elfes noirs pour l'assassinat. Il détruit les parois du système vasculaire causant des hémorragies internes massives. En quelques minutes les victimes perdent du sang par tous les orifices puis meurent. Ce poison n'est fabriqué que par les elfes noirs.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 18, subissant 36 (8d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Mucus de charognard rampant",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=mucus-de-charognard-rampant",
+    "type": "contact",
+    "categorie": "Venin",
+    "prix": "200 po",
+    "description": "Ce poison doit être récupéré sur un charognard rampant mort ou incapable d'agir.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 ou être empoisonnée durant 1 minute. La créature empoisonnée est paralysée. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, l'effet sur elle-même prenant fin en cas de réussite.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Murfa",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=murfa",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "400 po",
+    "description": "Ce liquide incolore et inodore à base de plomb provoque d'incontrôlables convulsions.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 14. En cas d'échec, la créature est empoisonnée et tombe à terre, lâchant ce qu'elle tient en mains et se tordant de douleur tant qu'elle est empoisonnée. La créature peut effectuer un nouveau jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'état empoisonné sur elle-même en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Nibon",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=nibon",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "400 po",
+    "description": "Ce liquide inodore et incolore à base d'or et d'argent rend complètement sourd durant quelques minutes.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou avoir un désavantage à tous les jets d'attaque ou de caractéristique basés sur la Dextérité jusqu'à la fin de son prochain repos court ou long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Nitharite",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=nitharite",
+    "type": "contact",
+    "categorie": "Plante",
+    "prix": "600 po",
+    "description": "Cette poudre ne fonctionne que si elle est lancée dans les yeux des victimes. Elle provoque immédiatement des brûlures qui gênent grandement la vision.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou avoir un désavantage à ses jets d'attaque pendant 10 rounds.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Oeil du basilic",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=oeil-du-basilic",
+    "type": "blessure",
+    "categorie": "Mixture",
+    "prix": "600 po",
+    "description": "Ce poison dont l'élément principal est un œil de basilic a un effet immédiat de pétrification.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 12 ou être pétrifiée. À chaque tour suivant la créature peut effectuer un nouveau jet de sauvegarde pour mettre fin à l'effet de manière anticipée. Un sort commerestauration supérieureou une magie similaire peut également mettre fin à l'effet.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Opia",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=opia",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "400 po",
+    "description": "Cette poudre brune à l'odeur de café se dissout dans une boisson et embrouille complètement l'esprit.2d4 rounds après l'absorption, une créature soumise à ce poison doit réussir un jet de sauvegarde de Sagesse DD 15 ou être étourdie durant 2d4 rounds.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Pâte de malyss",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=pate-de-malyss",
+    "type": "contact",
+    "categorie": "Plante",
+    "prix": "300 po",
+    "description": "La pâte préparée à base des racines de cette plante, une fois en contact avec la peau, provoque des tremblements de tous les membres et un léger essoufflement.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou avoir un désavantage à tous ses jets de caractéristique basés sur la Dextérité jusqu'à ce qu'elle termine un repos long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Piedlent",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=piedlent",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "150 po",
+    "description": "Le piedlent est une herbe aux petites fleurs cotonneuses. Il donne un liquide vert clair qui, mélangé dans la nourriture, augmente le rythme de la respiration et donne une grande sensation de fatigue.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou voir son niveau de fatigue augmenter de 1 jusqu'à ce qu'elle termine un repos long. Si le jet de sauvegarde est raté de 5 ou plus, le niveau de fatigue augmente de 2 au lieu de 1.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Poison d'ettercap",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=poison-d-ettercap",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "200 po",
+    "description": "Ce poison doit être récupéré sur un ettercap mort ou incapable d'agir.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou subir 4 (1d8) dégâts de poison et être empoisonnée durant 1 minute. La créature peut effectuer un nouveau jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'état empoisonné sur elle-même en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Poison de crapaud géant",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=poison-de-crapaud-geant",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "200 po",
+    "description": "Ce poison doit être récupéré sur un crapaud géant mort ou incapable d'agir.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou subir 5 (1d10) dégâts de poison.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Poison de ver pourpre",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=poison-de-ver-pourpre",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "2000 po",
+    "description": "Ce poison doit être récupéré sur un ver pourpre mort ou incapable d'agir.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 19, subissant 42 (12d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Poison de wiverne",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=poison-de-wiverne",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "1200 po",
+    "description": "Ce poison doit être récupéré sur une wiverne morte ou incapable d'agir.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 15, subissant 24 (7d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Poison drow",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=poison-drow",
+    "type": "blessure",
+    "categorie": "Toxine",
+    "prix": "200 po",
+    "description": "Ce poison n'est généralement confectionné que par les drows, et uniquement dans un endroit à l'abri de la lumière du soleil.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 13 ou être empoisonnée pour 1 heure. Si le jet de sauvegarde échoue de 5 ou plus, la créature est également inconsciente tant qu'elle est empoisonnée de cette façon. La créature se réveille si elle subit des dégâts ou si une autre créature prend une action pour la secouer et ainsi la réveiller.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Pollen de cybella",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=pollen-de-cybella",
+    "type": "inhalation",
+    "categorie": "Plante",
+    "prix": "300 po",
+    "description": "Respirer le pollen de cette fleur fait apparaître à la victime de nombreuses hallucinations (apparition de créatures ennemies, sentiment de persécutions et/ou d'être épié).Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 12 ou être effrayée pour 2d4 rounds.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Poudre d'assonne",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=poudre-d-assonne",
+    "type": "contact",
+    "categorie": "Plante",
+    "prix": "200 po",
+    "description": "Poudre blanche issus de feuilles séchées, ce poison « bon marché » qui peut être mortel pour de faibles créatures par simple contact est heureusement relativement détectable grâce à la forte odeur de fruits qu'il dégage.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 9 ou être empoisonnée jusqu'à la fin de son prochain repos court. Tant qu'elle est empoisonnée de cette manière, le maximum de points de vie de la créature baisse de 1d6. N'importe quel soin magique redonne le maximum de points de vie initial.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Poudre de lotus jaune",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=poudre-de-lotus-jaune",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "800 po",
+    "description": "Ce poison de couleur jaune a un goût de citrique très acide. Il perturbe de manière définitive l'élocution.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 10 ou être empoisonnée jusqu'à la fin de son prochain repos long. De plus, la créature perd 1d6 points de Charisme définitivement. Seul un sort commerestauration supérieureou une magie similaire peut faire récupérer les points de Charisme perdus.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Poudre de lotus noir",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=poudre-de-lotus-noir",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "800 po",
+    "description": "Ce poison gris foncé a un goût très amer. On ne s'en remet jamais complètement.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 12 ou être empoisonnée jusqu'à la fin de son prochain repos long. De plus, la créature perd 1d4 points de Constitution définitivement. Seul un sort commerestauration supérieureou une magie similaire peut faire récupérer les points de Constitution perdus.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Quarigan",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=quarigan",
+    "type": "blessure",
+    "categorie": "Toxine",
+    "prix": "400 po",
+    "description": "Cette substance est aussi appelée « ChopeNain » car elle n'est toxique que pour cette race. Il s'agit d'une huile utilisée sur les armes et qui ne sèche qu'au bout de quatre ou cinq jours. La légende dit que les elfes sont à l'origine de ce poison.Tout nain soumis à ce poison doit réussir un jet de sauvegarde de Constitution DD 20 ou subir 9 (2d8) dégâts de poison.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Queue de scorpion royal",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=queue-de-scorpion-royal",
+    "type": "contact",
+    "categorie": "Venin",
+    "prix": "1000 po",
+    "description": "Le venin de cet animal, que l'on extrait de sa queue, agit par simple contact avec la peau.Une créature au contact de ce poison doit réussir un jet de sauvegarde de Constitution DD 16 ou subir 14 (4d6) dégâts de poison et être empoisonnée pour 1 minute. La créature doit effectuer un nouveau jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'état empoisonné sur elle-même en cas de réussite ou subissant de nouveau 3 (1d6) dégâts de poison en cas d'échec.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Rêve d'Ya",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=reve-d-ya",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "600 po",
+    "description": "Poudre ou liquide pourpre qui sent le raisin. Après son ingestion, la victime ne trouvera plus le sommeil.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 14 ou ne plus pouvoir dormir jusqu'à une dissipation magique de la drogue. Après chaque repos long son niveau de fatigue augmente de +1, jusqu'à la mort au sixième jour, si rien n'est fait avant. Ce poison affecte même les elfes.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Rhododendron",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=rhododendron",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "400 po",
+    "description": "Le poison à base de cette plante provoque de fortes diarrhées et des vomissements.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou être empoisonnée jusqu'à la fin de son prochain repos long. Elle perd de plus temporairement 2 points de Force tant qu'elle est empoisonnée.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Salive de goule",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=salive-de-goule",
+    "type": "contact",
+    "categorie": "Toxine",
+    "prix": "600 po",
+    "description": "Cette huile verdâtre fabriquée par des clercs sent la pourriture et paralyse les membres inférieurs de ses victimes.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 13. En cas d'échec, elle est comme entravée pendant 2d6 minutes, ou seulement la moitié de ce temps en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Sang d'assassin",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=sang-d-assassin",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "150 po",
+    "description": "Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10. En cas d'échec, elle subit 6 (1d12) dégâts de poison et est empoisonnée durant 24 heures. En cas de réussite, la créature ne subit que la moitié des dégâts et n'est pas empoisonnée.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Sang de troll",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=sang-de-troll",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "300 po",
+    "description": "Ce fluide gris vert nécessite entre autres cinq gouttes de sang de troll pour sa préparation. Il devient complètement inoffensif s'il est porté à une température supérieure à 40 degrés. L'effet étant très court, l'empoisonneur se tient généralement face à sa victime.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 15, ou être pétrifié pour 1d4 round. Si la créature échoue de 5 ou plus, la durée est de 5 rounds.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Sang des venins",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=sang-des-venins",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "1200 po",
+    "description": "Ce mélange de venins (scorpions, crapauds et serpents géants) se présente sous forme d'un liquide jaune. Il est plus instable (faible DD) mais plus puissant que les venins normaux.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 9, subissant 33 (6d10) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Sérum de vérité",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=serum-de-verite",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "150 po",
+    "description": "Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou être empoisonnée durant 1 heure. La créature empoisonnée ne peut pas dire un mensonge sciemment, comme sous l'effet d'un sort dezone de vérité.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Sirop de rêve",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=sirop-de-reve",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "800 po",
+    "description": "Liquide gris ou blanc au goût sucré, cette drogue procure des rêves très plaisants. Certaines personnes se l'administrent volontairement.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Sagesse DD 14 durant son premier repos long après l'ingestion du poison. En cas d'échec, la créature se réveille dans un état béat et est comme charmée durant 1d4 heures. Elle ne peut pas attaquer ni cibler avec des capacités offensives ou magiques qui que ce soit. De plus toute personne a un avantage à ses jets de caractéristique pour interagir socialement avec la créature. Au premier point de vie que la créature perd durant cette période, l'effet de la drogue s'estompe immédiatement.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Sombre serpent",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=sombre-serpent",
+    "type": "contact",
+    "categorie": "Toxine",
+    "prix": "500 po",
+    "description": "Ce poison est une poudre rouge carmin qui laisse à vie sa coloration sur les surfaces qu'elle recouvre, avec un aspect de verrue.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 13. En cas d'échec, des verrues de couleur rouge commencent à pousser là où le poison a été au contact et subsistent durant 1d4 jours. Durant cette période, la créature perd 2 points de Charisme.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Souffle du désert",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=souffle-du-desert",
+    "type": "inhalation",
+    "categorie": "Mixture",
+    "prix": "700 po",
+    "description": "Ce terrible poison magique donne une sensation de chaleur et fait transpirer sa victime de manière anormale.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 18 ou perdre 1d4 points de Sagesse jusqu'à la fin de son prochain repos long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Spores d'ascomoïde",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=spores-d-ascomoide",
+    "type": "inhalation",
+    "categorie": "Plante",
+    "prix": "400 po",
+    "description": "Cette poudre élaborée à base de champignons embrouille l'esprit.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 12, ou être étourdie pour 2d4 rounds. En cas d'échec de 5 ou plus, la durée augmente de 1d4 rounds supplémentaires.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Teinture pale",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=teinture-pale",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "250 po",
+    "description": "Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 16 pour ne pas prendre 3 (1d6) dégâts de poison et devenir empoisonnée. La créature empoisonnée doit répéter le jet de sauvegarde toutes les 24 heures, subissant 3 (1d6) dégâts de poison en cas d'échec. Jusqu'à ce que le poison ne cesse d'agir, les dégâts infligés par le poison ne peuvent être guéris d'aucun moyen. Après sept réussites aux jets de sauvegarde, l'effet prend fin et la créature peut guérir normalement.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Ténébreux vireux",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=tenebreux-vireux",
+    "type": "ingestion",
+    "categorie": "Plante",
+    "prix": "400 po",
+    "description": "Ce champignon mortel réduit en poudre et mélangé à des aliments provoque, immédiatement après ingestion, de violentes douleurs abdominales conduisant à la mort dans la plupart des cas.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 12 ou être empoisonnée durant 1d4 rounds et subir 10 (5d4) dégâts de poison.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Terrinave",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=terrinave",
+    "type": "contact",
+    "categorie": "Plante",
+    "prix": "500 po",
+    "description": "Cette huile issue des racines de terrinave provoque une sorte de paralysie temporelle du cerveau.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 10, ou être incapable d'agir durant 1d6 rounds.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Thrum",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=thrum",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "700 po",
+    "description": "Ce liquide bleu clair sent le citron. Il met la victime dans un état d'alcoolisme très avancé.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 14 ou être empoisonnée jusqu'à ce qu'elle termine un repos long. Tant qu'elle est empoisonnée, la créature perd 1d4 points de Dextérité.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Tormentille",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=tormentille",
+    "type": "blessure",
+    "categorie": "Plante",
+    "prix": "400 po",
+    "description": "Séchée et préparée correctement, cette racine devient un puissant poison lent. L'effet n'apparait en effet que plus d'une heure après le contact.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou être prise de forts tremblements et perdre temporairement 2 points de Dextérité jusqu'à ce qu'elle termine un repos long.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Torpeur",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=torpeur",
+    "type": "ingestion",
+    "categorie": "Mixture",
+    "prix": "600 po",
+    "description": "Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 15 ou être empoisonnée durant 4d6 heures. La créature empoisonnée est incapable d'agir.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Toxine d'aspic",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=toxine-d-aspic",
+    "type": "blessure",
+    "categorie": "Toxine",
+    "prix": "600 po",
+    "description": "Ce poison élaboré à base des glandes de ce serpent inflige peu de dégât, mais il est quasiment impossible d'y résister.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 22, ou être empoisonnée durant 1d4 rounds et subir 5 (2d4) dégâts de poison.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Toxine d'oeil tueur",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=toxine-d-oeil-tueur",
+    "type": "inhalation",
+    "categorie": "Toxine",
+    "prix": "2500 po",
+    "description": "Ce gaz particulièrement redoutable est préparé à partir du foie d'un poisson de mer extrêmement rare appelé œil tueur. Une fois libéré, le nuage toxique tue la plupart des créatures qui le respirent.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 18, ou être empoisonné et subir 27 (6d8) dégâts de poison, ou la moitié en cas de réussite. La créature peut effectuer un nouveau jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'état empoisonné sur elle-même en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Ubon",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=ubon",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "800 po",
+    "description": "Ce liquide jaune à base d'or fondu, inodore mais au goût de melon acide, est redoutable.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 14 ou être empoisonnée. Tant qu'elle est empoisonnée, le maximum de points de vie de la créature est réduit de 1d8 points. Seule la magie peut mettre fin à cet empoisonnement.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Uropygus",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=uropygus",
+    "type": "inhalation",
+    "categorie": "Toxine",
+    "prix": "600 po",
+    "description": "Le gaz jaunâtre extrait de ce poison perturbe fortement la coordination et le système auditif, lequel influe sur l'équilibre.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 18 ou tomber à terre. Si le premier jet de sauvegarde est un échec, la créature doit le répéter au début de chacun de ses tours durant 8 rounds. À chaque nouvel échec, la créature tombe de nouveau à terre.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Venin d'araignée géante",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=venin-d-araignee-geante",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "300 po",
+    "description": "Ce poison doit être récupéré sur une araignée géante morte ou incapable d'agir.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 11, subissant 9 (2d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si le poison fait tomber les points de vie de la créature à 0, celle-ci reste dans un état stable mais est empoisonnée pendant 1 heure, même si elle récupère des points de vie. Elle est de plus paralysée tant qu'elle est empoisonnée.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Venin d'araignée-loup géante",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=venin-d-araignee-loup-geante",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "250 po",
+    "description": "Ce poison doit être récupéré sur une araignée-loup géante morte ou incapable d'agir.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 11, subissant 7 (2d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si le poison fait tomber les points de vie de la créature à 0, celle-ci reste dans un état stable mais est empoisonnée pendant 1 heure, même si elle récupère des points de vie. Elle est de plus paralysée tant qu'elle est empoisonnée.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Venin de guêpe géante",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=venin-de-guepe-geante",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "300 po",
+    "description": "Ce poison doit être récupéré sur une guêpe géante morte ou incapable d'agir.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 11, subissant 10 (3d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si le poison fait tomber les points de vie de la créature à 0, celle-ci reste dans un état stable mais est empoisonnée pendant 1 heure, même si elle récupère des points de vie. Elle est de plus paralysée tant qu'elle est empoisonnée.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Venin de mille-pattes géant",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=venin-de-mille-pattes-geant",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "300 po",
+    "description": "Ce poison doit être récupéré sur un mille-pattes géant mort ou incapable d'agir.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11 ou subir 10 (3d6) dégâts de poison. Si le poison fait tomber les points de vie de la créature à 0, celle-ci reste dans un état stable mais est empoisonnée pendant 1 heure, même si elle récupère des points de vie. Elle est de plus paralysée tant qu'elle est empoisonnée.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Venin de scorpion géant",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=venin-de-scorpion-geant",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "1000 po",
+    "description": "Ce poison doit être récupéré sur un scorpion géant mort ou incapable d'agir.Une créature sujette à ce poison doit effectuer un jet de sauvegarde de Constitution DD 12, subissant 22 (4d10) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Venin de serpent",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=venin-de-serpent",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "200 po",
+    "description": "Ce poison doit être récupéré sur un serpent venimeux géant mort ou incapable d'agir.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 11, subissant 10 (3d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+    "image_url": null,
+    "source": "Dungeon Master´s Guide"
+  },
+  {
+    "nom": "Venin de vipère à tête noire",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=venin-de-vipere-a-tete-noire",
+    "type": "blessure",
+    "categorie": "Venin",
+    "prix": "150 po",
+    "description": "Ce poison doit être récupéré sur une vipère à tête noire incapable d'agir mais encore vivante. Le venin de ce serpent agit à retardement.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 10 ou subir 3 (1d6) dégâts de poison 2d6 rounds après le contact.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  },
+  {
+    "nom": "Vin argenté",
+    "url": "https://www.aidedd.org/dnd/poisons.php?vf=vin-argente",
+    "type": "ingestion",
+    "categorie": "Toxine",
+    "prix": "400 po",
+    "description": "Ce poison est une liqueur au goût très fin de couleur argentée. De manière complètement inexpliquée, il ne fonctionne pas sur les halfelins ni sur les gnomes.Une créature sujette à ce poison doit réussir un jet de sauvegarde de Constitution DD 14 ou être pris d'un fou rire sonore durant 2d4 rounds.",
+    "image_url": null,
+    "source": "Recueil des poisons d´AideDD"
+  }
+]

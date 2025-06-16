@@ -1,0 +1,727 @@
+{% extends "base.html" %}
+
+{% block head %}
+<style>
+/* Variables CSS du système */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-light: #ecf0f1;
+    --bg-darker: #1a252f;
+    --transition-speed: 0.3s;
+}
+
+.character-sheet-container {
+    margin: calc(var(--navbar-height) + 2rem) auto 2rem;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+.dnd-sheet {
+    background: var(--bg-darker);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    padding: 2rem;
+    color: var(--text-light);
+    font-family: 'Poppins', sans-serif;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all var(--transition-speed);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--accent-color);
+    color: white;
+}
+
+.btn-secondary {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.sheet-header {
+    text-align: center;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.char-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin: 0;
+}
+
+.char-info {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    opacity: 0.9;
+}
+
+.sheet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section {
+    background: var(--secondary-color);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all var(--transition-speed);
+}
+
+.section:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--accent-color);
+    margin: 0 0 1rem 0;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ability-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+}
+
+.ability-box {
+    text-align: center;
+    background: var(--bg-darker);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.ability-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+}
+
+.ability-score {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin: 0.5rem 0;
+}
+
+.ability-mod {
+    font-size: 1rem;
+    font-weight: 600;
+    background: var(--accent-color);
+    color: white;
+    border-radius: 6px;
+    padding: 0.25rem 0.5rem;
+}
+
+.skills-list {
+    font-size: 0.9rem;
+}
+
+.skill-row {
+    display: grid;
+    grid-template-columns: 25px 1fr 50px;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+
+.skill-row:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.prof-dot {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--accent-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.prof-dot.filled {
+    background: var(--accent-color);
+    color: white;
+}
+
+.stat-box {
+    background: var(--bg-darker);
+    border: 2px solid var(--accent-color);
+    border-radius: 6px;
+    padding: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--accent-color);
+}
+
+.combat-stats {
+    display: grid;
+    gap: 1rem;
+}
+
+.combat-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.equipment-item {
+    background: var(--bg-darker);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.trait-item {
+    background: var(--bg-darker);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.trait-name {
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+.trait-description {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+@media print {
+    .actions { display: none; }
+    .dnd-sheet { 
+        background: white; 
+        color: black; 
+        box-shadow: none;
+    }
+    .section { 
+        background: #f9f9f9; 
+        border: 1px solid #ccc; 
+    }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="character-sheet-container">
+    <div class="dnd-sheet">
+        <!-- Actions -->
+        <div class="actions">
+            <button class="btn btn-primary" onclick="window.print()">🖨️ Imprimer</button>
+            <button class="btn btn-primary" onclick="exportCharacter()">💾 Exporter JSON</button>
+            <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">🏠 Tableau de bord</a>
+            <a href="{{ url_for('characters_list') }}" class="btn btn-secondary">👥 Tous les personnages</a>
+        </div>
+
+        <!-- En-tête du personnage -->
+        <div class="sheet-header">
+            <h1 class="char-name">{{ character.name or "Nom du personnage" }}</h1>
+            <div class="char-info">
+                <strong>{{ character.class.title() }}</strong>
+                {% if character.subclass %} - {{ character.subclass }}{% endif %}
+                , Niveau {{ character.level or 1 }}
+            </div>
+            <div class="char-info">
+                <strong>{{ character.race.replace('-', ' ').title() }}</strong>
+                {% if character.subrace %} ({{ character.subrace }}){% endif %}
+                • XP: {{ character.experience_points or 0 }}
+            </div>
+        </div>
+
+        <!-- Première ligne - Stats principales -->
+        <div class="sheet-grid">
+            <!-- Caractéristiques -->
+            <div class="section">
+                <div class="section-title">CARACTÉRISTIQUES</div>
+                <div class="ability-grid">
+                    {% for ability_key, ability_name in [('force', 'FORCE'), ('dexterite', 'DEXTÉRITÉ'), ('constitution', 'CONSTITUTION'), ('intelligence', 'INTELLIGENCE'), ('sagesse', 'SAGESSE'), ('charisme', 'CHARISME')] %}
+                    <div class="ability-box">
+                        <div class="ability-name">{{ ability_name }}</div>
+                        <div class="ability-score">
+                            {% set base_score = character.abilities.get(ability_key, 10) %}
+                            {% set racial_bonus = character.get('racial_bonuses', {}).get(ability_key, 0) %}
+                            {{ base_score + racial_bonus }}
+                        </div>
+                        <div class="ability-mod">
+                            {% set total_score = base_score + racial_bonus %}
+                            {% set modifier = ((total_score - 10) // 2) %}
+                            {% if modifier >= 0 %}+{% endif %}{{ modifier }}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Compétences -->
+            <div class="section">
+                <div class="section-title">COMPÉTENCES</div>
+                <div class="skills-list">
+                    {% for skill_name, skill_ability in [
+                        ('Acrobaties', 'dexterite'),
+                        ('Dressage', 'sagesse'),
+                        ('Arcanes', 'intelligence'),
+                        ('Athlétisme', 'force'),
+                        ('Tromperie', 'charisme'),
+                        ('Histoire', 'intelligence'),
+                        ('Intuition', 'sagesse'),
+                        ('Intimidation', 'charisme'),
+                        ('Investigation', 'intelligence'),
+                        ('Médecine', 'sagesse'),
+                        ('Nature', 'intelligence'),
+                        ('Perception', 'sagesse'),
+                        ('Représentation', 'charisme'),
+                        ('Persuasion', 'charisme'),
+                        ('Religion', 'intelligence'),
+                        ('Escamotage', 'dexterite'),
+                        ('Discrétion', 'dexterite'),
+                        ('Survie', 'sagesse')
+                    ] %}
+                    <div class="skill-row">
+                        <div class="prof-dot {% if skill_name in character.get('skills', []) %}filled{% endif %}">
+                            {% if skill_name in character.get('skills', []) %}●{% endif %}
+                        </div>
+                        <div>{{ skill_name }}</div>
+                        <div>
+                            {% set base_score = character.abilities.get(skill_ability, 10) %}
+                            {% set racial_bonus = character.get('racial_bonuses', {}).get(skill_ability, 0) %}
+                            {% set total_score = base_score + racial_bonus %}
+                            {% set ability_modifier = ((total_score - 10) // 2) %}
+                            {% set proficiency = 2 + ((character.level or 1 - 1) // 4) %}
+                            {% set bonus = ability_modifier + (proficiency if skill_name in character.get('skills', []) else 0) %}
+                            {% if bonus >= 0 %}+{% endif %}{{ bonus }}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Statistiques de combat -->
+            <div class="section">
+                <div class="section-title">COMBAT</div>
+                <div class="combat-stats">
+                    <div class="combat-row">
+                        <div>Classe d'armure</div>
+                        <div class="stat-box">
+                            {% set armor = character.get('equipment', {}).get('armor', {}) %}
+                            {% if armor and armor.name %}
+                                {{ armor.ac }}
+                            {% else %}
+                                {% set base_score = character.abilities.get('dexterite', 10) %}
+                                {% set racial_bonus = character.get('racial_bonuses', {}).get('dexterite', 0) %}
+                                {% set dex_mod = ((base_score + racial_bonus - 10) // 2) %}
+                                {{ 10 + dex_mod }}
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="combat-row">
+                        <div>Initiative</div>
+                        <div class="stat-box">
+                            {% set base_score = character.abilities.get('dexterite', 10) %}
+                            {% set racial_bonus = character.get('racial_bonuses', {}).get('dexterite', 0) %}
+                            {% set init_mod = ((base_score + racial_bonus - 10) // 2) %}
+                            {% if init_mod >= 0 %}+{% endif %}{{ init_mod }}
+                        </div>
+                    </div>
+                    <div class="combat-row">
+                        <div>Vitesse</div>
+                        <div class="stat-box">{{ character.speed or '9' }} m</div>
+                    </div>
+                    <div class="combat-row">
+                        <div>Points de vie max</div>
+                        <div class="stat-box">
+                            {% set base_con = character.abilities.get('constitution', 10) %}
+                            {% set racial_con = character.get('racial_bonuses', {}).get('constitution', 0) %}
+                            {% set con_mod = ((base_con + racial_con - 10) // 2) %}
+                            {% set level = character.level or 1 %}
+                            {% set hit_die = 8 %}
+                            {% set hp = hit_die + con_mod + ((level - 1) * (hit_die // 2 + 1 + con_mod)) %}
+                            {{ hp }}
+                        </div>
+                    </div>
+                    <div class="combat-row">
+                        <div>PV actuels</div>
+                        <div class="stat-box">
+                            {% set base_con = character.abilities.get('constitution', 10) %}
+                            {% set racial_con = character.get('racial_bonuses', {}).get('constitution', 0) %}
+                            {% set con_mod = ((base_con + racial_con - 10) // 2) %}
+                            {% set level = character.level or 1 %}
+                            {% set hit_die = 8 %}
+                            {% set hp = hit_die + con_mod + ((level - 1) * (hit_die // 2 + 1 + con_mod)) %}
+                            {{ hp }}
+                        </div>
+                    </div>
+                    <div class="combat-row">
+                        <div>PV temporaires</div>
+                        <div class="stat-box">0</div>
+                    </div>
+                    <div class="combat-row">
+                        <div>Dés de vie</div>
+                        <div class="stat-box">{{ character.level or 1 }}d8</div>
+                    </div>
+                    <div class="combat-row">
+                        <div>Bonus de maîtrise</div>
+                        <div class="stat-box">
+                            {% set proficiency = 2 + ((character.level or 1 - 1) // 4) %}
+                            +{{ proficiency }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jets de sauvegarde et autres stats -->
+        <div class="sheet-grid">
+            <div class="section">
+                <div class="section-title">JETS DE SAUVEGARDE</div>
+                <div class="skills-list">
+                    {% for save_name, save_ability in [
+                        ('Force', 'force'),
+                        ('Dextérité', 'dexterite'),
+                        ('Constitution', 'constitution'),
+                        ('Intelligence', 'intelligence'),
+                        ('Sagesse', 'sagesse'),
+                        ('Charisme', 'charisme')
+                    ] %}
+                    <div class="skill-row">
+                        <div class="prof-dot {% if save_name in character.get('saving_throw_proficiencies', []) %}filled{% endif %}">
+                            {% if save_name in character.get('saving_throw_proficiencies', []) %}●{% endif %}
+                        </div>
+                        <div>{{ save_name }}</div>
+                        <div>
+                            {% set base_score = character.abilities.get(save_ability, 10) %}
+                            {% set racial_bonus = character.get('racial_bonuses', {}).get(save_ability, 0) %}
+                            {% set ability_modifier = ((base_score + racial_bonus - 10) // 2) %}
+                            {% set proficiency = 2 + ((character.level or 1 - 1) // 4) %}
+                            {% set bonus = ability_modifier + (proficiency if save_name in character.get('saving_throw_proficiencies', []) else 0) %}
+                            {% if bonus >= 0 %}+{% endif %}{{ bonus }}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">AUTRES STATISTIQUES</div>
+                <div class="combat-stats">
+                    <div class="combat-row">
+                        <div>Perception passive</div>
+                        <div class="stat-box">
+                            {% set base_wis = character.abilities.get('sagesse', 10) %}
+                            {% set racial_wis = character.get('racial_bonuses', {}).get('sagesse', 0) %}
+                            {% set wis_mod = ((base_wis + racial_wis - 10) // 2) %}
+                            {% set proficiency = 2 + ((character.level or 1 - 1) // 4) %}
+                            {% set bonus = wis_mod + (proficiency if 'Perception' in character.get('skills', []) else 0) %}
+                            {{ 10 + bonus }}
+                        </div>
+                    </div>
+                    <div class="combat-row">
+                        <div>Investigation passive</div>
+                        <div class="stat-box">
+                            {% set base_int = character.abilities.get('intelligence', 10) %}
+                            {% set racial_int = character.get('racial_bonuses', {}).get('intelligence', 0) %}
+                            {% set int_mod = ((base_int + racial_int - 10) // 2) %}
+                            {% set proficiency = 2 + ((character.level or 1 - 1) // 4) %}
+                            {% set bonus = int_mod + (proficiency if 'Investigation' in character.get('skills', []) else 0) %}
+                            {{ 10 + bonus }}
+                        </div>
+                    </div>
+                    <div class="combat-row">
+                        <div>Intuition passive</div>
+                        <div class="stat-box">
+                            {% set base_wis = character.abilities.get('sagesse', 10) %}
+                            {% set racial_wis = character.get('racial_bonuses', {}).get('sagesse', 0) %}
+                            {% set wis_mod = ((base_wis + racial_wis - 10) // 2) %}
+                            {% set proficiency = 2 + ((character.level or 1 - 1) // 4) %}
+                            {% set bonus = wis_mod + (proficiency if 'Intuition' in character.get('skills', []) else 0) %}
+                            {{ 10 + bonus }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Détails physiques -->
+        <div class="section">
+            <div class="section-title">DÉTAILS PHYSIQUES</div>
+            <div class="sheet-grid">
+                <div>
+                    <strong>Âge:</strong> {{ character.get('physical_details', {}).get('age', 'Non défini') }}<br>
+                    <strong>Taille:</strong> {{ character.get('physical_details', {}).get('height', 'Non défini') }}<br>
+                    <strong>Poids:</strong> {{ character.get('physical_details', {}).get('weight', 'Non défini') }}<br>
+                    <strong>Cheveux:</strong> {{ character.get('physical_details', {}).get('hair', 'Non défini') }}
+                </div>
+                <div>
+                    <strong>Yeux:</strong> {{ character.get('physical_details', {}).get('eyes', 'Non défini') }}<br>
+                    <strong>Peau:</strong> {{ character.get('physical_details', {}).get('skin', 'Non défini') }}<br>
+                    <strong>Sexe:</strong> {{ character.get('physical_details', {}).get('gender', 'Non défini') }}<br>
+                    <strong>Alignement:</strong> {{ character.alignment or 'Non défini' }}
+                </div>
+            </div>
+        </div>
+
+        <!-- Équipement et inventaire -->
+        <div class="section">
+            <div class="section-title">ÉQUIPEMENT & INVENTAIRE COMPLET</div>
+            
+            <h3>⚔️ Armes & Attaques</h3>
+            {% set weapons = character.get('equipment', {}).get('weapons', []) %}
+            {% if weapons %}
+                {% for weapon in weapons %}
+                <div class="equipment-item">
+                    <strong>{{ weapon.name }}</strong>
+                    {% if weapon.damage %} - {{ weapon.damage }} {{ weapon.damage_type }}{% endif %}
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="equipment-item">Aucune arme équipée</div>
+            {% endif %}
+
+            <h3>🛡️ Armures & Protection</h3>
+            {% set armor = character.get('equipment', {}).get('armor', {}) %}
+            {% if armor and armor.name %}
+                <div class="equipment-item">
+                    <strong>{{ armor.name }}</strong> - CA {{ armor.ac }}
+                </div>
+            {% else %}
+                <div class="equipment-item">Aucune armure équipée</div>
+            {% endif %}
+
+            <h3>🔧 Outils & Instruments</h3>
+            {% set tools = character.get('proficiencies', {}).get('tools', []) %}
+            {% if tools %}
+                {% for tool in tools %}
+                <div class="equipment-item">{{ tool }}</div>
+                {% endfor %}
+            {% else %}
+                <div class="equipment-item">Aucun outil</div>
+            {% endif %}
+
+            <h3>💰 Richesses</h3>
+            {% set currency = character.get('equipment', {}).get('currency', {}) %}
+            <div class="equipment-item">
+                🔶 Pièces de cuivre (PC): {{ currency.get('pc', 0) }}<br>
+                🔹 Pièces d'argent (PA): {{ currency.get('pa', 0) }}<br>
+                🔸 Pièces d'électrum (PE): {{ currency.get('pe', 0) }}<br>
+                🔹 Pièces d'or (PO): {{ currency.get('po', 0) }}<br>
+                🔶 Pièces de platine (PP): {{ currency.get('pp', 0) }}
+            </div>
+
+            <h3>🎒 Inventaire général</h3>
+            {% set inventory = character.get('equipment', {}).get('inventory', []) %}
+            {% if inventory %}
+                {% for item in inventory %}
+                <div class="equipment-item">{{ item }}</div>
+                {% endfor %}
+            {% else %}
+                <div class="equipment-item">Inventaire vide</div>
+            {% endif %}
+        </div>
+
+        <!-- Langues et traits -->
+        <div class="sheet-grid">
+            <div class="section">
+                <div class="section-title">📚 Langues connues</div>
+                {% for language in character.get('languages', ['Commun']) %}
+                <div class="equipment-item">{{ language }}</div>
+                {% endfor %}
+            </div>
+
+            <div class="section">
+                <div class="section-title">🧬 Traits raciaux</div>
+                {% set racial_traits = character.get('racial_traits', []) %}
+                {% if racial_traits %}
+                    {% for trait in racial_traits %}
+                    <div class="trait-item">
+                        <div class="trait-name">{{ trait.name }}</div>
+                        <div class="trait-description">{{ trait.description }}</div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="trait-item">Voir manuel pour {{ character.race }}</div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Maîtrises -->
+        <div class="sheet-grid">
+            <div class="section">
+                <div class="section-title">MAÎTRISES D'ARMES</div>
+                {% set weapon_profs = character.get('proficiencies', {}).get('weapons', []) %}
+                {% if weapon_profs %}
+                    {% for prof in weapon_profs %}
+                    <div class="equipment-item">{{ prof }}</div>
+                    {% endfor %}
+                {% else %}
+                    <div class="equipment-item">Armes simples</div>
+                {% endif %}
+            </div>
+
+            <div class="section">
+                <div class="section-title">MAÎTRISES D'ARMURES</div>
+                {% set armor_profs = character.get('proficiencies', {}).get('armor', []) %}
+                {% if armor_profs %}
+                    {% for prof in armor_profs %}
+                    <div class="equipment-item">{{ prof }}</div>
+                    {% endfor %}
+                {% else %}
+                    <div class="equipment-item">Armures légères</div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Capacités de classe -->
+        <div class="section">
+            <div class="section-title">CAPACITÉS DE CLASSE</div>
+            <h3>Niveau {{ character.level or 1 }} {{ character.class.title() }}</h3>
+            {% set class_features = character.get('class_features', []) %}
+            {% if class_features %}
+                {% for feature in class_features %}
+                <div class="trait-item">
+                    <div class="trait-name">{{ feature.name }}</div>
+                    <div class="trait-description">{{ feature.description }}</div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="trait-item">Voir manuel du joueur pour les capacités spécifiques</div>
+            {% endif %}
+        </div>
+
+        <!-- Historique -->
+        <div class="section">
+            <div class="section-title">HISTORIQUE</div>
+            <p><strong>Historique:</strong> {{ character.background.replace('-', ' ').title() }}</p>
+            
+            {% set personality = character.get('personality', {}) %}
+            <p><strong>Traits de personnalité:</strong> 
+                {% if personality.get('traits') %}
+                    {{ personality.traits[0] if personality.traits|length > 0 else 'Non défini' }}
+                {% else %}
+                    Non défini
+                {% endif %}
+            </p>
+            <p><strong>Idéaux:</strong> 
+                {% if personality.get('ideals') %}
+                    {{ personality.ideals[0] if personality.ideals|length > 0 else 'Non défini' }}
+                {% else %}
+                    Non défini
+                {% endif %}
+            </p>
+            <p><strong>Liens:</strong> 
+                {% if personality.get('bonds') %}
+                    {{ personality.bonds[0] if personality.bonds|length > 0 else 'Non défini' }}
+                {% else %}
+                    Non défini
+                {% endif %}
+            </p>
+            <p><strong>Défauts:</strong> 
+                {% if personality.get('flaws') %}
+                    {{ personality.flaws[0] if personality.flaws|length > 0 else 'Non défini' }}
+                {% else %}
+                    Non défini
+                {% endif %}
+            </p>
+        </div>
+
+        <!-- Notes et récapitulatif -->
+        <div class="sheet-grid">
+            <div class="section">
+                <div class="section-title">NOTES & DIVERS</div>
+                <p><strong>Alignement:</strong> {{ character.alignment or 'Non défini' }}</p>
+                <p><strong>Divinité:</strong> Non défini</p>
+                <p><strong>Notes:</strong></p>
+                <p>{{ character.notes or 'Espace pour notes supplémentaires...' }}</p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">RÉCAPITULATIF</div>
+                <p><strong>Nom:</strong> {{ character.name }}</p>
+                <p><strong>Classe:</strong> {{ character.class.title() }}</p>
+                <p><strong>Race:</strong> {{ character.race.replace('-', ' ').title() }}</p>
+                <p><strong>CA:</strong> 
+                    {% set armor = character.get('equipment', {}).get('armor', {}) %}
+                    {% if armor and armor.name %}
+                        {{ armor.ac }}
+                    {% else %}
+                        {% set base_score = character.abilities.get('dexterite', 10) %}
+                        {% set racial_bonus = character.get('racial_bonuses', {}).get('dexterite', 0) %}
+                        {% set dex_mod = ((base_score + racial_bonus - 10) // 2) %}
+                        {{ 10 + dex_mod }}
+                    {% endif %}
+                </p>
+                <p><strong>PV:</strong> Calculé</p>
+                <p><strong>Vitesse:</strong> {{ character.speed or '9' }} m</p>
+                <p><strong>Bonus maîtrise:</strong> +{{ 2 + ((character.level or 1 - 1) // 4) }}</p>
+                <p><strong>Perception passive:</strong> 
+                    {% set base_wis = character.abilities.get('sagesse', 10) %}
+                    {% set racial_wis = character.get('racial_bonuses', {}).get('sagesse', 0) %}
+                    {% set wis_mod = ((base_wis + racial_wis - 10) // 2) %}
+                    {% set proficiency = 2 + ((character.level or 1 - 1) // 4) %}
+                    {% set bonus = wis_mod + (proficiency if 'Perception' in character.get('skills', []) else 0) %}
+                    {{ 10 + bonus }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function exportCharacter() {
+    const characterData = {{ character | tojson }};
+    const dataStr = JSON.stringify(characterData, null, 2);
+    const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+    
+    const exportFileDefaultName = '{{ character.name }}_character.json';
+    
+    const linkElement = document.createElement('a');
+    linkElement.setAttribute('href', dataUri);
+    linkElement.setAttribute('download', exportFileDefaultName);
+    linkElement.click();
+}
+</script>
+{% endblock %} 

@@ -1,0 +1,1685 @@
+{
+    "zaccharieber@gmail.com": [
+        {
+            "name": "Zaccharie",
+            "level": 1,
+            "class": "druide",
+            "race": "halfelin",
+            "background": "homme-de-loi",
+            "abilities": {
+                "force": 10,
+                "dexterite": 15,
+                "constitution": 15,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-11T19:15:19.906708",
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "dexterite": 2
+            },
+            "speed": 25,
+            "languages": [
+                "Commun",
+                "Halfelin"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Chanceux",
+                    "description": "Quand vous obtenez un 1 naturel sur un d20 pour un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, vous pouvez relancer le dé et devez utiliser le nouveau résultat."
+                },
+                {
+                    "name": "Brave",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre la peur."
+                },
+                {
+                    "name": "Agilité halfeline",
+                    "description": "Vous pouvez vous déplacer à travers l'espace de toute créature d'une taille supérieure à la vôtre."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Druidique",
+                    "description": "Vous connaissez le druidique, la langue secrète des druides."
+                },
+                {
+                    "level": 1,
+                    "name": "Incantation",
+                    "description": "Vous pouvez lancer des sorts de druide."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères",
+                    "Armures intermédiaires",
+                    "Boucliers (non métalliques)"
+                ],
+                "weapons": [
+                    "Massue",
+                    "Dague",
+                    "Fléchette",
+                    "Javeline",
+                    "Masse d'armes",
+                    "Bâton",
+                    "Cimeterre",
+                    "Fronde",
+                    "Lance"
+                ],
+                "tools": [
+                    "Kit d'herboriste"
+                ],
+                "saving_throws": [
+                    "Intelligence",
+                    "Sagesse"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Intelligence",
+                "Sagesse"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "",
+                "weight": "",
+                "hair": "",
+                "eyes": "",
+                "skin": "",
+                "gender": "",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "zacc",
+            "level": 1,
+            "class": "roublard",
+            "race": "demi-elfe",
+            "background": "militaire",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 15,
+                "sagesse": 15,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-12T00:28:03.656448",
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "charisme": 2
+            },
+            "speed": 30,
+            "languages": [
+                "Commun",
+                "Elfique"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Vision dans le noir",
+                    "description": "Vous pouvez voir dans la pénombre à 18 mètres comme si c'était une lumière vive, et dans l'obscurité comme si c'était une pénombre."
+                },
+                {
+                    "name": "Ascendance féérique",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre les charmes et la magie ne peut pas vous endormir."
+                },
+                {
+                    "name": "Polyvalence de compétence",
+                    "description": "Vous gagnez la maîtrise de deux compétences de votre choix."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Expertise",
+                    "description": "Choisissez deux de vos maîtrises de compétence ou une maîtrise de compétence et une maîtrise d'outils de voleur. Votre bonus de maîtrise est doublé pour tout test de caractéristique qui utilise l'une des maîtrises choisies."
+                },
+                {
+                    "level": 1,
+                    "name": "Attaque sournoise",
+                    "description": "Une fois par tour, vous pouvez infliger 1d6 dégâts supplémentaires à une créature que vous touchez avec une attaque si vous avez l'avantage au jet d'attaque."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères"
+                ],
+                "weapons": [
+                    "Armes simples",
+                    "Arbalète de poing",
+                    "Épée courte",
+                    "Épée longue",
+                    "Rapière"
+                ],
+                "tools": [
+                    "Outils de voleur"
+                ],
+                "saving_throws": [
+                    "Dextérité",
+                    "Intelligence"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Dextérité",
+                "Intelligence"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "",
+                "weight": "",
+                "hair": "",
+                "eyes": "",
+                "skin": "",
+                "gender": "",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "",
+            "personality": {
+                "traits": [
+                    "Je peux regarder fixement un chien de l'enfer sans ciller."
+                ],
+                "ideals": [
+                    "Plus grand bien. Nos lots sont liés à ceux de tous les autres, et nous devons tous échouer ou réussir ensemble. (Bon)"
+                ],
+                "bonds": [
+                    "J'aimerais que mon ancien groupe militaire soit fier de moi."
+                ],
+                "flaws": [
+                    "L'ennemi tyrannique que j'ai affronté dans la bataille me hante encore."
+                ]
+            },
+            "background_details": {
+                "name": "Militaire",
+                "skills": [
+                    "Athlétisme",
+                    "Intimidation"
+                ],
+                "personality_traits": [
+                    "Je peux regarder fixement un chien de l'enfer sans ciller.",
+                    "J'apprécie les plaisirs simples dans la vie : boire, manger, chanter."
+                ],
+                "ideals": [
+                    "Plus grand bien. Nos lots sont liés à ceux de tous les autres, et nous devons tous échouer ou réussir ensemble. (Bon)"
+                ],
+                "bonds": [
+                    "J'aimerais que mon ancien groupe militaire soit fier de moi."
+                ],
+                "flaws": [
+                    "L'ennemi tyrannique que j'ai affronté dans la bataille me hante encore."
+                ]
+            },
+            "version": "2.0"
+        },
+        {
+            "name": "zdq",
+            "level": 1,
+            "class": "rodeur",
+            "race": "humain",
+            "background": "habitant-de-la-foret",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-12T00:32:57.334719",
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "force": 1,
+                "dexterite": 1,
+                "constitution": 1,
+                "intelligence": 1,
+                "sagesse": 1,
+                "charisme": 1
+            },
+            "speed": 30,
+            "languages": [
+                "Commun"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Compétence supplémentaire",
+                    "description": "Vous maîtrisez une compétence de votre choix."
+                },
+                {
+                    "name": "Don supplémentaire",
+                    "description": "Vous obtenez un don de votre choix."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Ennemi juré",
+                    "description": "Choisissez un type de créature comme ennemi juré."
+                },
+                {
+                    "level": 1,
+                    "name": "Explorateur-né",
+                    "description": "Choisissez un terrain de prédilection."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères",
+                    "Armures intermédiaires",
+                    "Boucliers"
+                ],
+                "weapons": [
+                    "Armes simples",
+                    "Armes de guerre"
+                ],
+                "tools": [],
+                "saving_throws": [
+                    "Force",
+                    "Dextérité"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Force",
+                "Dextérité"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "",
+                "weight": "",
+                "hair": "",
+                "eyes": "",
+                "skin": "",
+                "gender": "",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "zqd",
+            "level": 1,
+            "class": "magicien",
+            "race": "halfelin",
+            "background": "homme-de-loi",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-12T01:33:07.892276",
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "dexterite": 2
+            },
+            "speed": 25,
+            "languages": [
+                "Commun",
+                "Halfelin"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Chanceux",
+                    "description": "Quand vous obtenez un 1 naturel sur un d20 pour un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, vous pouvez relancer le dé et devez utiliser le nouveau résultat."
+                },
+                {
+                    "name": "Brave",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre la peur."
+                },
+                {
+                    "name": "Agilité halfeline",
+                    "description": "Vous pouvez vous déplacer à travers l'espace de toute créature d'une taille supérieure à la vôtre."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Incantation",
+                    "description": "Vous pouvez lancer des sorts de magicien."
+                },
+                {
+                    "level": 1,
+                    "name": "Récupération arcanique",
+                    "description": "Une fois par jour lors d'un repos court, vous récupérez des emplacements de sorts."
+                }
+            ],
+            "proficiencies": {
+                "armor": [],
+                "weapons": [
+                    "Dague",
+                    "Dard",
+                    "Fronde",
+                    "Bâton",
+                    "Arbalète légère"
+                ],
+                "tools": [],
+                "saving_throws": [
+                    "Intelligence",
+                    "Sagesse"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Intelligence",
+                "Sagesse"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "",
+                "weight": "",
+                "hair": "",
+                "eyes": "",
+                "skin": "",
+                "gender": "",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "q\"d",
+            "level": 1,
+            "class": "clerc",
+            "race": "demi-orc",
+            "background": "membre-de-guilde",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-12T12:59:28.103949",
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "force": 2,
+                "constitution": 1
+            },
+            "speed": 30,
+            "languages": [
+                "Commun",
+                "Orc"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Vision dans le noir",
+                    "description": "Vous pouvez voir dans la pénombre à 18 mètres comme si c'était une lumière vive, et dans l'obscurité comme si c'était une pénombre."
+                },
+                {
+                    "name": "Acharnement",
+                    "description": "Quand vous tombez à 0 point de vie mais n'êtes pas tué sur le coup, vous pouvez passer à 1 point de vie à la place. Vous ne pouvez pas réutiliser cette capacité tant que vous n'avez pas terminé un repos long."
+                },
+                {
+                    "name": "Attaques sauvages",
+                    "description": "Quand vous réussissez un coup critique avec une attaque d'arme de corps à corps, vous pouvez lancer un des dés de dégâts de l'arme une fois de plus et l'ajouter aux dégâts supplémentaires du coup critique."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Incantation",
+                    "description": "Vous pouvez lancer des sorts de clerc."
+                },
+                {
+                    "level": 1,
+                    "name": "Domaine divin",
+                    "description": "Choisissez un domaine lié à votre divinité."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères",
+                    "Armures intermédiaires",
+                    "Boucliers"
+                ],
+                "weapons": [
+                    "Armes simples"
+                ],
+                "tools": [],
+                "saving_throws": [
+                    "Sagesse",
+                    "Charisme"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Sagesse",
+                "Charisme"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "",
+                "weight": "",
+                "hair": "",
+                "eyes": "",
+                "skin": "",
+                "gender": "",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "zdq",
+            "level": 1,
+            "class": "clerc",
+            "race": "demi-elfe",
+            "background": "habitant-de-la-foret",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-13T09:41:27.646662",
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "charisme": 2
+            },
+            "speed": 30,
+            "languages": [
+                "Commun",
+                "Elfique"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Vision dans le noir",
+                    "description": "Vous pouvez voir dans la pénombre à 18 mètres comme si c'était une lumière vive, et dans l'obscurité comme si c'était une pénombre."
+                },
+                {
+                    "name": "Ascendance féérique",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre les charmes et la magie ne peut pas vous endormir."
+                },
+                {
+                    "name": "Polyvalence de compétence",
+                    "description": "Vous gagnez la maîtrise de deux compétences de votre choix."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Incantation",
+                    "description": "Vous pouvez lancer des sorts de clerc."
+                },
+                {
+                    "level": 1,
+                    "name": "Domaine divin",
+                    "description": "Choisissez un domaine lié à votre divinité."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères",
+                    "Armures intermédiaires",
+                    "Boucliers"
+                ],
+                "weapons": [
+                    "Armes simples"
+                ],
+                "tools": [],
+                "saving_throws": [
+                    "Sagesse",
+                    "Charisme"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Sagesse",
+                "Charisme"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "",
+                "weight": "",
+                "hair": "",
+                "eyes": "",
+                "skin": "",
+                "gender": "",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "zdqb",
+            "level": 1,
+            "class": "moine",
+            "race": "elfe",
+            "background": "membre-de-guilde",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-13T15:19:36.496194",
+            "progression_choice": "single",
+            "selected_spells": [],
+            "racial_choices": {},
+            "class_skills": [],
+            "equipment": {
+                "armor": {
+                    "name": "Matelassée",
+                    "ac": 12,
+                    "type": "Armure légère"
+                },
+                "shield": {},
+                "weapons": [
+                    {
+                        "name": "Épée à deux mains",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    },
+                    {
+                        "name": "Coutille",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    }
+                ],
+                "inventory": [
+                    "[\"Billes (sac de 1000)\",\"Boîte à amadou\"]"
+                ],
+                "currency": {
+                    "pp": 0,
+                    "po": 0,
+                    "pe": 0,
+                    "pa": 0,
+                    "pc": 0
+                }
+            },
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "dexterite": 2
+            },
+            "speed": 30,
+            "languages": [
+                "Commun",
+                "Elfique"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Vision dans le noir",
+                    "description": "Vous pouvez voir dans la pénombre à 18 mètres comme si c'était une lumière vive, et dans l'obscurité comme si c'était une pénombre."
+                },
+                {
+                    "name": "Sens aiguisés",
+                    "description": "Vous maîtrisez la compétence Perception."
+                },
+                {
+                    "name": "Ascendance féérique",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre les charmes et la magie ne peut pas vous endormir."
+                },
+                {
+                    "name": "Transe",
+                    "description": "Les elfes n'ont pas besoin de dormir. Ils méditent profondément 4 heures par jour."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Défense sans armure",
+                    "description": "Tant que vous ne portez pas d'armure ni de bouclier, votre CA égale 10 + votre modificateur de Dextérité + votre modificateur de Sagesse."
+                },
+                {
+                    "level": 1,
+                    "name": "Arts martiaux",
+                    "description": "Votre pratique des arts martiaux vous donne la maîtrise des styles de combat qui utilisent les attaques à mains nues et les armes de moine."
+                }
+            ],
+            "proficiencies": {
+                "armor": [],
+                "weapons": [
+                    "Armes simples",
+                    "Épée courte"
+                ],
+                "tools": [
+                    "Un type d'outils d'artisan ou un instrument de musique"
+                ],
+                "saving_throws": [
+                    "Force",
+                    "Dextérité"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Force",
+                "Dextérité"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "",
+                "weight": "",
+                "hair": "",
+                "eyes": "",
+                "skin": "",
+                "gender": "Homme",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "Loyal Bon",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "qzdkg",
+            "level": 1,
+            "class": "barde",
+            "race": "nain",
+            "background": "homme-de-loi",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-13T16:05:24.787216",
+            "progression_choice": "single",
+            "selected_spells": [
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Porte-bonheur\"\ndescription: \"Résistance aux dégâts élémentaires.\"\nschool: \"Abjuration\"\nlevel: 0\nconcentration: false\ncasting_time: \"1 action\"\nduration: \"1 round\"\nrange: \"personnel\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: true\n  materials: \"objet porte-bonheur\"\nritual: false\nclasses:\n    - Barde\n    - Ensorceleur/Sorcelame\n    - Magicien\n    - Sorcier",
+                    "duration": "1 round",
+                    "level": 0,
+                    "range": "personnel",
+                    "school": "Abjuration",
+                    "title": "Porte-bonheur"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Main du mage\"\ndescription: \"Fait apparaître et permet de contrôler une main spectrale.\"\nschool: \"Invocation\"\nlevel: 0\nconcentration: false\ncasting_time: \"1 action\"\nduration: \"1 minute\"\nrange: \"9 mètres\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: false\n  materials: \"\"\nritual: false\nclasses:\n    - Barde\n    - Ensorceleur/Sorcelame\n    - Magicien\n    - Ombrelame\n    - Sorcier",
+                    "duration": "1 minute",
+                    "level": 0,
+                    "range": "9 mètres",
+                    "school": "Invocation",
+                    "title": "Main du mage"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Grande foulée\"\ndescription: \"+3 mètres à la vitesse de la cible.\"\nschool: \"Transmutation\"\nlevel: 1\nconcentration: false\ncasting_time: \"1 action\"\nduration: \"1 heure\"\nrange: \"contact\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: true\n  materials: \"une pincée de poussière\"\nritual: false\nclasses:\n    - Barde\n    - Druide\n    - Magicien\n    - Rôdeur",
+                    "duration": "1 heure",
+                    "level": 1,
+                    "range": "contact",
+                    "school": "Transmutation",
+                    "title": "Grande foulée"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Fou rire\"\ndescription: \"La cible est <em>à terre</em> et <em>neutralisée</em>.\"\nschool: \"Enchantement\"\nlevel: 1\nconcentration: true\ncasting_time: \"1 action\"\nduration: \"jusqu'à 1 minute\"\nrange: \"9 mètres\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: true\n  materials: \"de minuscules tartes et une plume à agiter dans les airs\"\nritual: false\nclasses:\n    - Barde\n    - Magicien",
+                    "duration": "jusqu'à 1 minute",
+                    "level": 1,
+                    "range": "9 mètres",
+                    "school": "Enchantement",
+                    "title": "Fou rire"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 minute",
+                    "description": "title: \"Identification\"\ndescription: \"Permet d'identifier les propriétés et l'usage d'un objet magique.\"\nschool: \"Divination\"\nlevel: 1\nconcentration: false\ncasting_time: \"1 minute\"\nduration: \"instantanée\"\nrange: \"contact\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: true\n  materials: \"une perle d'une valeur minimale de 100 po et une plume de hibou\"\nritual: true\nclasses:\n    - Barde\n    -",
+                    "duration": "instantanée",
+                    "level": 1,
+                    "range": "contact",
+                    "school": "Divination",
+                    "title": "Identification"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Lueurs féériques\"\ndescription: \"<em>Avantage</em> au jet d'attaque contre les cibles affectées et annule <em>invisibilité</em>.\"\nschool: \"Évocation\"\nlevel: 1\nconcentration: true\ncasting_time: \"1 action\"\nduration: \"jusqu'à 1 minute\"\nrange: \"18 mètres\"\ncomponents:\n  verbal: true\n  somatic: false\n  material: false\n  materials: \"\"\nritual: false\nclasses:\n    - Barde\n    - Druide\n    - Ombrelame",
+                    "duration": "jusqu'à 1 minute",
+                    "level": 1,
+                    "range": "18 mètres",
+                    "school": "Évocation",
+                    "title": "Lueurs féériques"
+                }
+            ],
+            "racial_choices": {},
+            "class_skills": [],
+            "equipment": {
+                "armor": {
+                    "name": "Cuir",
+                    "ac": 12,
+                    "type": "Armure légère"
+                },
+                "shield": {
+                    "name": "Bouclier",
+                    "ac_bonus": 2
+                },
+                "weapons": [
+                    {
+                        "name": "Lance",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    },
+                    {
+                        "name": "Fronde",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    }
+                ],
+                "inventory": [
+                    "[\"Billes (sac de 1000)\",\"Boîte à amadou\",\"Corde de chanvre (15 mètres)\",\"Palan\",\"Antitoxine (fiole)\",\"Poison (fiole)\",\"Potion de soins\",\"Torche\"]"
+                ],
+                "currency": {
+                    "pp": 0,
+                    "po": 0,
+                    "pe": 0,
+                    "pa": 0,
+                    "pc": 0
+                }
+            },
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "constitution": 2
+            },
+            "speed": 25,
+            "languages": [
+                "Commun",
+                "Nain"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Vision dans le noir",
+                    "description": "Vous pouvez voir dans la pénombre à 18 mètres comme si c'était une lumière vive, et dans l'obscurité comme si c'était une pénombre."
+                },
+                {
+                    "name": "Résistance naine",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre le poison et vous avez la résistance aux dégâts de poison."
+                },
+                {
+                    "name": "Formation aux armes naines",
+                    "description": "Vous maîtrisez la hachette, la hache d'armes, le marteau léger et le marteau de guerre."
+                },
+                {
+                    "name": "Maîtrise des outils",
+                    "description": "Vous maîtrisez les outils d'artisan de votre choix parmi : outils de forgeron, matériel de brasseur ou outils de maçon."
+                },
+                {
+                    "name": "Connaissance de la pierre",
+                    "description": "Chaque fois que vous effectuez un test d'Intelligence (Histoire) lié à l'origine d'un travail de maçonnerie, vous êtes considéré comme maîtrisant la compétence Histoire et vous ajoutez le double de votre bonus de maîtrise au test."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Incantation",
+                    "description": "Vous pouvez lancer des sorts de barde."
+                },
+                {
+                    "level": 1,
+                    "name": "Inspiration bardique",
+                    "description": "Vous pouvez inspirer les autres en parlant ou en chantant."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères"
+                ],
+                "weapons": [
+                    "Armes simples",
+                    "Arbalète de poing",
+                    "Épée courte",
+                    "Épée longue",
+                    "Rapière"
+                ],
+                "tools": [
+                    "Trois instruments de musique de votre choix"
+                ],
+                "saving_throws": [
+                    "Dextérité",
+                    "Charisme"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Dextérité",
+                "Charisme"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "",
+                "weight": "",
+                "hair": "",
+                "eyes": "",
+                "skin": "",
+                "gender": "Homme",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "Neutre Bon",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "ZgouZgou",
+            "level": 5,
+            "class": "barbare",
+            "race": "halfelin",
+            "background": "homme-de-loi",
+            "abilities": {
+                "force": 14,
+                "dexterite": 14,
+                "constitution": 14,
+                "intelligence": 8,
+                "sagesse": 12,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-13T16:32:00.351827",
+            "progression_choice": "single",
+            "selected_spells": [],
+            "racial_choices": {},
+            "class_skills": [],
+            "equipment": {
+                "armor": {
+                    "name": "Cuir",
+                    "ac": 12,
+                    "type": "Armure légère"
+                },
+                "shield": {
+                    "name": "Bouclier",
+                    "ac_bonus": 2
+                },
+                "weapons": [
+                    {
+                        "name": "Cimeterre",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    },
+                    {
+                        "name": "Arc court",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    }
+                ],
+                "inventory": [
+                    "[\"Acide (fiole)\",\"Balance de marchand\",\"Cadenas\",\"Antitoxine (fiole)\",\"Poison (fiole)\",\"Potion de soins\",\"Bougie\",\"Lampe\",\"Lanterne sourde\",\"Torche\",\"Carquois\",\"Focaliseur arcanique\",\"Gamelle\",\"Trousse de soins\"]"
+                ],
+                "currency": {
+                    "pp": 0,
+                    "po": 0,
+                    "pe": 0,
+                    "pa": 0,
+                    "pc": 0
+                }
+            },
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 1200,
+            "racial_bonuses": {
+                "dexterite": 2
+            },
+            "speed": 25,
+            "languages": [
+                "Commun",
+                "Halfelin"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Chanceux",
+                    "description": "Quand vous obtenez un 1 naturel sur un d20 pour un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, vous pouvez relancer le dé et devez utiliser le nouveau résultat."
+                },
+                {
+                    "name": "Brave",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre la peur."
+                },
+                {
+                    "name": "Agilité halfeline",
+                    "description": "Vous pouvez vous déplacer à travers l'espace de toute créature d'une taille supérieure à la vôtre."
+                }
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "2m",
+                "weight": "80kg",
+                "hair": "Blond",
+                "eyes": "bleue",
+                "skin": "rouge",
+                "gender": "Homme",
+                "appearance": "il est grand et beau pour un hobbit",
+                "backstory": "Tout le monde été jaloux de lui"
+            },
+            "alignment": "Chaotique Bon",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "Maki",
+            "level": 5,
+            "class": "moine",
+            "race": "tieffelin",
+            "background": "solitaire",
+            "abilities": {
+                "force": 15,
+                "dexterite": 12,
+                "constitution": 10,
+                "intelligence": 12,
+                "sagesse": 12,
+                "charisme": 12
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-13T16:46:44.362387",
+            "progression_choice": "single",
+            "selected_spells": [],
+            "racial_choices": {},
+            "class_skills": [],
+            "equipment": {
+                "armor": {},
+                "shield": {},
+                "weapons": [],
+                "inventory": [
+                    "[\"Bougie\",\"Trousse de soins\"]"
+                ],
+                "currency": {
+                    "pp": 0,
+                    "po": 0,
+                    "pe": 0,
+                    "pa": 0,
+                    "pc": 0
+                }
+            },
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 1200,
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Défense sans armure",
+                    "description": "Tant que vous ne portez pas d'armure ni de bouclier, votre CA égale 10 + votre modificateur de Dextérité + votre modificateur de Sagesse."
+                },
+                {
+                    "level": 1,
+                    "name": "Arts martiaux",
+                    "description": "Votre pratique des arts martiaux vous donne la maîtrise des styles de combat qui utilisent les attaques à mains nues et les armes de moine."
+                }
+            ],
+            "proficiencies": {
+                "armor": [],
+                "weapons": [
+                    "Armes simples",
+                    "Épée courte"
+                ],
+                "tools": [
+                    "Un type d'outils d'artisan ou un instrument de musique"
+                ],
+                "saving_throws": [
+                    "Force",
+                    "Dextérité"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Force",
+                "Dextérité"
+            ],
+            "physical_details": {
+                "age": "22",
+                "height": "2,13",
+                "weight": "120",
+                "hair": "rouge",
+                "eyes": "rouge",
+                "skin": "rouge",
+                "gender": "Autre",
+                "appearance": "Je suis tout rouge",
+                "backstory": "Rejete par ma famille, chomeur et sans avenir"
+            },
+            "alignment": "Chaotique Mauvais",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "Rohann",
+            "level": 1,
+            "class": "roublard",
+            "race": "demi-elfe",
+            "background": "explorateur",
+            "abilities": {
+                "force": 8,
+                "dexterite": 15,
+                "constitution": 10,
+                "intelligence": 8,
+                "sagesse": 15,
+                "charisme": 14
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-13T21:07:04.148194",
+            "progression_choice": "single",
+            "selected_spells": [],
+            "racial_choices": {
+                "dexterite": 1,
+                "sagesse": 1
+            },
+            "class_skills": [],
+            "equipment": {
+                "armor": {
+                    "name": "Cuir",
+                    "ac": 12,
+                    "type": "Armure légère"
+                },
+                "shield": {},
+                "weapons": [
+                    {
+                        "name": "Épée courte",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    },
+                    {
+                        "name": "Arc court",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    }
+                ],
+                "inventory": [
+                    "[\"Lanterne à capote\"]"
+                ],
+                "currency": {
+                    "pp": 0,
+                    "po": 0,
+                    "pe": 0,
+                    "pa": 0,
+                    "pc": 0
+                }
+            },
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "charisme": 2
+            },
+            "speed": 30,
+            "languages": [
+                "Commun",
+                "Elfique"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Vision dans le noir",
+                    "description": "Vous pouvez voir dans la pénombre à 18 mètres comme si c'était une lumière vive, et dans l'obscurité comme si c'était une pénombre."
+                },
+                {
+                    "name": "Ascendance féérique",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre les charmes et la magie ne peut pas vous endormir."
+                },
+                {
+                    "name": "Polyvalence de compétence",
+                    "description": "Vous gagnez la maîtrise de deux compétences de votre choix."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Expertise",
+                    "description": "Choisissez deux de vos maîtrises de compétence ou une maîtrise de compétence et une maîtrise d'outils de voleur. Votre bonus de maîtrise est doublé pour tout test de caractéristique qui utilise l'une des maîtrises choisies."
+                },
+                {
+                    "level": 1,
+                    "name": "Attaque sournoise",
+                    "description": "Une fois par tour, vous pouvez infliger 1d6 dégâts supplémentaires à une créature que vous touchez avec une attaque si vous avez l'avantage au jet d'attaque."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères"
+                ],
+                "weapons": [
+                    "Armes simples",
+                    "Arbalète de poing",
+                    "Épée courte",
+                    "Épée longue",
+                    "Rapière"
+                ],
+                "tools": [
+                    "Outils de voleur"
+                ],
+                "saving_throws": [
+                    "Dextérité",
+                    "Intelligence"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Dextérité",
+                "Intelligence"
+            ],
+            "physical_details": {
+                "age": "20",
+                "height": "1,90",
+                "weight": "80",
+                "hair": "brun",
+                "eyes": "vert",
+                "skin": "bronzé",
+                "gender": "Homme",
+                "appearance": "musclé",
+                "backstory": ""
+            },
+            "alignment": "Chaotique Bon",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "qzdouqzgd",
+            "level": 1,
+            "class": "roublard",
+            "race": "demi-elfe",
+            "background": "explorateur",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-13T21:26:34.341147",
+            "progression_choice": "single",
+            "selected_spells": [],
+            "racial_choices": {
+                "dexterite": 1,
+                "sagesse": 1
+            },
+            "class_skills": [],
+            "equipment": {
+                "armor": {
+                    "name": "Cuir clouté",
+                    "ac": 12,
+                    "type": "Armure légère"
+                },
+                "shield": {},
+                "weapons": [
+                    {
+                        "name": "Fronde",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    }
+                ],
+                "inventory": [
+                    "[]"
+                ],
+                "currency": {
+                    "pp": 0,
+                    "po": 0,
+                    "pe": 0,
+                    "pa": 0,
+                    "pc": 0
+                }
+            },
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "charisme": 2
+            },
+            "speed": 30,
+            "languages": [
+                "Commun",
+                "Elfique"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Vision dans le noir",
+                    "description": "Vous pouvez voir dans la pénombre à 18 mètres comme si c'était une lumière vive, et dans l'obscurité comme si c'était une pénombre."
+                },
+                {
+                    "name": "Ascendance féérique",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre les charmes et la magie ne peut pas vous endormir."
+                },
+                {
+                    "name": "Polyvalence de compétence",
+                    "description": "Vous gagnez la maîtrise de deux compétences de votre choix."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Expertise",
+                    "description": "Choisissez deux de vos maîtrises de compétence ou une maîtrise de compétence et une maîtrise d'outils de voleur. Votre bonus de maîtrise est doublé pour tout test de caractéristique qui utilise l'une des maîtrises choisies."
+                },
+                {
+                    "level": 1,
+                    "name": "Attaque sournoise",
+                    "description": "Une fois par tour, vous pouvez infliger 1d6 dégâts supplémentaires à une créature que vous touchez avec une attaque si vous avez l'avantage au jet d'attaque."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères"
+                ],
+                "weapons": [
+                    "Armes simples",
+                    "Arbalète de poing",
+                    "Épée courte",
+                    "Épée longue",
+                    "Rapière"
+                ],
+                "tools": [
+                    "Outils de voleur"
+                ],
+                "saving_throws": [
+                    "Dextérité",
+                    "Intelligence"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Dextérité",
+                "Intelligence"
+            ],
+            "physical_details": {
+                "age": "",
+                "height": "zdqpihi",
+                "weight": "zqoudh",
+                "hair": "",
+                "eyes": "qzoudub",
+                "skin": "",
+                "gender": "Homme",
+                "appearance": "",
+                "backstory": ""
+            },
+            "alignment": "Chaotique Bon",
+            "personality": {
+                "traits": [],
+                "ideals": [],
+                "bonds": [],
+                "flaws": []
+            },
+            "background_details": {},
+            "version": "2.0"
+        },
+        {
+            "name": "zizi",
+            "level": 1,
+            "class": "druide",
+            "race": "nain",
+            "background": "crapule",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-13T22:02:01.024372",
+            "progression_choice": "single",
+            "selected_spells": [
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Assistance\"\ndescription: \"La cible peut ajouter 1d4 à un test de caractéristique.\"\nschool: \"Divination\"\nlevel: 0\nconcentration: true\ncasting_time: \"1 action\"\nduration: \"jusqu'à 1 minute\"\nrange: \"contact\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: false\nritual: false\nclasses:\n    - Clerc\n    - Druide",
+                    "duration": "jusqu'à 1 minute",
+                    "level": 0,
+                    "range": "contact",
+                    "school": "Divination",
+                    "title": "Assistance"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action bonus",
+                    "description": "title: \"Gourdin magique\"\ndescription: \"Transforme un bâton en arme magique.\"\nschool: \"Transmutation\"\nlevel: 0\nconcentration: false\ncasting_time: \"1 action bonus\"\nduration: \"1 minute\"\nrange: \"contact\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: true\n  materials: \"du gui, une feuille de trèfle et un bâton ou un gourdin\"\nritual: false\nclasses:\n    - Druide",
+                    "duration": "1 minute",
+                    "level": 0,
+                    "range": "contact",
+                    "school": "Transmutation",
+                    "title": "Gourdin magique"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Charme-personne\"\ndescription: \"La cible <em>charmée</em> se considère comme l'amie du PJ.\"\nschool: \"Enchantement\"\nlevel: 1\nconcentration: false\ncasting_time: \"1 action\"\nduration: \"1 heure\"\nrange: \"9 mètres\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: false\nritual: false\nclasses:\n    - Barde\n    - Druide\n    - Ensorceleur/Sorcelame\n    - Magicien\n    - Ombrelame\n    - Sorcier",
+                    "duration": "1 heure",
+                    "level": 1,
+                    "range": "9 mètres",
+                    "school": "Enchantement",
+                    "title": "Charme-personne"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Détection de la magie\"\ndescription: \"Le PJ perçoit la présence de magie dans un rayon de 9 mètres.\"\nschool: \"Divination\"\nlevel: 1\nconcentration: true\ncasting_time: \"1 action\"\nduration: \"jusqu'à 10 minutes\"\nrange: \"personnelle\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: false\nritual: true\nclasses:\n    - Barde\n    - Clerc\n    - Druide\n    - Ensorceleur/Sorcelame\n    - Magicien\n  ",
+                    "duration": "jusqu'à 10 minutes",
+                    "level": 1,
+                    "range": "personnelle",
+                    "school": "Divination",
+                    "title": "Détection de la magie"
+                }
+            ],
+            "racial_choices": {},
+            "class_skills": [],
+            "equipment": {
+                "armor": {
+                    "name": "Cuir clouté",
+                    "ac": 12,
+                    "type": "Armure légère"
+                },
+                "shield": {
+                    "name": "Bouclier",
+                    "ac_bonus": 2
+                },
+                "weapons": [
+                    {
+                        "name": "Cimeterre",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    },
+                    {
+                        "name": "Cimeterre",
+                        "damage": "1d8",
+                        "damage_type": "tranchant"
+                    }
+                ],
+                "inventory": [
+                    "[\"Boîte à amadou\",\"Chaîne (3 mètres)\",\"Eau bénite (flasque)\"]"
+                ],
+                "currency": {
+                    "pp": 0,
+                    "po": 0,
+                    "pe": 0,
+                    "pa": 0,
+                    "pc": 0
+                }
+            },
+            "subclass": "",
+            "subrace": "",
+            "experience_points": 0,
+            "racial_bonuses": {
+                "constitution": 2
+            },
+            "speed": 25,
+            "languages": [
+                "Commun",
+                "Nain"
+            ],
+            "racial_traits": [
+                {
+                    "name": "Vision dans le noir",
+                    "description": "Vous pouvez voir dans la pénombre à 18 mètres comme si c'était une lumière vive, et dans l'obscurité comme si c'était une pénombre."
+                },
+                {
+                    "name": "Résistance naine",
+                    "description": "Vous avez l'avantage aux jets de sauvegarde contre le poison et vous avez la résistance aux dégâts de poison."
+                },
+                {
+                    "name": "Formation aux armes naines",
+                    "description": "Vous maîtrisez la hachette, la hache d'armes, le marteau léger et le marteau de guerre."
+                },
+                {
+                    "name": "Maîtrise des outils",
+                    "description": "Vous maîtrisez les outils d'artisan de votre choix parmi : outils de forgeron, matériel de brasseur ou outils de maçon."
+                },
+                {
+                    "name": "Connaissance de la pierre",
+                    "description": "Chaque fois que vous effectuez un test d'Intelligence (Histoire) lié à l'origine d'un travail de maçonnerie, vous êtes considéré comme maîtrisant la compétence Histoire et vous ajoutez le double de votre bonus de maîtrise au test."
+                }
+            ],
+            "class_features": [
+                {
+                    "level": 1,
+                    "name": "Druidique",
+                    "description": "Vous connaissez le druidique, la langue secrète des druides."
+                },
+                {
+                    "level": 1,
+                    "name": "Incantation",
+                    "description": "Vous pouvez lancer des sorts de druide."
+                }
+            ],
+            "proficiencies": {
+                "armor": [
+                    "Armures légères",
+                    "Armures intermédiaires",
+                    "Boucliers (non métalliques)"
+                ],
+                "weapons": [
+                    "Massue",
+                    "Dague",
+                    "Fléchette",
+                    "Javeline",
+                    "Masse d'armes",
+                    "Bâton",
+                    "Cimeterre",
+                    "Fronde",
+                    "Lance"
+                ],
+                "tools": [
+                    "Kit d'herboriste"
+                ],
+                "saving_throws": [
+                    "Intelligence",
+                    "Sagesse"
+                ]
+            },
+            "saving_throw_proficiencies": [
+                "Intelligence",
+                "Sagesse"
+            ],
+            "physical_details": {
+                "age": "75",
+                "height": "2,13",
+                "weight": "80kg",
+                "hair": "roux",
+                "eyes": "blue",
+                "skin": "marron",
+                "gender": "Homme",
+                "appearance": "test1",
+                "backstory": "test2"
+            },
+            "alignment": "Neutre Bon",
+            "personality": {
+                "traits": [
+                    "Je mens toujours quand c'est plus simple que de dire la vérité."
+                ],
+                "ideals": [
+                    "Liberté. Les chaînes sont faites pour être brisées, comme celles qui lient les opprimés. (Chaotique)"
+                ],
+                "bonds": [
+                    "Je suis traqué pour un crime que je n'ai pas commis."
+                ],
+                "flaws": [
+                    "Quand je vois quelque chose de précieux, je ne peux pas penser à autre chose qu'à comment le voler."
+                ]
+            },
+            "background_details": {
+                "name": "Crapule",
+                "skills": [
+                    "Tromperie",
+                    "Discrétion"
+                ],
+                "personality_traits": [
+                    "Je mens toujours quand c'est plus simple que de dire la vérité.",
+                    "J'ai toujours un plan pour ce qui peut mal tourner."
+                ],
+                "ideals": [
+                    "Liberté. Les chaînes sont faites pour être brisées, comme celles qui lient les opprimés. (Chaotique)"
+                ],
+                "bonds": [
+                    "Je suis traqué pour un crime que je n'ai pas commis."
+                ],
+                "flaws": [
+                    "Quand je vois quelque chose de précieux, je ne peux pas penser à autre chose qu'à comment le voler."
+                ]
+            },
+            "version": "2.0"
+        },
+        {
+            "name": "Bob",
+            "level": 1,
+            "class": "sorcier",
+            "race": "aasimar",
+            "background": "membre-de-guilde",
+            "abilities": {
+                "force": 10,
+                "dexterite": 11,
+                "constitution": 15,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 15
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-14T16:25:29.652989",
+            "progression_choice": "single",
+            "selected_spells": [
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Projectile magique\"\ndescription: \"Trois flèches touchent automatiquement et infligent 1d4+1 dégâts.\"\nschool: \"Évocation\"\nlevel: 1\nconcentration: false\ncasting_time: \"1 action\"\nduration: \"instantanée\"\nrange: \"36 mètres\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: false\n  materials: \"\"\nritual: false\nclasses:\n    - Ensorceleur/Sorcelame\n    - Magicien",
+                    "duration": "instantanée",
+                    "level": 1,
+                    "range": "36 mètres",
+                    "school": "Évocation",
+                    "title": "Projectile magique"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 réaction en réponse aux dégâts que vous inflige une créature située dans votre champ de vision et dans un rayon de 18 mètres autour de vous",
+                    "description": "title: \"Représailles infernales\"\ndescription: \"Réaction qui inflige 2d10 dégâts à la cible qui vient de blesser le PJ.\"\nschool: \"Évocation\"\nlevel: 1\nconcentration: false\ncasting_time: \"1 réaction en réponse aux dégâts que vous inflige une créature située dans votre champ de vision et dans un rayon de 18 mètres autour de vous\"\nduration: \"instantanée\"\nrange: \"18 mètres\"\ncomponents:\n  verbal: true\n  ",
+                    "duration": "instantanée",
+                    "level": 1,
+                    "range": "18 mètres",
+                    "school": "Évocation",
+                    "title": "Représailles infernales"
+                }
+            ],
+            "racial_choices": {},
+            "class_skills": [],
+            "equipment": {
+                "custom_equipment": "Un short et c'est tout",
+                "selected_armor": "",
+                "selected_shield": "",
+                "selected_main_weapon": "Fléchettes",
+                "selected_secondary_weapon": "",
+                "selected_backup_weapon": "",
+                "selected_inventory": [
+                    "[]"
+                ]
+            },
+            "finalization": {
+                "sex": "Non-binaire",
+                "alignment": "Neutre",
+                "age": "1000",
+                "height": "1,783",
+                "weight": "76,829",
+                "image_url": "",
+                "eyes": "Gris",
+                "skin": "Claire, quasi blanc",
+                "hair": "Violet",
+                "appearance": "On le voit mais on ne le reagrde pas",
+                "history": "Y'a rien, c'est vide"
+            }
+        }
+    ]
+}

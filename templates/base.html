@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}D&D Interactive{% endblock %}</title>
+    
+    <!-- Styles communs -->
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-light: #ecf0f1;
+            --bg-dark: #2c3e50;
+            --bg-darker: #1a252f;
+            --navbar-height: 60px;
+            --transition-speed: 0.3s;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+                         "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-light);
+            background-color: var(--primary-color);
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background: rgba(44, 62, 80, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            padding: 0.5rem 2rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: var(--navbar-height);
+            color: var(--text-light);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            text-decoration: none;
+            color: var(--text-light);
+            transition: var(--transition-speed);
+        }
+
+        .brand:hover {
+            color: var(--accent-color);
+        }
+
+        .brand h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0;
+            color: inherit;
+        }
+
+        .navbar-logo {
+            height: 40px;
+            width: auto;
+            border-radius: 8px;
+            padding: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: var(--transition-speed);
+        }
+
+        .brand:hover .navbar-logo {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .user-profile {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: var(--transition-speed);
+        }
+
+        .user-profile:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--accent-color);
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        .user-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .user-profile-name {
+            font-weight: 500;
+            color: var(--text-light);
+        }
+
+        .user-profile-chevron {
+            color: var(--text-light);
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+
+        .user-menu {
+            display: none;
+            position: absolute;
+            top: calc(var(--navbar-height) - 10px);
+            right: 1rem;
+            background: var(--secondary-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            padding: 1rem;
+            min-width: 250px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .user-menu.active {
+            display: block;
+        }
+
+        .user-menu-field {
+            margin-bottom: 1rem;
+        }
+
+        .user-menu-field label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .user-menu-field input {
+            width: 100%;
+            padding: 0.5rem;
+            background: var(--bg-darker);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .user-menu-field input:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+
+        .user-menu-button {
+            width: 100%;
+            padding: 0.5rem;
+            background: var(--accent-color);
+            color: var(--text-light);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: var(--transition-speed);
+        }
+
+        .user-menu-button:hover {
+            background: #2980b9;
+            transform: translateY(-1px);
+        }
+
+        .user-menu-button:active {
+            transform: translateY(0);
+        }
+
+        .navbar-nav {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-light);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: var(--transition-speed);
+            opacity: 0.8;
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            opacity: 1;
+        }
+
+        .nav-link.active {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .nav-link.danger {
+            color: var(--danger-color);
+        }
+
+        .nav-link.danger:hover {
+            background: var(--danger-color);
+            color: white;
+        }
+
+        .main-content {
+            min-height: calc(100vh - var(--navbar-height));
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0;
+            flex: 1;
+        }
+
+        .alert {
+            position: fixed;
+            top: calc(var(--navbar-height) + 1rem);
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .alert-info {
+            background: #cce5ff;
+            color: #004085;
+            border: 1px solid #b8daff;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+        }
+
+        /* Utilitaires */
+        .text-center { text-align: center; }
+        .mt-1 { margin-top: 0.25rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .mt-3 { margin-top: 1rem; }
+        .mt-4 { margin-top: 1.5rem; }
+        .mt-5 { margin-top: 2rem; }
+        .mb-1 { margin-bottom: 0.25rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-3 { margin-bottom: 1rem; }
+        .mb-4 { margin-bottom: 1.5rem; }
+        .mb-5 { margin-bottom: 2rem; }
+    </style>
+
+    <!-- Styles spécifiques à la page -->
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="brand">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="D&D Interactive Logo" class="navbar-logo">
+            <h1>D&D Interactive</h1>
+        </div>
+        {% if current_user.is_authenticated %}
+        <div class="user-profile">
+            <div class="user-avatar">
+                {% if current_user.avatar %}
+                <img src="{{ current_user.avatar }}" alt="{{ current_user.pseudo }}" class="user-avatar">
+                {% else %}
+                {{ current_user.pseudo[0] | upper }}
+                {% endif %}
+            </div>
+            <span class="user-profile-name">{{ current_user.pseudo }}</span>
+            <span class="user-profile-chevron">▼</span>
+
+            <!-- Menu contextuel -->
+            <div class="user-menu">
+                <div class="user-menu-field">
+                    <label for="user-pseudo">Pseudo</label>
+                    <input type="text" id="user-pseudo" value="{{ current_user.pseudo }}" placeholder="Votre pseudo">
+                </div>
+                <div class="user-menu-field">
+                    <label for="user-avatar">URL de l'avatar</label>
+                    <input type="text" id="user-avatar" value="{{ current_user.avatar if current_user.avatar else '' }}" placeholder="https://...">
+                </div>
+                <button class="user-menu-button">Enregistrer</button>
+            </div>
+        </div>
+        {% else %}
+        <div class="navbar-nav">
+            <a href="{{ url_for('login') }}" class="nav-link {% if request.endpoint == 'login' %}active{% endif %}">
+                Connexion
+            </a>
+            <a href="{{ url_for('register') }}" class="nav-link {% if request.endpoint == 'register' %}active{% endif %}">
+                Inscription
+            </a>
+        </div>
+        {% endif %}
+    </nav>
+
+    <!-- Messages flash -->
+    <div class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+
+    <!-- Contenu principal -->
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Scripts spécifiques à la page -->
+    {% block scripts %}{% endblock %}
+</body>
+</html> 

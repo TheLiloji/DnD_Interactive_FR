@@ -1,0 +1,163 @@
+{
+    "UCLYOK": {
+        "name": "La crypte du Dragon",
+        "description": "Une aventure épique dans les profondeurs d'une crypte ancestrale",
+        "dm_email": "zaccharieber@gmail.com",
+        "players": [
+            "a@a.fr"
+        ],
+        "max_players": 5,
+        "password": null,
+        "game_type": "standard",
+        "options": {
+            "allow_spectators": false,
+            "auto_level": false,
+            "voice_chat": false,
+            "dice_validation": true
+        },
+        "created_at": "2025-05-30T02:54:49.773226",
+        "status": "active"
+    },
+    "WRGL2P": {
+        "name": "harry potter",
+        "description": "Une aventure dans le monde des sorciers",
+        "dm_email": "zaccharieber@gmail.com",
+        "players": [
+            "a@a.fr",
+            "a@a.a"
+        ],
+        "max_players": 4,
+        "password": null,
+        "game_type": "simplified",
+        "options": {
+            "allow_spectators": true,
+            "auto_level": true,
+            "voice_chat": true,
+            "dice_validation": false
+        },
+        "created_at": "2025-05-30T03:18:59.648913",
+        "status": "active"
+    },
+    "049SN4": {
+        "name": "Partie 1",
+        "description": "",
+        "dm_email": "a@a.a",
+        "players": [],
+        "max_players": 5,
+        "password": null,
+        "game_type": "standard",
+        "options": {
+            "allow_spectators": false,
+            "auto_level": false,
+            "voice_chat": false,
+            "dice_validation": false
+        },
+        "created_at": "2025-05-30T16:27:56.626100",
+        "status": "active"
+    },
+    "TTRJLE": {
+        "name": "Partie 1",
+        "description": "",
+        "dm_email": "a@a.a",
+        "players": [],
+        "max_players": 5,
+        "password": null,
+        "game_type": "standard",
+        "options": {
+            "allow_spectators": false,
+            "auto_level": false,
+            "voice_chat": false,
+            "dice_validation": false
+        },
+        "created_at": "2025-05-30T16:28:42.102935",
+        "status": "active"
+    },
+    "F01KOH": {
+        "name": "qzd",
+        "description": "",
+        "dm_email": "zaccharieber@gmail.com",
+        "players": [],
+        "max_players": 5,
+        "password": null,
+        "game_type": "standard",
+        "options": {
+            "allow_spectators": false,
+            "auto_level": false,
+            "voice_chat": false,
+            "dice_validation": false
+        },
+        "created_at": "2025-05-30T16:36:34.117089",
+        "status": "active"
+    },
+    "RTG9IQ": {
+        "name": "qzd",
+        "description": "",
+        "dm_email": "zaccharieber@gmail.com",
+        "players": [],
+        "max_players": 5,
+        "password": null,
+        "game_type": "standard",
+        "options": {
+            "allow_spectators": false,
+            "auto_level": false,
+            "voice_chat": false,
+            "dice_validation": false
+        },
+        "created_at": "2025-05-30T16:43:57.025581",
+        "status": "active"
+    },
+    "O05GI3": {
+        "name": "test",
+        "description": "",
+        "dm_email": "zaccharieber@gmail.com",
+        "players": [
+            "a@a.a"
+        ],
+        "max_players": 5,
+        "password": null,
+        "game_type": "standard",
+        "options": {
+            "allow_spectators": false,
+            "auto_level": false,
+            "voice_chat": false,
+            "dice_validation": false
+        },
+        "created_at": "2025-05-30T16:47:12.210571",
+        "status": "active"
+    },
+    "RLJVPZ": {
+        "name": "bonjour",
+        "description": "",
+        "dm_email": "zaccharieber@gmail.com",
+        "players": [
+            "a@a.a"
+        ],
+        "max_players": 10,
+        "password": null,
+        "game_type": "standard",
+        "options": {
+            "allow_spectators": false,
+            "auto_level": false,
+            "dice_validation": false
+        },
+        "created_at": "2025-05-30T16:55:48.044422",
+        "status": "active"
+    },
+    "L35Z15": {
+        "name": "La crypte du Dragon",
+        "description": "y a des dragons et une crypte",
+        "dm_email": "zaccharieber@gmail.com",
+        "players": [],
+        "max_players": 7,
+        "password": null,
+        "game_type": "standard",
+        "options": {
+            "allow_spectators": true,
+            "auto_level": false,
+            "voice_chat": true,
+            "dice_validation": false
+        },
+        "created_at": "2025-06-02T14:53:37.723026",
+        "status": "active"
+    }
+}

@@ -1,0 +1,1071 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-light: #ecf0f1;
+    --bg-dark: #2c3e50;
+    --bg-darker: #1a252f;
+    --transition-speed: 0.3s;
+    --navbar-height: 60px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: var(--bg-darker);
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    padding: 1rem;
+    height: calc(100vh - var(--navbar-height));
+    background: var(--bg-darker);
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.sidebar {
+    background: var(--secondary-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: var(--text-light);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Stylisation de la scrollbar */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 3px;
+}
+
+.game-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.game-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.game-description {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.game-code {
+    font-family: monospace;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.9;
+}
+
+.info-item i {
+    color: var(--accent-color);
+}
+
+.edit-settings-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 0.5rem;
+}
+
+.edit-settings-btn:hover {
+    background: #2980b9;
+    transform: translateY(-1px);
+}
+
+.players-section {
+    flex: 1;
+}
+
+.players-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.players-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.player-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.player-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(2px);
+}
+
+.player-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+}
+
+.player-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.player-name {
+    font-weight: 500;
+}
+
+.player-badges {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.dm-badge, .self-badge {
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dm-badge {
+    background: #e74c3c;
+    color: white;
+}
+
+.self-badge {
+    background: var(--accent-color);
+    color: white;
+}
+
+.voice-chat-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+}
+
+.voice-chat-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 6px;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.voice-chat-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.main-content {
+    background: var(--bg-darker);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.dice-results {
+    flex: 1;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+/* Stylisation de la scrollbar des résultats de dés */
+.dice-results::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dice-results::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.dice-results::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 4px;
+}
+
+.dice-roll-result {
+    background: var(--secondary-color);
+    border-left: 4px solid var(--accent-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    color: var(--text-light);
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: slideIn 0.3s forwards;
+}
+
+.dice-roll-result.advantage {
+    border-left-color: #27ae60;
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #1e3a2b 100%);
+}
+
+.dice-roll-result.composite {
+    border-left-color: #9b59b6;
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #2c1e3a 100%);
+}
+
+.dice-roll-result.attack {
+    border-left-color: #e74c3c;
+}
+
+.dice-roll-result.damage {
+    border-left-color: #f39c12;
+}
+
+.dice-roll-result.save {
+    border-left-color: #3498db;
+}
+
+.roll-details {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.roll-breakdown {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+.advantage-rolls {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.modifier-display {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.roll-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.roll-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.roll-type {
+    font-family: monospace;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+.roll-player {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+.roll-visibility {
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+/* Menu des dés */
+.dice-fab {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    z-index: 1000;
+    transition: all 0.2s;
+}
+
+.dice-fab:hover {
+    transform: scale(1.1) rotate(15deg);
+    background: #2980b9;
+}
+
+.dice-menu {
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    width: 350px;
+    max-width: 90vw;
+    display: none;
+    color: var(--text-light);
+    border: 2px solid #444;
+}
+
+.dice-menu.active {
+    display: block;
+    animation: slideUp 0.3s ease-out;
+}
+
+.dice-menu-header {
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #444;
+    padding-bottom: 15px;
+}
+
+.dice-menu-header h3 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dice-count-container, .visibility-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.dice-count {
+    width: 60px;
+    padding: 8px;
+    background: #333;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.dice-visibility {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Sections */
+.modifiers-section, .main-dice-section, .quick-actions, .dice-3d-controls, .composite-roll-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modifiers-section h4, .main-dice-section h4, .composite-roll-section h4 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Modificateurs */
+.modifiers-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.modifier-btn {
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #555 0%, #333 100%);
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.modifier-btn:hover {
+    background: linear-gradient(135deg, #666 0%, #444 100%);
+    transform: translateY(-1px);
+}
+
+.modifier-btn.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: #667eea;
+}
+
+.modifier-btn.active.advantage {
+    background: linear-gradient(135deg, #27ae60 0%, #219a52 100%) !important;
+    border-color: #27ae60 !important;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(39, 174, 96, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(39, 174, 96, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(39, 174, 96, 0); }
+}
+
+.current-modifier {
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
+
+/* Dés principaux */
+.dice-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.dice-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 8px;
+    background: linear-gradient(135deg, #4a4a4a 0%, #2a2a2a 100%);
+    color: #fff;
+    border: 2px solid #555;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-height: 80px;
+}
+
+.dice-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    border-color: #777;
+}
+
+.dice-btn.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: #667eea;
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+}
+
+.dice-icon {
+    font-size: 24px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* Couleurs spécifiques aux dés */
+.dice-btn.d4 { border-color: #FF6B6B; }
+.dice-btn.d6 { border-color: #4ECDC4; }
+.dice-btn.d8 { border-color: #45B7D1; }
+.dice-btn.d10 { border-color: #96CEB4; }
+.dice-btn.d12 { border-color: #FFEEAD; }
+.dice-btn.d20 { border-color: #D4A373; }
+.dice-btn.d100 { border-color: #9B5DE5; }
+
+.dice-btn.d4:hover { background: linear-gradient(135deg, #FF6B6B 0%, #e55555 100%); }
+.dice-btn.d6:hover { background: linear-gradient(135deg, #4ECDC4 0%, #3bb3b3 100%); }
+.dice-btn.d8:hover { background: linear-gradient(135deg, #45B7D1 0%, #3aa5c0 100%); }
+.dice-btn.d10:hover { background: linear-gradient(135deg, #96CEB4 0%, #7fb89f 100%); }
+.dice-btn.d12:hover { background: linear-gradient(135deg, #FFEEAD 0%, #eedd98 100%); }
+.dice-btn.d20:hover { background: linear-gradient(135deg, #D4A373 0%, #c4915f 100%); }
+.dice-btn.d100:hover { background: linear-gradient(135deg, #9B5DE5 0%, #8a4ad1 100%); }
+
+/* Actions rapides */
+.quick-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.quick-btn {
+    flex: 1;
+    padding: 12px 8px;
+    background: linear-gradient(135deg, #333 0%, #222 100%);
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.quick-btn:hover {
+    background: linear-gradient(135deg, #444 0%, #333 100%);
+    transform: translateY(-1px);
+}
+
+.attack-btn:hover { border-color: #e74c3c; color: #e74c3c; }
+.damage-btn:hover { border-color: #f39c12; color: #f39c12; }
+.save-btn:hover { border-color: #27ae60; color: #27ae60; }
+
+/* Contrôles 3D mini */
+.dice-3d-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+.toggle-3d-mini, .clear-dice-mini {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clear-dice-mini {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+}
+
+.toggle-3d-mini:hover, .clear-dice-mini:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-3d-mini.active {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.toggle-3d-mini .material-icons, .clear-dice-mini .material-icons {
+    font-size: 16px;
+}
+
+/* Animation d'ouverture */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dice-menu {
+        right: 1rem;
+        left: 1rem;
+        width: auto;
+        bottom: 4rem;
+    }
+    
+    .dice-buttons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .modifiers-buttons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Modal des paramètres */
+.settings-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1100;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.settings-modal.active {
+    display: flex;
+}
+
+.settings-content {
+    background: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    color: var(--text-light);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.settings-content h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.settings-group {
+    margin-bottom: 1.5rem;
+}
+
+.settings-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.settings-group input[type="text"],
+.settings-group textarea,
+.settings-group select {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--bg-darker);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    color: var(--text-light);
+}
+
+.settings-group input[type="range"] {
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.settings-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.settings-option {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    cursor: pointer;
+}
+
+.settings-option input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--accent-color);
+}
+
+.settings-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.settings-actions button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.cancel-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-light);
+}
+
+.cancel-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.save-btn {
+    background: var(--accent-color);
+    color: white;
+}
+
+.save-btn:hover {
+    background: #2980b9;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        height: auto;
+        max-height: 40vh;
+    }
+
+    .settings-options {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Styles pour les dés 3D */
+.dice-controls {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dice-controls h3 {
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dice-control-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.toggle-3d-btn, .clear-dice-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.toggle-3d-btn:hover, .clear-dice-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.toggle-3d-btn.active {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.toggle-3d-btn .material-icons, .clear-dice-btn .material-icons {
+    font-size: 16px;
+}
+
+.clear-dice-btn {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+}
+
+.clear-dice-btn:hover {
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+
+/* Options avancées pour les dés 3D */
+.dice-3d-options {
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    max-height: 0;
+    opacity: 0;
+}
+
+.dice-3d-options.active {
+    max-height: 200px;
+    opacity: 1;
+}
+
+.option-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.option-group:last-child {
+    margin-bottom: 0;
+}
+
+.option-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.option-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #667eea;
+}
+
+/* Amélioration des résultats de dés avec indicateur 3D */
+.dice-roll-result .roll-type {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Animation pour les notifications des dés 3D */
+.notification.dice-3d {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-left: 4px solid #667eea;
+}
+
+/* Amélioration du bouton toggle pour indiquer l'état */
+.toggle-3d-btn.options-visible::after {
+    content: ' ⚙️';
+    margin-left: 5px;
+}
+
+/* Responsive pour les dés 3D */
+@media (max-width: 768px) {
+    .dice-control-group {
+        flex-direction: column;
+    }
+    
+    .toggle-3d-btn, .clear-dice-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Lancers composés */
+.composite-input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.composite-input {
+    flex: 1;
+    padding: 12px;
+    background: #333;
+    border: 2px solid #555;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+    transition: all 0.2s;
+}
+
+.composite-input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+}
+
+.composite-input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+.composite-btn {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.composite-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+}
+
+.composite-examples {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.example-btn {
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #444 0%, #222 100%);
+    color: #ccc;
+    border: 1px solid #555;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.example-btn:hover {
+    background: linear-gradient(135deg, #555 0%, #333 100%);
+    color: #fff;
+    border-color: #667eea;
+}
+
+/* Menu de dégâts rapide */
+.damage-quick-menu {
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    border: 2px solid #444;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    min-width: 280px;
+}
+
+.damage-menu-content h4 {
+    margin: 0 0 15px 0;
+    text-align: center;
+    color: #f39c12;
+    font-size: 16px;
+}
+
+.damage-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.damage-option {
+    padding: 10px 12px;
+    background: linear-gradient(135deg, #555 0%, #333 100%);
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.damage-option:hover {
+    background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+    border-color: #f39c12;
+    transform: translateY(-1px);
+}
+
+.close-damage-menu {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #666 0%, #444 100%);
+    color: #fff;
+    border: 1px solid #777;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.close-damage-menu:hover {
+    background: linear-gradient(135deg, #777 0%, #555 100%);
+}
+
+/* Responsive pour le menu de dégâts */
+@media (max-width: 768px) {
+    .damage-quick-menu {
+        left: 1rem !important;
+        right: 1rem !important;
+        width: auto !important;
+        top: 50% !important;
+        transform: translateY(-50%);
+    }
+    
+    .damage-options {
+        grid-template-columns: 1fr;
+    }
+} 

@@ -1,0 +1,712 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Formulaires d'authentification */
+.auth-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group.checkbox input[type="checkbox"] {
+    margin: 0;
+}
+
+.auth-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Messages Flash */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    animation: slideIn 0.3s ease-out;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-info {
+    background-color: #cce5ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+}
+
+/* Sections du Dashboard */
+.dashboard-section {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.dashboard-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Section Personnages */
+.characters-section {
+    margin-bottom: 40px;
+}
+
+.character-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.character-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.character-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.character-info {
+    color: #666;
+    margin: 10px 0;
+}
+
+.character-level {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.character-card.new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e9ecef;
+}
+
+.new-character-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Section Parties */
+.game-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.game-option {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.game-option h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.option-description {
+    color: #666;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+.join-game-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Section Tutoriel */
+.tutorial-section {
+    background-color: #e8f4f8;
+    border-color: #b8daff;
+}
+
+.tutorial-options {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.secondary-button {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.secondary-button:hover {
+    background-color: #5a6268;
+}
+
+/* Inputs communs */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+}
+
+/* Boutons */
+.choice-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.choice-button:hover {
+    background-color: #0056b3;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logout-button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+/* Composants existants */
+.character-sheet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.stat {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dice-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.dice-button:hover {
+    background-color: #45a049;
+}
+
+.dice-result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.story-container {
+    margin: 20px 0;
+}
+
+/* Méthodes d'authentification */
+.auth-methods {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Authentification Google */
+.google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #757575;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.google-button:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.google-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.separator span {
+    padding: 0 10px;
+    color: #757575;
+    font-size: 14px;
+}
+
+/* Système de dés */
+.dice-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.dice-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dice-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dice-input input {
+    width: 60px;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.dice-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: opacity 0.2s;
+}
+
+.dice-button:hover {
+    opacity: 0.9;
+}
+
+#dice-results {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dice-roll-result {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    animation: slideIn 0.3s ease-out;
+}
+
+.roll-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.roll-type {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.roll-total {
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.roll-total.highlight {
+    color: #28a745;
+    transform: scale(1.1);
+}
+
+.roll-details {
+    color: #666;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Page de jeu */
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-code {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.game-container {
+    display: grid;
+    gap: 20px;
+}
+
+.info-section, .players-section, .dm-controls, .game-actions {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.players-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.players-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.players-list li:last-child {
+    border-bottom: none;
+}
+
+.no-players {
+    color: #666;
+    font-style: italic;
+}
+
+.dm-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.dice-visibility {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.dice-visibility input[type="checkbox"] {
+    margin: 0;
+}
+
+.roll-player {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.roll-visibility {
+    color: #888;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+/* Notifications */
+.notifications-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+.notification {
+    padding: 12px 20px;
+    border-radius: 4px;
+    color: white;
+    animation: slideIn 0.3s ease-out;
+    transition: opacity 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.notification.success {
+    background-color: #28a745;
+}
+
+.notification.error {
+    background-color: #dc3545;
+}
+
+.notification.info {
+    background-color: #17a2b8;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Résultats des dés */
+.dice-results {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dice-roll-result {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    animation: fadeIn 0.3s ease-out;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dice-roll-result.error {
+    border-left-color: #dc3545;
+    background-color: #fff5f5;
+}
+
+.roll-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.roll-type {
+    font-family: monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.roll-player {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.roll-visibility {
+    color: #888;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.roll-total {
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.roll-total.highlight {
+    color: #28a745;
+    transform: scale(1.1);
+}
+
+/* Liste des joueurs améliorée */
+.players-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.players-list li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    animation: fadeIn 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.players-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Améliorations des contrôles de dés */
+.dice-group {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dice-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.dice-input input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.dice-button {
+    flex-grow: 1;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.dice-button:hover {
+    opacity: 0.9;
+}
+
+.dice-visibility {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dice-visibility input[type="checkbox"] {
+    margin: 0;
+} 

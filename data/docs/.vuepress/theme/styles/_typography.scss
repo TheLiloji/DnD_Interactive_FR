@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+  font-family: "ornaments";
+  src: url("/fonts/ornaments.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/ornaments.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/ornaments.otf") format("opentype"), /* Open Type Font */
+    url("/fonts/ornaments.svg") format("svg"), /* Legacy iOS */
+    url("/fonts/ornaments.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts/ornaments.woff") format("woff"), /* Modern Browsers */
+    url("/fonts/ornaments.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+$srd-font-family: "srd" !default;
+$srd-font-path: "/fonts" !default;
+
+$icon-bookmark: "\e901";
+$icon-hexagon: "\e902";
+$icon-gondolfiere: "\e903";
+$icon-laelith: "\e904";
+$icon-dragon: "\e905";
+$icon-kobold: "\e900";
+
+@font-face {
+  font-family: '#{$srd-font-family}';
+  src:  url('#{$srd-font-path}/#{$srd-font-family}.eot?u95p4y');
+  src:  url('#{$srd-font-path}/#{$srd-font-family}.eot?u95p4y#iefix') format('embedded-opentype'),
+    url('#{$srd-font-path}/#{$srd-font-family}.ttf?u95p4y') format('truetype'),
+    url('#{$srd-font-path}/#{$srd-font-family}.woff?u95p4y') format('woff'),
+    url('#{$srd-font-path}/#{$srd-font-family}.svg?u95p4y##{$srd-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$srd-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Dice font
+@font-face {
+  font-family: Dicier;
+  src: url('#{$srd-font-path}/Dicier-Round-Heavy.woff2');
+}
+.dicier {
+  font-family: Dicier, sans-serif;
+  font-feature-settings: “liga” 1, “kern” 1, “calt” 1;
+}
+
+.icon-bookmark {
+  &:before {
+    content: $icon-bookmark;
+  }
+}
+.icon-hexagon {
+  &:before {
+    content: $icon-hexagon;
+  }
+}
+.icon-gondolfiere {
+  &:before {
+    content: $icon-gondolfiere;
+  }
+}
+.icon-laelith {
+  &:before {
+    content: $icon-laelith;
+  }
+}
+.icon-dragon {
+  &:before {
+    content: $icon-dragon;
+  }
+}
+.icon-kobold {
+  &:before {
+    content: $icon-kobold;
+  }
+}
+
+@keyframes gold-flash {
+  0% {
+    color: $color-gold-light;
+  }
+  10% {
+    color: $color-gold;
+  }
+  100% {
+    color: $color-gold;
+  }
+}
+@keyframes gold-pulse {
+  0% {
+    color: darken($color-gold, 10);
+  }
+  50% {
+    color: lighten($color-gold, 10);
+  }
+  100% {
+    color: darken($color-gold, 10);
+  }
+}
+
+.color-hero {
+  color: $color-hero;
+}
+.color-dragon {
+  color: $color-dragon;
+}
+
+.home-logo {
+  font-size: 20rem;
+  color: $color-gold;
+  display: block;
+  margin: 1rem;
+  animation-name: gold-pulse;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.breadcrumb-logo {
+  color: $color-gold;
+  font-size: 1.5rem;
+}
+.brand-logo {
+  font-size: 2rem;
+}
+.sidebar-logo {
+  color: $color-hero;
+  font-size: 2rem;
+}
+.theme--dark {
+  .sidebar-logo {
+    color: $color-gold;
+  }
+}
+.glowing-gold {
+  color: $color-gold;
+  animation-name: gold-flash;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+.glowing-gold-background {
+  background-color: $color-gold;
+  animation-name: gold-pulse-background;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.srd {
+  .content {
+    a {
+      //color: #4c6477;
+    }
+  }
+}
+
+.source {
+  font-size: 0.8rem;
+}
+
+.v-application {
+  h1, h2, h3, h4, h5, h6, .title, .subtitle, .subtitle-2, .site-title, .v-btn, .v-breadcrumbs {
+    font-family: 'Oswald', sans-serif !important;
+  }
+  .site-title {
+    font-size: 1rem;
+  }
+  .v-btn, .v-breadcrumbs {
+    font-weight: 400;
+  }
+}
+
+.theme--light {
+  h1, h2, .v-card__title {
+    color: $color-dragon;
+  }
+
+  h2, h3 {
+    border-bottom: 1px solid $color-dragon;
+    margin-bottom: 12px;
+  }
+
+  h3, h4, h5, h6 {
+    color: $color-hero;
+  }
+}
+
+.theme--dark {
+  h2 {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 12px;
+  }
+}
+
+ul, ol {
+  margin-bottom: 16px;
+}
+
+.theme--dark.v-application {
+  color: #ddd;
+  background-color: #333;
+
+  h1, h2, h3, h4, h5, h6, table thead, strong {
+    color: #eee;
+  }
+}
+
+.orn {
+  font-family: 'ornaments';
+  font-weight: normal;
+}
+
+.theme--light {
+  .v-icon {
+    .orn, .icon-zeppelin, .icon-hexagon, .icon-gondolfiere, .icon-laelith, .icon-dragon, .icon-kobold {
+      color:rgba(0, 0, 0, 0.54);
+    }
+  }
+
+  .v-list-item--active {
+    .v-icon {
+      .orn, .icon-zeppelin {
+        color: $color-hero;
+      }
+    }
+  }
+}
+
+.v-btn {
+  .orn, .icon-zeppelin, .icon-hexagon, .icon-gondolfiere, .icon-laelith, .icon-dragon, .icon-kobold {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.home-toc {
+  background: #fff;
+  margin: 0 -15px;
+  padding: 15px;
+  ul, ol {
+    padding-left: 0;
+    margin-bottom: 10px;
+    li {
+      list-style: none;
+      ul, ol {
+        padding-left: 10px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  ol {
+    margin-bottom: 0;
+    li {
+      list-style: numeric;
+      list-style-position: inside;
+    }
+  }
+
+  h2 {
+    margin-bottom: 0;
+    color: $color-hero !important;
+  }
+
+  h3 {
+    border: none;
+    margin-bottom: 0;
+    color: $color-hero !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-dragon !important;
+
+    &:hover {
+      color: $color-hero !important;
+    }
+  }
+}
+
+.home-toc-header {
+  background-color: $color-dragon;
+  margin: 0 -15px;
+  padding: 15px;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+}
+
+.theme--dark .home-toc {
+  background-color: #222;
+
+  // a {
+  //   color: #fff !important;
+  //   &:hover {
+  //     color: lighten($color-dragon, 20) !important;
+  //   }
+  // }
+
+  h2, h3 {
+    color: #fff !important;
+    a {
+      color: #fff !important;
+      &:hover {
+        color: lighten($color-dragon, 20) !important;
+      }
+    }
+  }
+}
+
+.class-logo {
+  text-align: center;
+
+  img {
+    max-width: 30%;
+  }
+}
+.class-summary {
+  .v-card__subtitle, .v-card__text {
+    letter-spacing: normal;
+    .dicier {
+      font-size: 1.5rem;
+      margin-left: .5rem;
+      margin-right: .5rem;
+    }
+  }
+}

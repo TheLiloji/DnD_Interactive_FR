@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<builder>
+
+<confLang>0</confLang>
+
+<character>
+<race>Haut-elfe</race>
+<class>Guerrier</class>
+<level>1</level>
+<background>Héros du peuple</background>
+
+<str>11</str>
+<dex>13</dex>
+<con>12</con>
+<int>11</int>
+<wis>13</wis>
+<cha>14</cha>
+
+<lvl lvl="1"><hp_brut>10</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="2"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="3"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="4"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="5"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="6"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="7"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="8"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="9"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="10"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="11"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="12"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="13"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="14"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="15"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="16"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="17"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="18"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="19"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="20"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+
+<raceCustom></raceCustom>
+<styleCombat1>3</styleCombat1>
+<styleCombat2></styleCombat2>
+<favoredEnemy0></favoredEnemy0>
+<favoredEnemy6></favoredEnemy6>
+<favoredEnemy14></favoredEnemy14>
+<pack>11</pack>
+<backSpe>Tueur à gages</backSpe>
+
+<skillsProf id="0">12</skillsProf>
+<skillsProf id="1">0,0</skillsProf>
+<skillsProf id="2">4,16</skillsProf>
+<skillsProf id="3"></skillsProf>
+<toolsProf id="0"></toolsProf>
+<toolsProf id="1"></toolsProf>
+<toolsProf id="2">matériel d'alchimiste, véhicules (terrestres)</toolsProf>
+<toolsProf id="3"></toolsProf>
+<languages id="0">commun,elfique,géant</languages>
+<languages id="1"></languages>
+<languages id="2"></languages>
+<languages id="3"></languages>
+
+<innateSpell lvl="0">lumière</innateSpell>
+
+<gp>10</gp>
+<pp>0</pp>
+<ep>0</ep>
+<sp>0</sp>
+<cp>0</cp>
+
+<armor>2</armor>
+<shield>0</shield>
+<weapon>20,31,5,36</weapon>
+<weaponQ>1,1,2,1</weaponQ>
+<tools>1,32</tools>
+
+<item>57,80,81,38,5,90,76,39,17,63,74,92</item>
+<itemQ>1,1,1,1,1,10,10,1,1,1,1,1</itemQ>
+<itemX>bourse</itemX>
+<name>Ipolite</name>
+<sexe>0</sexe>
+<age>20</age>
+<height>1,65 m</height>
+<weight>55 kg</weight>
+<alignment>4</alignment>
+<xp>0</xp>
+<eyes>bleu</eyes>
+<skin>Gris</skin>
+<hair>blond</hair>
+
+<appearance>beau gosse</appearance>
+<traits>Je juge les gens sur leurs actions, pas sur leurs paroles.</traits>
+<ideals>Respect. Les gens méritent d'être traités avec dignité et respect (Bon).</ideals>
+<bonds>J'ai une famille, mais je ne sais pas où ils sont. Un jour, j'espère les revoir.</bonds>
+<flaws>Secrètement, je crois que les choses iraient mieux si j'étais un tyran gouvernant ce territoire.</flaws>
+
+<backstory>il était beau</backstory>
+<allies>les gens</allies>
+<features>rien</features>
+<treasure>Pierre magique</treasure>
+
+</character>
+</builder>

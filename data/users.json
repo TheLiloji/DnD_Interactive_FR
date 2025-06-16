@@ -1,0 +1,21 @@
+{
+    "test@test.com": {
+        "password": "scrypt:32768:8:1$ZI3UDrqSNhR48Jyy$9072418dcc28bc18006427921227d94802db54a08913b626071a85a95632db59efc0f6083d1c3415daa2511bbcd7ef856087ba449e4df0aa50755aad8b8001e3",
+        "is_dm": true,
+        "needs_tutorial": false,
+        "characters": [],
+        "pseudo": "TestUser",
+        "avatar": null
+    },
+    "zaccharieber@gmail.com": {
+        "password": null,
+        "is_dm": false,
+        "needs_tutorial": true,
+        "characters": [
+            "Nom du personnage",
+            "Ipolite"
+        ],
+        "pseudo": "Zaccha",
+        "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oryctolagus_cuniculus_Tasmania_2.jpg/960px-Oryctolagus_cuniculus_Tasmania_2.jpg"
+    }
+}

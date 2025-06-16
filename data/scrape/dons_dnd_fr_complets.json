@@ -1,0 +1,500 @@
+[
+  {
+    "nom": "Adepte de métamagie",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=adepte-de-metamagie",
+    "prerequis": "Prérequis : Capacité Incantation ou Magie de pacte",
+    "description": "Vous apprenez deux options de métamagie et gagnez 2 points de sorcellerie."
+  },
+  {
+    "nom": "Adepte élémentaire",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=adepte-elementaire",
+    "prerequis": "Prérequis : Capacité de lancer au moins un sort",
+    "description": "Quand vous gagnez ce don, choisissez l'un des types de dégâts suivants : acide, froid, feu, foudre ou tonnerre.\nLes sorts que vous lancez ignorent la résistance aux dégâts du type choisi. En outre, lorsque vous lancez les dés de dégâts pour un sort que vous avez lancé et qui inflige des dégâts de ce type, vous pouvez traiter tout 1 aux dés comme un 2.\nVous pouvez sélectionner ce don plusieurs fois. Chaque fois que vous faites cela, vous devez choisir un type de dégâts différent."
+  },
+  {
+    "nom": "Adepte martial",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=adepte-martial",
+    "prerequis": "",
+    "description": "Vous avez une formation martiale qui vous permet d'effectuer des manœuvres de combat spéciales. Vous obtenez les avantages suivants :\nVous apprenez deux manœuvres de votre choix parmi celles disponibles pour l'archétype de guerrier du maître de bataille. Si une manœuvre que vous utilisez nécessite que la cible fasse un jet de sauvegarde pour résister aux effets de la manœuvre, le DD du jet de sauvegarde est égal à 8 + votre bonus de maîtrise + votre modificateur de Force ou de Dextérité (selon votre choix).Vous gagnez un dé de supériorité, qui est un d6 (ce dé s'ajoute à tous autres dés de supériorité que vous pourriez avoir gagnés d'une autre source). Ce dé est utilisé pour alimenter vos manœuvres. Un dé de supériorité est dépensé lorsque vous l'utilisez. Vous regagnez vos dés de supériorité dépensés lorsque vous terminez un repos court ou long."
+  },
+  {
+    "nom": "Adepte occulte",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=adepte-occulte",
+    "prerequis": "Prérequis : Capacité Incantation ou Magie de pacte",
+    "description": "Grâce à l'étude des connaissances occultes, vous avez libéré en vous un pouvoir surnaturels : vous apprenez une option de Manifestration occulte de votre choix de la classe d'occultiste. Si la manifestation possède un prérequis, quel qu'il soit, vous ne pouvez choisir cette manifestration que si vous êtes un occultiste qui remplit la condition préalable.\nChaque fois que vous gagnez un niveau, vous pouvez remplacer la manifestation par une autre de la classe d'occultiste."
+  },
+  {
+    "nom": "Adresse du géant des pierres",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=adresse-du-geant-des-pierres",
+    "prerequis": "Prérequis : Niveau 4, don Frappe des géants (frappe de pierre)",
+    "description": "+1 en For., Con. ou Sag. ; vision dans le noir 18 m ; 1d10 dégâts de force + à terre (BM/jour)."
+  },
+  {
+    "nom": "Agilité des courts-sur-pattes",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=agilite-des-courts-sur-pattes",
+    "prerequis": "Prérequis : Nain ou race de taille P",
+    "description": "Vous êtes particulièrement agile pour votre race. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Force ou de Dextérité de 1, pour un maximum de 20.Augmentez votre vitesse de marche de 1,50 mètre.Vous gagnez la maîtrise de la compétence Acrobaties ou Athlétisme.Vous avez un avantage à vos jets de Force (Athlétisme) ou Dextérité (Acrobaties) pour vous échapper si vous êtes agrippé."
+  },
+  {
+    "nom": "Amateur d'armes à feu",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=amateur-d-armes-a-feu",
+    "prerequis": "",
+    "description": "+1 en Dex., maîtrise des armes à feu, ignore la propriété rechargement de ces armes et aucun désavantage à l'attaque au contact."
+  },
+  {
+    "nom": "Âme du géant des tempêtes",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=ame-du-geant-des-tempetes",
+    "prerequis": "Prérequis : Niveau 4, don Frappe des géants (frappe des tempêtes)",
+    "description": "+1 en For., Con. ou Sag. ; résistance aux dégâts de foudre et de tonnerre ; désavantage contre vous ; 1/2 vitesse (BM/jour)."
+  },
+  {
+    "nom": "Artificier en herbe",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=artificier-en-herbe",
+    "prerequis": "",
+    "description": "Vous apprenez 1 sort mineur et 1 sort de niv 1 d'artificier (à lancer sans emplacement), maîtrise d'un type d'outils d'artisan."
+  },
+  {
+    "nom": "Athlète",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=athlete",
+    "prerequis": "",
+    "description": "Vous avez suivi une forte formation physique qui vous donne les avantages suivants :\nAugmentez votre valeur de Force ou de Dextérité de 1, pour un maximum de 20.Lorsque vous êtes à terre, vous relever prend seulement 1,50 mètre de votre mouvement.Escalader ne vous coûte pas de mouvement supplémentaire.Vous pouvez faire un saut en longueur ou en hauteur avec seulement 1,50 mètre d'élan, au lieu de 3 mètres."
+  },
+  {
+    "nom": "Attaquant sauvage",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=attaquant-sauvage",
+    "prerequis": "",
+    "description": "Une fois par tour quand vous lancez les dégâts d'une attaque au corps à corps avec une arme, vous pouvez relancer les dégâts de l'arme et choisir le meilleur des deux résultats."
+  },
+  {
+    "nom": "Bagarreur de tavernes",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=bagarreur-de-tavernes",
+    "prerequis": "",
+    "description": "Habitué à vous battre comme un chiffonnier en utilisant tout ce qui vous tombe sous la main, vous obtenez les avantages suivants :\nAugmentez votre valeur de Force ou de Constitution de 1, jusqu'à un maximum de 20.Vous maîtrisez les armes improvisées.Votre attaque à mains nues utilise un d4 pour les dégâts.Pendant votre tour, si vous touchez une cible avec une attaque à mains nues ou une arme improvisée, vous pouvez utiliser une action bonus pour essayer d'engager une lutte avec la cible."
+  },
+  {
+    "nom": "Braises du géant du feu",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=braises-du-geant-du-feu",
+    "prerequis": "Prérequis : Niveau 4, don Frappe des géants (frappe du feu)",
+    "description": "+1 en For., Con. ou Sag. ; résistance aux dégâts de feu ; 1d8+BM dégâts de feu + aveuglé (rayon de 4 m ; BM/jour)."
+  },
+  {
+    "nom": "Broyeur",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=broyeur",
+    "prerequis": "",
+    "description": "Vous êtes habitué à l'art d'écraser vos ennemis, ce qui vous confère les avantages suivants :\nAugmentez votre valeur de Force ou de Constitution de 1, jusqu'à un maximum de 20.Une fois par tour, lorsque vous touchez une créature avec une attaque qui inflige des dégâts contondants, vous pouvez la déplacer de 1,50 mètre vers un espace inoccupé, à condition que la cible ne soit pas de plus d'une taille que vous.Si vous réalisez un coup critique qui inflige des dégâts contondants à une créature, vous avez un avantage aux jets d'attaque contre cette créature jusqu'au début de votre prochain tour."
+  },
+  {
+    "nom": "Chance abondante",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=chance-abondante",
+    "prerequis": "Prérequis : Halfelin",
+    "description": "À chaque fois qu'un allié que vous pouvez voir et qui se trouve à 9 mètres ou moins de vous obtient un 1 naturel sur un d20 lors d'un jet d'attaque, de caractéristique ou de sauvegarde, vous pouvez utiliser votre réaction pour permettre à cet allié de relancer son dé. L'allié est obligé d'utiliser le nouveau résultat.\nLorsque vous utilisez cette capacité, vous ne pouvez pas utiliser votre trait racial Chanceux avant la fin de votre prochain tour."
+  },
+  {
+    "nom": "Chanceux",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=chanceux",
+    "prerequis": "",
+    "description": "Vous avez une chance inexplicable qui semble tomber juste au bon moment.\nVous avez 3 points de chance. Chaque fois que vous faites un jet d'attaque, de caractéristique ou de sauvegarde, vous pouvez dépenser un point de chance pour lancer un d20 supplémentaire. Vous pouvez choisir de dépenser un de vos points de chance après avoir lancé le dé mais avant que son effet soit déterminé. Vous choisissez quel d20 utiliser pour le jet d'attaque, de caractéristique ou de sauvegarde.\nVous pouvez également dépenser un point de chance quand un jet d'attaque est fait contre vous. Lancez un d20, et choisissez quel jet l'attaquant doit utiliser.\nSi plus d'une créature dépense un point de chance pour influencer le résultat d'un jet, les points s'annulent ; aucun dé supplémentaire n'est lancé.\nVous regagnez vos points de chance dépensés lorsque vous terminez un repos long."
+  },
+  {
+    "nom": "Chef cuisinier",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=chef-cuisinier",
+    "prerequis": "",
+    "description": "+1 en Con. ou Sag., maîtrise des ustensiles de cuisinier et cuisine des plats qui redonnent des pv."
+  },
+  {
+    "nom": "Combattant à deux armes",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=combattant-a-deux-armes",
+    "prerequis": "",
+    "description": "Vous maîtrisez le combat à deux armes, et obtenez les avantages suivants :\nVous gagnez un bonus de +1 à la CA si vous tenez une arme de corps à corps distincte dans chaque main.Vous pouvez utiliser le combat à deux armes même si les armes de corps à corps à une main que vous tenez ne sont pas légères.Vous pouvez dégainer ou rengainer deux armes à une main alors que normalement vous ne pourriez le faire que pour une seule."
+  },
+  {
+    "nom": "Combattant monté",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=combattant-monte",
+    "prerequis": "",
+    "description": "Vous êtes un dangereux ennemi à affronter lorsque vous êtes monté. Lorsque vous êtes monté et pas incapable d'agir, vous gagnez les avantages suivants :\nVous avez un avantage aux jets d'attaque au corps à corps contre toute créature non montée qui est plus petite que votre monture.Vous pouvez forcer une attaque qui cible votre monture à vous cibler à sa place.Si votre monture est soumise à un effet qui lui permet d'effectuer un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, elle ne prend aucun dégât si le jet de sauvegarde est réussi, et seulement la moitié des dégâts en cas d'échec."
+  },
+  {
+    "nom": "Comédien",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=comedien",
+    "prerequis": "",
+    "description": "Entraîné au mimétisme et à l'art dramatique, vous gagnez les avantages suivants :\nAugmentez votre valeur de Charisme de 1, pour un maximum de 20.Vous avez un avantage aux jets de Charisme (Tromperie) et Charisme (Représentation) pour essayer de vous faire passer pour une autre personne.Vous pouvez imiter le discours d'une autre personne ou les sons émis par d'autres créatures. Vous devez avoir entendu la personne qui parle, ou entendu la créature émettre le son, pendant au moins 1 minute. Un jet réussi de Sagesse (Intuition) contre votre jet de Charisme (Tromperie) permet à celui qui écoute de déterminer qu'il s'agit d'une imitation."
+  },
+  {
+    "nom": "Constitution infernale",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=constitution-infernale",
+    "prerequis": "Prérequis : Tieffelin",
+    "description": "Votre héritage diabolique est particulièrement présent chez vous. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Constitution de 1, pour un maximum de 20.Vous avez la résistance aux dégâts de froid et de poison.Vous avez un avantage à vos jets de sauvegarde effectués contre l'état empoisonné."
+  },
+  {
+    "nom": "Cuir de dragon",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=cuir-de-dragon",
+    "prerequis": "Prérequis : Drakéide",
+    "description": "Vous avez hérité de la puissance et de la majesté de vos ancêtres dragons. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Force, de Constitution ou de Charisme de 1, pour un maximum de 20.Vos écailles se durcissent. Tant que vous ne portez aucune armure, votre CA est de 13 + votre modificateur de Dextérité. Vous pouvez utiliser un bouclier et profiter de cet avantage.Des griffes rétractables ont poussé à l'extrémité de vos doigts. Sortir ou rentrer vos griffes ne requiert aucune action. Les griffes sont des armes naturelles que vous pouvez utiliser pour effectuer des attaques à mains nues. Si vous touchez au cours d'une attaque à mains nues, vous infligez un montant de dégâts tranchants égal à 1d4 + votre modificateur de Force, au lieu des dégâts contondants traditionnels des attaques à mains nues."
+  },
+  {
+    "nom": "Deuxième chance",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=deuxieme-chance",
+    "prerequis": "Prérequis : Halfelin",
+    "description": "La chance vous sourit lorsque quelqu'un tente de vous frapper. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Dextérité, de Constitution ou de Charisme de 1, pour un maximum de 20.Lorsqu'une créature que vous pouvez voir vous touche avec un jet d'attaque, vous pouvez utiliser votre réaction pour obliger cette créature à relancer son jet. Une fois cette capacité utilisée, vous devez terminer un repos court ou long, ou faire un jet d'initiative au début d'un combat, avant de pouvoir la réutiliser."
+  },
+  {
+    "nom": "Discret",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=discret",
+    "prerequis": "Prérequis : 13 ou plus en Dextérité",
+    "description": "Vous êtes expert pour vous faufiler discrètement dans l'ombre. Vous obtenez les avantages suivants :\nVous pouvez essayer de vous cacher d'une créature quand vous êtes dans une zone dont la visibilité est réduite pour elle.Lorsque vous êtes caché d'une créature et que vous ratez une attaque à distance avec une arme, l'attaque ne révèle pas votre position.Une lumière faible n'impose pas un désavantage à vos jets de Sagesse (Perception) en relation avec la vue."
+  },
+  {
+    "nom": "Don des dragons chromatiques",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=don-des-dragons-chromatiques",
+    "prerequis": "",
+    "description": "1d4 dégâts extra d'acide, froid, feu, foudre ou poison pendant 1 min (action bonus). Résistance à 1 de ces dégâts (réaction)."
+  },
+  {
+    "nom": "Don des dragons diamantins",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=don-des-dragons-diamantins",
+    "prerequis": "",
+    "description": "+1 en Int., Sag. ou Cha., JdS de Force ou 2d8 dégâts de force et repoussé de 3 m en réaction à une attaque (BM/jour)."
+  },
+  {
+    "nom": "Don des dragons métalliques",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=don-des-dragons-metalliques",
+    "prerequis": "",
+    "description": "Vous pouvez lancer soins (1/repos long). En réaction à une attaque, des ailes vous donnent +BM à votre CA (BM/jour)."
+  },
+  {
+    "nom": "Doué",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=doue",
+    "prerequis": "",
+    "description": "Vous gagnez la maîtrise de trois compétences ou outils de votre choix, avec la combinaison que vous souhaitez."
+  },
+  {
+    "nom": "Duelliste défensif",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=duelliste-defensif",
+    "prerequis": "Prérequis : 13 ou plus en Dextérité",
+    "description": "Lorsque vous tenez une arme de finesse que vous maîtrisez et qu'une autre créature vous touche avec une attaque au corps à corps, vous pouvez utiliser votre réaction pour ajouter votre bonus de maîtrise à votre CA pour cette attaque, ce qui pourrait faire que l'attaque vous rate."
+  },
+  {
+    "nom": "Effacement",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=effacement",
+    "prerequis": "Prérequis : Gnome",
+    "description": "Vous avez appris un tour magique pour échapper au danger. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Dextérité ou d'Intelligence de 1, pour un maximum de 20.Lorsque vous subissez des dégâts, vous pouvez immédiatement après utiliser votre réaction pour devenir invisible par magie jusqu'à la fin de votre prochain tour ou jusqu'à ce que vous attaquiez, infligiez des dégâts ou forciez quelqu'un à effectuer un jet de sauvegarde. Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos court ou long."
+  },
+  {
+    "nom": "Empaleur",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=empaleur",
+    "prerequis": "",
+    "description": "Vous avez atteint une telle précision pour empaler durant au combat, que cela vous confère les avantages suivants :\nAugmentez votre valeur de Force ou de Dextérité de 1, jusqu'à un maximum de 20.Une fois par tour, lorsque vous touchez une créature avec une attaque qui inflige des dégâts perforants, vous pouvez relancer l'un des dés de dégâts de l'attaque, et devez alors utiliser le nouveau jet.Lorsque vous réalisez un coup critique qui inflige des dégâts perforants à une créature, vous pouvez lancer un dé de dégâts supplémentaire pour déterminer les dégâts perforants supplémentaires subis par la cible."
+  },
+  {
+    "nom": "Empoisonneur",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=empoisonneur",
+    "prerequis": "",
+    "description": "Maîtrise du kit d'empoisonneur, application par une action bonus et vos attaques ignorent la résistance aux dégâts de poison."
+  },
+  {
+    "nom": "Endurant",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=endurant",
+    "prerequis": "",
+    "description": "Robuste et résistant, vous gagnez les avantages suivants :\nAugmentez votre valeur de Constitution de 1, jusqu'à un maximum de 20.Lorsque vous lancez un dé de vie pour regagner des points de vie, le nombre minimum de points de vie que vous regagnez de ce jet est égal à deux fois votre modificateur de Constitution (minimum 2)."
+  },
+  {
+    "nom": "Esprit affûté",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=esprit-affute",
+    "prerequis": "",
+    "description": "Vous avez un esprit qui permet de repérer le temps, les directions et les détails avec une précision étonnante. Vous obtenez les avantages suivants :\nAugmentez votre valeur d'Intelligence de 1, jusqu'à un maximum de 20.Vous savez toujours où est le nord.Vous savez toujours le nombre d'heures restantes avant le lever du soleil suivant ou le coucher du soleil.Vous pouvez vous rappeler avec précision ce que vous avez vu ou entendu au cours du mois passé."
+  },
+  {
+    "nom": "Expert",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=expert",
+    "prerequis": "",
+    "description": "Vous avez perfectionné votre maîtrise avec des compétences particulières, ce qui vous confère les avantages suivants :\nAugmentez la valeur d'une caractéristique de votre choix de 1, jusqu'à un maximum de 20.Vous gagnez la maîtrise d'une compétence de votre choix.Choisissez une compétence que vous maîtrisez. Vous gagnez l'expertise de cette compétence, ce qui signifie que votre bonus de maîtrise est doublé pour tout jet de carcatéristique que vous effectuez avec cette compétence. La compétence que vous choisissez doit être une compétence qui ne bénéficie pas déjà d'une capacité, comme Expertise, qui double votre bonus de maîtrise."
+  },
+  {
+    "nom": "Expert de la charge",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=expert-de-la-charge",
+    "prerequis": "",
+    "description": "Lorsque vous utilisez votre action pour Foncer, vous pouvez utiliser une action bonus pour faire une attaque au corps à corps avec une arme ou bousculer une créature.\nSi vous vous déplacez d'au moins 3 mètres en ligne droite juste avant de prendre cette action bonus, vous gagnez soit un bonus de +5 aux dégâts de l'attaque (si vous avez choisi d'effectuer une attaque au corps à corps et que vous touchez), soit vous repoussez la cible jusqu'à 3 mètres de vous (si vous avez choisi de la bousculer et que vous réussissez)."
+  },
+  {
+    "nom": "Explorateur de donjons",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=explorateur-de-donjons",
+    "prerequis": "",
+    "description": "Vigilant face aux pièges cachés et portes secrètes que l'on trouve dans de nombreux donjons, vous obtenez les avantages suivants :\nVous avez un avantage aux jets de Sagesse (Perception) et Intelligence (Investigation) effectués pour détecter la présence de portes secrètes.Vous avez un avantage aux jets de sauvegarde pour éviter ou résister aux pièges.Vous obtenez la résistance aux dégâts infligés par les pièges.Vous déplacer à un rythme rapide ne vous inflige pas le malus de -5 à votre valeur de Sagesse (Perception) passive."
+  },
+  {
+    "nom": "Façonneur de runes",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=faconneur-de-runes",
+    "prerequis": "Prérequis : Capacité Incantation ou historique Ciseleur de runes",
+    "description": "Vous apprenez compréhension des langues et 1/2 BM sorts de niveau 1 (lancé avec rune ou emplacement de sort)."
+  },
+  {
+    "nom": "Faveur des fées",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=faveur-des-fees",
+    "prerequis": "",
+    "description": "Votre exposition à la magie de la Féerie vous a changé, ce qui vous confère les avantages suivants :\nAugmentez votre valeur d'Intelligence, de Sagesse ou de Charisme de 1, jusqu'à un maximum de 20.Vous apprenez le sort foulée brumeuse et un sort de niveau 1 de votre choix. Le sort de niveau 1 doit être de l'école de magie de divination ou d'enchantement. Vous pouvez lancer chacun de ces sorts sans dépenser d'emplacement de sort. Une fois que vous avez lancé l'un de ces sorts de cette manière, vous ne pouvez plus le lancer de cette manière tant que vous n'avez pas terminé un repos long. Vous pouvez également lancer ces sorts en utilisant des emplacements de sorts du niveau approprié. La caractéristique d'incantation de ces sorts est la caractéristique augmentée par ce don."
+  },
+  {
+    "nom": "Faveur des ombres",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=faveur-des-ombres",
+    "prerequis": "",
+    "description": "Votre exposition à la magie de la Grisombre vous a changé, ce qui vous confère les avantages suivants :\nAugmentez votre valeur d'Intelligence, de Sagesse ou de Charisme de 1, jusqu'à un maximum de 20.Vous apprenez le sort invisibilité et un sort de niveau 1 de votre choix. Le sort de niveau 1 doit être de l'école de magie d'illusion ou de nécromancie. Vous pouvez lancer chacun de ces sorts sans dépenser d'emplacement de sort. Une fois que vous avez lancé l'un de ces sorts de cette manière, vous ne pouvez plus le lancer de cette manière tant que vous n'avez pas terminé un repos long. Vous pouvez également lancer ces sorts en utilisant des emplacements de sorts du niveau approprié. La caractéristique d'incantation de ces sorts est la caractéristique augmentée par ce don."
+  },
+  {
+    "nom": "Flammes de Phlégéthos",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=flammes-de-phlegethos",
+    "prerequis": "Prérequis : Tieffelin",
+    "description": "Vous avez appris à maîtriser les flammes de l'enfer. Vous obtenez les avantages suivants :\nAugmentez votre valeur d'Intelligence ou de Charisme de 1, pour un maximum de 20.Lorsque vous infligez des dégâts de feu avec un sort que vous lancez, vous pouvez relancer n'importe quel 1 sur vos dés de dégâts de feu, mais vous devez forcément utiliser le nouveau résultat obtenu, même s'il s'agit à nouveau d'un 1.À chaque fois que vous lancez un sort qui inflige des dégâts de feu, vous pouvez décider que des flammes encerclent votre tête jusqu'à la fin de votre prochain tour. Les flammes ne vous blessent pas et n'endommagent pas vos possessions, et elles émettent une lumière vive dans un rayon de 9 mètres autour de vous ainsi qu'une lumière faible sur 9 mètres de plus. Tant que les flammes sont présentes, toute créature à 1,50 mètre ou moins de vous et qui vous touche au cours d'une attaque au corps à corps subit 1d4 dégâts de feu."
+  },
+  {
+    "nom": "Frappe des géants",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=frappe-des-geants",
+    "prerequis": "Prérequis : Maîtrise des armes de guerre ou historique Gigantin",
+    "description": "Dégâts extra et effet additionnel si l'on touche lors d'une attaque avec une arme, selon le type de géant choisi (BM/jour)."
+  },
+  {
+    "nom": "Fureur du géant du givre",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=fureur-du-geant-du-givre",
+    "prerequis": "Prérequis : Niveau 4, don Frappe des géants (frappe du givre)",
+    "description": "+1 en For., Con. ou Sag. ; résistance aux dégâts de froid ; 1d8+BM dégâts de froid + vitesse à 0 (BM/jour)."
+  },
+  {
+    "nom": "Fureur orc",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=fureur-orc",
+    "prerequis": "Prérequis : Demi-orc",
+    "description": "La fureur qui vous habite brûle sans relâche. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Force ou de Constitution de 1, pour un maximum de 20.Lorsque vous touchez au cours d'une attaque effectuée avec une arme courante ou de guerre, vous pouvez lancer de nouveau un dé de dégâts et l'ajouter en tant que dégâts supplémentaires du type de l'arme. Une fois cette capacité utilisée, vous devez terminer un repos court ou long avant de pouvoir la réutiliser.Immédiatement après avoir utilisé votre trait Endurance implacable, vous pouvez utiliser votre réaction pour effectuer une attaque avec une arme."
+  },
+  {
+    "nom": "Haute magie drow",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=haute-magie-drow",
+    "prerequis": "Prérequis : Elfe (drow)",
+    "description": "Vous augmentez votre savoir au sujet de la magie des drows. Vous connaissez le sort détection de la magie et pouvez le lancer à volonté, sans dépenser d'emplacement de sort. Vous connaissez également les sorts lévitation et dissipation de la magie, chacun d'entre eux pouvant être lancé une seule fois sans dépenser d'emplacement de sort. Vous pouvez de nouveau lancer ces deux sorts via ce don après avoir terminé un repos long. Le Charisme est votre caractéristique d'incantation pour ces trois sorts."
+  },
+  {
+    "nom": "Initié à la magie",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=initie-a-la-magie",
+    "prerequis": "",
+    "description": "Choisissez une classe : barde, clerc, druide, ensorceleur, magicien ou occultiste. Vous apprenez deux sorts mineurs de votre choix parmi la liste de sorts de cette classe.\nEn outre, choisissez un sort de niveau 1 à apprendre dans cette même liste. En utilisant ce don, vous pouvez lancer le sort à son niveau le plus bas et devez ensuite terminer un repos long avant de pouvoir le lancer à nouveau de cette manière.\nVotre caractéristique d'incantation pour ces sorts dépend de la classe que vous avez choisie : Charisme pour barde, ensorceleur ou occultiste ; Sagesse pour clerc ou druide ; Intelligence pour magicien."
+  },
+  {
+    "nom": "Initié au combat",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=initie-au-combat",
+    "prerequis": "Prérequis : Maîtrise des armes de guerre",
+    "description": "Votre entraînement martial vous a permis de développer un style de combat particulier. En conséquence, vous apprenez une option de Style de combat de votre choix de la classe de guerrier. Si vous avez déjà un style, celui que vous choisissez doit être différent.\nChaque fois que vous atteignez un niveau qui accorde la capacité Amélioration de caractéristiques, vous pouvez remplacer le style de combat de ce don par un autre de la classe de guerrier que vous n'avez pas."
+  },
+  {
+    "nom": "Linguiste",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=linguiste",
+    "prerequis": "",
+    "description": "Vous avez étudié les langues et les codes, et bénéficiez des avantages suivants :\nAugmentez votre valeur d'Intelligence de 1, jusqu'à un maximum de 20.Vous apprenez trois langues de votre choix.Vous pouvez coder des messages avec compétence. D'autres personnes ne peuvent déchiffrer un code que vous avez créé à moins que vous le leur ayez enseigné, qu'elles réussissent un jet d'Intelligence (DD égal à votre valeur d'Intelligence + votre bonus de maîtrise) ou qu'elles utilisent la magie pour le déchiffrer."
+  },
+  {
+    "nom": "Lutteur",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=lutteur",
+    "prerequis": "Prérequis : 13 ou plus en Force",
+    "description": "Vous avez développé les compétences nécessaires pour vous défendre tout seul dans les combats de rues. Vous obtenez les avantages suivants :\nVous avez un avantage aux jets d'attaque contre une créature avec laquelle vous êtes engagé dans une lutte.Vous pouvez utiliser votre action pour tenter de bloquer une créature avec qui vous avez engagé une lutte. Dans ce cas, faites un nouveau jet de lutte. Si vous réussissez, vous et la créature êtes tous deux entravés jusqu'à ce que la lutte se termine."
+  },
+  {
+    "nom": "Mage de guerre",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=mage-de-guerre",
+    "prerequis": "Prérequis : Capacité de lancer au moins un sort",
+    "description": "Vous avez pratiqué le lancer de sorts au milieu d'un combat, apprenant des techniques que vous accordent les avantages suivants :\nVous avez un avantage aux jets de sauvegarde de Constitution pour maintenir votre concentration sur un sort lorsque vous subissez des dégâts.Vous pouvez effectuer les composantes somatiques d'un sort même si vous avez des armes ou un bouclier dans les mains.Lorsque le mouvement d'une créature hostile provoque une attaque d'opportunité pour vous, vous pouvez utiliser votre réaction pour lancer un sort à la créature, plutôt que d'effectuer une attaque d'opportunité. Le sort doit avoir un temps d'incantation de 1 action et ne doit viser que cette créature."
+  },
+  {
+    "nom": "Mage offensif",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=mage-offensif",
+    "prerequis": "Prérequis : Capacité de lancer au moins un sort",
+    "description": "Vous avez appris des techniques pour améliorer vos attaques avec certains types de sorts, et vous obtenez les avantages suivants :\nLorsque vous lancez un sort qui vous oblige à faire un jet d'attaque, la portée du sort est doublée.Vos attaques à distance avec un sort ignorent les abris partiels et les abris importants.Vous apprenez un sort mineur qui nécessite un jet d'attaque. Choisissez un sort mineur de la liste de sorts de barde, clerc, druide, ensorceleur, magicien ou occultiste. Votre caractéristique d'incantation pour ce sort mineur dépend de la liste de sorts que vous avez choisie : Charisme pour barde, ensorceleur ou occultiste ; Sagesse pour clerc ou druide ; Intelligence pour magicien."
+  },
+  {
+    "nom": "Magie des elfes des bois",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=magie-des-elfes-des-bois",
+    "prerequis": "Prérequis : Elfe (bois)",
+    "description": "Vous découvrez la magie des forêts primaires. Vous apprenez un sort mineur de druide de votre choix. Vous apprenez également les sorts grande foulée et passage sans trace, et pouvez lancer chacun d'eux une fois sans dépenser d'emplacement de sort. Vous récupérez la capacité de lancer ces sorts via ce don après avoir terminé un repos long. La Sagesse est votre caractéristique d'incantation pour ces trois sorts."
+  },
+  {
+    "nom": "Magie rituelle",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=magie-rituelle",
+    "prerequis": "Prérequis : 13 ou plus en Intelligence ou Sagesse",
+    "description": "Vous avez appris un certain nombre de sorts que vous pouvez lancer comme des rituels. Ces sorts sont écrits dans un livre de rituels, que vous devez avoir en main lorsque vous lancez l'un d'entre eux.\nLorsque vous choisissez ce don, vous entrez en possession d'un livre de rituels qui comporte deux sorts de niveau 1 de votre choix. Choisissez l'une des classes suivantes : barde, clerc, druide, ensorceleur, magicien ou occultiste. Vous devez choisir vos sorts de la liste de sorts de cette classe, et les sorts que vous choisissez doivent avoir l'étiquette rituel. La classe que vous choisissez détermine également votre caractéristique d'incantation pour ces sorts : Charisme pour barde, ensorceleur ou occultiste ; Sagesse pour clerc ou druide ; Intelligence pour magicien.\nSi vous tombez sur un sort sous une forme écrite, comme un parchemin de sort magique ou le grimoire d'un magicien, vous pouvez être en mesure de l'ajouter à votre livre de rituels. Le sort doit être sur la liste de sorts de la classe que vous avez choisie, le niveau du sort ne peut être supérieur à la moitié de votre niveau (arrondi au supérieur), et il doit avoir l'étiquette rituel. Le processus de copie du sort dans votre livre de rituels prend 2 heures par niveau du sort, au prix de 50 po par niveau. Le coût représente les composantes matérielles que vous dépensez lors d'expériences pour maîtriser le sort, ainsi que les fines encres dont vous avez besoin pour la copie."
+  },
+  {
+    "nom": "Maître d'armes",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=maitre-d-armes",
+    "prerequis": "",
+    "description": "Vous avez énormément pratiqué avec une grande variété d'armes, et obtenez les avantages suivants :\nAugmentez votre valeur de Force ou de Dextérité de 1, jusqu'à un maximum de 20.Vous gagnez la maîtrise de quatre armes de votre choix. Chacune d'elles doit être une arme courante ou une arme de guerre."
+  },
+  {
+    "nom": "Maître d'hast",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=maitre-d-hast",
+    "prerequis": "",
+    "description": "Vous pouvez garder vos ennemis à distance avec des armes à allonge. Vous obtenez les avantages suivants :\nLorsque vous prenez l'action Attaquer et attaquez avec seulement une coutille, une hallebarde, un bâton ou une lance, vous pouvez utiliser une action bonus pour effectuer une attaque au corps à corps avec l'extrémité opposée de l'arme. Cette attaque utilise le même modificateur de caractéristique que l'attaque initiale. Le dé de dégâts pour cette attaque est un d4, et l'attaque inflige des dégâts contondants.Lorsque vous portez une coutille, une hallebarde, une pique, un bâton ou une lance, vous pouvez effectuer une attaque d'opportunité lorsqu'une créature entre à portée de votre allonge."
+  },
+  {
+    "nom": "Maître des armes à deux mains",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=maitre-des-armes-a-deux-mains",
+    "prerequis": "",
+    "description": "Vous avez appris à tirer avantage du poids d'une arme, laissant son élan augmenter l'efficacité de vos frappes. Vous obtenez les avantages suivants :\nÀ votre tour, lorsque vous réalisez un coup critique avec une arme de corps à corps ou faîtes tomber les points de vie d'une créature à 0 avec ce type d'arme, vous pouvez réaliser une attaque au corps à corps avec une arme comme action bonus.Avant d'effectuer une attaque au corps à corps avec une arme lourde que vous maîtrisez, vous pouvez choisir de prendre un malus de -5 au jet d'attaque. Si l'attaque réussit, vous ajoutez +10 aux dégâts de l'attaque."
+  },
+  {
+    "nom": "Maître des armures intermédiaires",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=maitre-des-armures-intermediaires",
+    "prerequis": "Prérequis : Maîtrise des armures intermédiaires",
+    "description": "Vous avez pratiqué le déplacement avec une armure intermédiaire pour obtenir les avantages suivants :\nPorter une armure intermédiaire n'impose pas de désavantage à vos jets de Dextérité (Discrétion).Lorsque vous portez une armure intermédiaire, vous pouvez ajouter 3, au lieu de 2, à votre CA si vous avez une Dextérité de 16 ou plus."
+  },
+  {
+    "nom": "Maître des armures lourdes",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=maitre-des-armures-lourdes",
+    "prerequis": "Prérequis : Maîtrise des armures lourdes",
+    "description": "Vous pouvez utiliser votre armure pour détourner des attaques qui en auraient tué plus d'un. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Force de 1, pour un maximum de 20.Lorsque vous portez une armure lourde, les dégâts contondants, perforants et tranchants que vous recevez d'attaques non magiques sont réduits de 3."
+  },
+  {
+    "nom": "Maître des boucliers",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=maitre-des-boucliers",
+    "prerequis": "",
+    "description": "Vous utilisez les boucliers non seulement pour vous protéger, mais aussi de manière offensive. Vous obtenez les avantages suivants lorsque vous portez un bouclier :\nSi vous prenez l'action Attaquer à votre tour, vous pouvez utiliser une action bonus pour essayer de bousculer une créature située à 1,50 mètre ou moins de vous avec votre bouclier.Si vous n'êtes pas incapable d'agir, vous pouvez ajouter le bonus à la CA de votre bouclier à tout jet de sauvegarde de Dextérité contre tout sort ou autre effet nocif qui vous prend pour cible.Si vous êtes soumis à un effet qui vous permet d'effectuer un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, vous pouvez utiliser votre réaction pour ne prendre aucun dommage si vous réussissez le jet de sauvegarde, en interposant votre bouclier entre vous et la source de l'effet."
+  },
+  {
+    "nom": "Maître-arbalétrier",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=maitre-arbaletrier",
+    "prerequis": "",
+    "description": "Grâce à votre longue pratique de l'arbalète, vous gagnez les avantages suivants :\nVous ignorez la propriété chargement des arbalètes que vous maîtrisez.Être à 1,50 mètre ou moins d'une créature hostile n'impose pas un désavantage à vos jets d'attaque à distance.Lorsque vous utilisez l'action Attaquer et attaquez avec une arme à une main, vous pouvez utiliser une action bonus pour attaquer avec une arbalète de poing si vous en tenez une."
+  },
+  {
+    "nom": "Meneur exaltant",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=meneur-exaltant",
+    "prerequis": "Prérequis : 13 ou plus en Charisme",
+    "description": "Vous pouvez passer 10 minutes à inspirer vos compagnons, confortant leur détermination à se battre. Lorsque vous faites cela, choisissez jusqu'à six créatures amicales (vous pouvez en faire partie) dans un rayon de 9 mètres autour de vous, qui peuvent vous voir ou vous entendre, et qui peuvent vous comprendre. Chaque créature peut gagner un nombre de points de vie temporaires égal à votre niveau + votre modificateur de Charisme. Une créature ne peut pas gagner de nouveaux points de vie temporaires grâce à ce don jusqu'à ce qu'elle ait fini un repos court ou long."
+  },
+  {
+    "nom": "Mobile",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=mobile",
+    "prerequis": "",
+    "description": "Vous êtes exceptionnellement rapide. Vous gagnez les avantages suivants :\nVotre vitesse augmente de 3 mètres.Lorsque vous utilisez l'action Foncer, un terrain difficile ne vous coûte pas de mouvement supplémentaire pour ce tour.Lorsque vous effectuez une attaque au corps à corps contre une créature, vous ne provoquez pas d'attaques d'opportunité pour cette créature pour le reste du tour, que vous touchiez ou pas."
+  },
+  {
+    "nom": "Observateur",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=observateur",
+    "prerequis": "",
+    "description": "Vous notez rapidement des détails dans votre environnement. Vous gagnez les avantages suivants :\nAugmentez votre valeur d'Intelligence ou de Sagesse de 1, jusqu'à un maximum de 20.Si vous pouvez voir la bouche d'une créature alors qu'elle parle une langue que vous comprenez, vous pouvez interpréter ce qu'elle dit en lisant ses lèvres.Vous avez un bonus de +5 à vos jets de Sagesse (Perception) passive et d'Intelligence (Investigation) passive."
+  },
+  {
+    "nom": "Peur du dragon",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=peur-du-dragon",
+    "prerequis": "Prérequis : Drakéide",
+    "description": "Lorsque vous êtes en colère vous irradiez le danger. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Force, de Constitution ou de Charisme de 1, pour un maximum de 20.Plutôt que d'avoir un souffle basé sur une énergie destructrice, vous pouvez rugir et dépenser une utilisation de votre Arme de souffle pour forcer chaque créature de votre choix qui se trouve dans un rayon de 9 mètres autour de vous à effectuer un jet de sauvegarde de Sagesse (DD 8 + votre bonus de maîtrise + votre modificateur de Charisme). Une cible réussit automatiquement son jet de sauvegarde si elle ne peut ni vous voir ni vous entendre. En cas d'échec, vous effrayez la cible pendant 1 minute. Si une cible effrayée subit des dégâts, elle peut retenter son jet de sauvegarde, mettant un terme à l'effet qui l'affecte en cas de réussite."
+  },
+  {
+    "nom": "Pourfendeur",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=pourfendeur",
+    "prerequis": "",
+    "description": "Vous savez où trancher pour obtenir les meilleurs résultats, ce qui vous confère les avantages suivants :\nAugmentez votre valeur de Force ou de Dextérité de 1, jusqu'à un maximum de 20.Une fois par tour, lorsque vous touchez une créature avec une attaque qui inflige des dégâts tranchants, vous pouvez réduire la vitesse de la cible de 3 mètres jusqu'au début de votre prochain tour.Si vous réalisez un coup critique qui inflige des dégâts tranchants à une créature, vous la blessez grièvement. Jusqu'au début de votre prochain tour, la cible a un désavantage à tous les jets d'attaque."
+  },
+  {
+    "nom": "Précision elfique",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=precision-elfique",
+    "prerequis": "Prérequis : Elfe ou demi-elfe",
+    "description": "La précision des elfes est légendaire, en particulier celle des archers et des lanceurs de sorts elfes. Vous avez une réussite formidable avec des attaques qui reposent sur la précision plutôt que sur la force brute. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Dextérité, d'Intelligence, de Sagesse ou de Charisme de 1, jusqu'à un maximum de 20.À chaque fois que vous avez un avantage à un jet d'attaque qui utilise la Dextérité, l'Intelligence, la Sagesse ou le Charisme, vous pouvez relancer l'un des dés une fois."
+  },
+  {
+    "nom": "Prodige",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=prodige",
+    "prerequis": "Prérequis : Demi-elfe, demi-orc ou humain",
+    "description": "Vous êtes extrêmement doué pour apprendre de nouvelles choses. Vous obtenez les avantages suivants :\nVous gagnez la maîtrise d'une compétence et d'un outil de votre choix, et parlez couramment une langue de votre choix.Choisissez une compétence que vous maîtrisez. Vous gagnez de l'expertise dans cette compétence, ce qui signifie que votre bonus de maîtrise est doublé pour chaque jet de caractéristique que vous faites avec. La compétence que vous choisissez doit être une compétence qui ne bénéficie pas déjà d'une capacité qui double votre bonus de maîtrise, comme Expertise."
+  },
+  {
+    "nom": "Protection intermédiaire",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=protection-intermediaire",
+    "prerequis": "Prérequis : Maîtrise des armures légères",
+    "description": "Vous avez été formé pour maîtriser l'utilisation des armures intermédiaires et des boucliers, et vous bénéficiez des avantages suivants :\nAugmentez votre valeur de Force ou de Dextérité de 1, pour un maximum de 20.Vous gagnez la maîtrise des armures intermédiaires et des boucliers."
+  },
+  {
+    "nom": "Protection légère",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=protection-legere",
+    "prerequis": "",
+    "description": "Vous avez été formé pour maîtriser l'utilisation des armures légères, et vous bénéficiez des avantages suivants :\nAugmentez votre valeur de Force ou de Dextérité de 1, pour un maximum de 20.Vous gagnez la maîtrise des armures légères."
+  },
+  {
+    "nom": "Protection lourde",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=protection-lourde",
+    "prerequis": "Prérequis : Maîtrise des armures intermédiaires",
+    "description": "Vous avez été formé pour maîtriser l'utilisation des armures lourdes, et vous bénéficiez des avantages suivants :\nAugmentez votre valeur de Force de 1, pour un maximum de 20.Vous gagnez la maîtrise des armures lourdes."
+  },
+  {
+    "nom": "Résilient",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=resilient",
+    "prerequis": "",
+    "description": "Choisissez une caractéristique. Vous gagnez les avantages suivants :\nAugmentez la valeur de cette caractéristique de 1, jusqu'à un maximum de 20.Vous gagnez la maîtrise des jets de sauvegarde qui utilisent la caractéristique choisie."
+  },
+  {
+    "nom": "Robuste",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=robuste",
+    "prerequis": "",
+    "description": "Votre maximum de points de vie augmente d'un montant égal au double de votre niveau quand vous gagnez ce don.\nChaque fois que vous gagnez un niveau par la suite, votre maximum de points de vie augmente de 2 points de vie supplémentaires."
+  },
+  {
+    "nom": "Ruse du géant des nuages",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=ruse-du-geant-des-nuages",
+    "prerequis": "Prérequis : Niveau 4, don Frappe des géants (frappe des nuages)",
+    "description": "+1 en For., Con. ou Sag. ; résistance aux dégâts de l'attaque ; téléportation dans un rayon de 9 m (BM/jour)."
+  },
+  {
+    "nom": "Sentinelle",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=sentinelle",
+    "prerequis": "",
+    "description": "Vous maîtrisez les techniques pour tirer avantage de chaque faiblesse dans la garde de tout ennemi, et bénéficiez des avantages suivants :\nLorsque vous touchez une créature avec une attaque d'opportunité, la vitesse de la créature devient 0 pour le reste du tour.Vous pouvez effectuer une attaque d'opportunité même si une créature prend l'action Se désengager avant de se mettre hors de portée de votre allonge.Quand une créature à 1,50 mètre ou moins de vous fait une attaque contre une cible autre que vous (et que cette cible n'a pas ce don), vous pouvez utiliser votre réaction pour réaliser une attaque au corps à corps avec une arme contre la créature attaquante."
+  },
+  {
+    "nom": "Soigneur",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=soigneur",
+    "prerequis": "",
+    "description": "Vous êtes un habile médecin, ce qui vous permet de guérir les blessures rapidement pour que vos alliés puissent retourner au combat. Vous gagnez les avantages suivants :\nLorsque vous utilisez une trousse de soins pour stabiliser une créature mourante, cette créature regagne également 1 point de vie.Par une action, vous pouvez dépenser une utilisation d'une trousse de soins pour soigner une créature et lui redonner 1d6 + 4 points de vie, plus un nombre de points de vie supplémentaires égal au nombre maximum de dés de vie de la créature. La créature ne peut pas bénéficier de vos soins de nouveau jusqu'à ce qu'elle termine un repos court ou long."
+  },
+  {
+    "nom": "Télékinésiste",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=telekinesiste",
+    "prerequis": "",
+    "description": "Vous apprenez à déplacer des objets avec votre esprit, ce qui vous confère les avantages suivants :\nAugmentez votre valeur d'Intelligence, de Sagesse ou de Charisme de 1, jusqu'à un maximum de 20.Vous apprenez le sort main du mage. Vous pouvez le lancer sans composante verbale ou somatique, et pouvez rendre la main spectrale invisible. Si vous connaissez déjà ce sort, sa portée augmente de 9 mètres lorsque vous le lancez. Sa caractéristique d'incantation est la caractéristique augmentée par ce don.Par une action bonus, vous pouvez essayer de pousser par télékinésie une créature que vous pouvez voir à 9 mètres ou moins de vous. Dans ce cas, la cible doit réussir un jet de sauvegarde de Force (DD 8 + votre bonus de maîtrise + le modificateur de la caractéristique augmentée par ce don) ou être attirée ou repoussée de 1,50 mètre. Une créature peut volontairement rater ce jet de sauvegarde."
+  },
+  {
+    "nom": "Télépathe",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=telepathe",
+    "prerequis": "",
+    "description": "+1 en Int., Sag. ou Cha., vous pouvez lancer détection des pensées et parler télépathiquement à une créature à 18 m."
+  },
+  {
+    "nom": "Téléportation féerique",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=teleportation-feerique",
+    "prerequis": "Prérequis : Elfe (haut)",
+    "description": "En puisant dans votre ascendance féerique, vous pouvez passer momentanément par la Féerie pour raccourcir votre chemin d'un point à un autre. Vous obtenez les avantages suivants :\nAugmentez votre valeur d'Intelligence ou de Charisme de 1, pour un maximum de 20.Vous apprenez à parler, à lire et à écrire en sylvestre.Vous apprenez le sort foulée brumeuse et pouvez le lancer une fois sans dépenser d'emplacement de sort. Vous récupérez la capacité de lancer ce sort de cette manière après avoir terminé un repos court ou long. L'Intelligence est votre caractéristique d'incantation pour ce sort."
+  },
+  {
+    "nom": "Tireur d'élite",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=tireur-d-elite",
+    "prerequis": "",
+    "description": "Vous êtes un maître du combat à distance et pouvez faire des tirs que d'autres penseraient impossible. Vous obtenez les avantages suivants :\nAttaquer à longue portée n'impose pas de désavantage à vos jets d'attaque à distance avec une arme.Vos attaques à distance avec une arme ignorent les abris partiels et les abris importants.Avant d'effectuer une attaque avec une arme à distance que vous maîtrisez, vous pouvez choisir de prendre un malus de -5 au jet d'attaque. Si l'attaque réussit, vous ajoutez +10 aux dégâts de l'attaque."
+  },
+  {
+    "nom": "Tueur de mages",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=tueur-de-mages",
+    "prerequis": "",
+    "description": "Vous avez pratiqué des techniques utiles en combat au corps à corps contre les lanceurs de sorts, et vous bénéficiez des avantages suivants :\nQuand une créature dans un rayon de 1,50 mètre autour de vous lance un sort, vous pouvez utiliser votre réaction pour effectuer une attaque au corps à corps avec une arme contre cette créature.Si vous touchez une créature qui se concentre sur un sort, cette créature a un désavantage à son jet de sauvegarde pour maintenir sa concentration.Vous avez un avantage aux jets de sauvegarde contre les sorts lancés par les créatures dans un rayon de 1,50 mètre autour de vous."
+  },
+  {
+    "nom": "Vigilant",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=vigilant",
+    "prerequis": "",
+    "description": "Toujours en train de guetter le danger, vous gagnez les avantages suivants :\nVous gagnez un bonus de +5 à l'initiative.Vous ne pouvez pas être surpris tant que vous êtes conscient.Les autres créatures n'ont pas un avantage aux jets d'attaque contre vous du fait que vous ne les voyez pas."
+  },
+  {
+    "nom": "Vigueur du géant des collines",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=vigueur-du-geant-des-collines",
+    "prerequis": "Prérequis : Niveau 4, don Frappe des géants (frappe des collines)",
+    "description": "+1 en For., Con. ou Sag. ; résistance pour ne pas tomber à terre ; Dé de Vie pour regagner mod.Con.+BM pv additionnels."
+  },
+  {
+    "nom": "Vigueur naine",
+    "url": "https://www.aidedd.org/dnd/dons.php?vf=vigueur-naine",
+    "prerequis": "Prérequis : Nain",
+    "description": "Le sang des héros de la race naine coule dans vos veines. Vous obtenez les avantages suivants :\nAugmentez votre valeur de Constitution de 1, pour un maximum de 20.À chaque fois que vous utilisez l'action Esquiver en combat, vous pouvez dépenser un dé de vie pour vous soigner. Lancez le dé, ajoutez votre modificateur de Constitution, et récupérez un nombre de points de vie égal à ce total (minimum 1)."
+  }
+]

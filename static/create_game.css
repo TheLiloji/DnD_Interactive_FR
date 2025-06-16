@@ -1,0 +1,348 @@
+/* Variables de couleur du dashboard */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-light: #ecf0f1;
+    --text-dark: #2c3e50;
+    --bg-dark: #2c3e50;
+    --bg-darker: #1a252f;
+    --transition-speed: 0.3s;
+    --navbar-height: 60px;
+}
+
+/* Stylisation de la scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2980b9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.create-game-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: calc(100vh - var(--navbar-height));
+    margin-top: var(--navbar-height);
+    background: var(--bg-darker);
+    color: var(--text-light);
+    overflow-y: auto;
+}
+
+.form-section {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.form-container {
+    max-width: 800px;
+    width: 100%;
+    background: var(--bg-darker);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.form-container h1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.form-container h1 i {
+    color: var(--accent-color);
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.form-group label i {
+    color: var(--accent-color);
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--bg-darker);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 1rem;
+    color: var(--text-light);
+    transition: all 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: var(--accent-color);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Style du slider comme dans l'image */
+.slider {
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 2px solid var(--text-light);
+}
+
+.slider::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+}
+
+.game-type-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.radio-card {
+    cursor: pointer;
+    position: relative;
+}
+
+.radio-card input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.card-content {
+    padding: 2rem;
+    background: rgba(52, 73, 94, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.radio-card input[type="radio"]:checked + .card-content {
+    border-color: var(--accent-color);
+    background: rgba(52, 152, 219, 0.2);
+}
+
+.card-content i {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.card-content h3 {
+    margin: 0.5rem 0;
+    color: var(--text-light);
+    font-size: 1.2rem;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.5rem;
+}
+
+.checkbox-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    cursor: pointer;
+    color: var(--text-light);
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.checkbox-option:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.checkbox-option input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--accent-color);
+}
+
+.create-button {
+    width: 100%;
+    padding: 1rem;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    transition: all 0.2s;
+    margin-top: 2rem;
+}
+
+.create-button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.create-button:active {
+    transform: translateY(0);
+}
+
+.visual-section {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(44, 62, 80, 0.7), rgba(52, 73, 94, 0.7)),
+                url('img/dragon.gif') center center/cover no-repeat;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container video {
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.overlay h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    max-width: 400px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1024px) {
+    .create-game-container {
+        grid-template-columns: 1fr;
+        height: calc(100vh - var(--navbar-height));
+        margin-top: var(--navbar-height);
+        overflow-y: auto;
+    }
+
+    .visual-section {
+        display: none;
+    }
+
+    .form-container {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    .checkbox-options {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Maintenir les options de type de jeu sur la même ligne en mode portrait */
+@media (max-width: 768px) {
+    .game-type-options {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.5rem;
+    }
+
+    .radio-card {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .card-content {
+        padding: 1.5rem 1rem;
+    }
+
+    .card-content h3 {
+        font-size: 1rem;
+    }
+
+    .card-content p {
+        font-size: 0.8rem;
+    }
+} 

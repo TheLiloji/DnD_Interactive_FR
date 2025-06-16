@@ -1,0 +1,862 @@
+{
+    "metadata": {
+      "version": "1.0",
+      "description": "Équipements pour Dungeons & Dragons 5e",
+      "currency": {
+        "pc": "pièce de cuivre",
+        "pa": "pièce d'argent", 
+        "po": "pièce d'or"
+      }
+    },
+    "categories": {
+      "armures": {
+        "name": "Armures",
+        "description": "Équipements de protection",
+        "subcategories": {
+          "armures": {
+            "name": "Armures",
+            "items": {
+              "sans_armure": {
+                "name": "Sans armure",
+                "ca": 10,
+                "price": 0,
+                "type": "aucune"
+              },
+              "armure_matelassee": {
+                "name": "Armure matelassée",
+                "ca": 11,
+                "price": 5,
+                "currency": "pa",
+                "type": "légère"
+              },
+              "armure_cuir": {
+                "name": "Armure de cuir",
+                "ca": 11,
+                "price": 10,
+                "currency": "po",
+                "type": "légère"
+              },
+              "armure_cuir_cloute": {
+                "name": "Armure de cuir clouté",
+                "ca": 12,
+                "price": 45,
+                "currency": "po",
+                "type": "légère"
+              },
+              "armure_peaux": {
+                "name": "Armure de peaux",
+                "ca": 12,
+                "price": 10,
+                "currency": "po",
+                "type": "intermédiaire"
+              },
+              "chemise_mailles": {
+                "name": "Chemise de mailles",
+                "ca": 13,
+                "price": 50,
+                "currency": "po",
+                "type": "intermédiaire"
+              },
+              "armure_ecailles": {
+                "name": "Armure d'écailles",
+                "ca": 14,
+                "price": 50,
+                "currency": "po",
+                "type": "intermédiaire"
+              },
+              "cuirasse": {
+                "name": "Cuirasse",
+                "ca": 14,
+                "price": 400,
+                "currency": "po",
+                "type": "intermédiaire"
+              },
+              "demi_plate": {
+                "name": "Demi-plate",
+                "ca": 15,
+                "price": 750,
+                "currency": "po",
+                "type": "intermédiaire"
+              },
+              "broigne": {
+                "name": "Broigne",
+                "ca": 14,
+                "price": 30,
+                "currency": "po",
+                "type": "lourde"
+              },
+              "cotte_mailles": {
+                "name": "Cotte de mailles",
+                "ca": 16,
+                "price": 75,
+                "currency": "po",
+                "type": "lourde"
+              },
+              "clibanion": {
+                "name": "Clibanion",
+                "ca": 17,
+                "price": 200,
+                "currency": "po",
+                "type": "lourde"
+              },
+              "harnois": {
+                "name": "Harnois",
+                "ca": 18,
+                "price": 1500,
+                "currency": "po",
+                "type": "lourde"
+              }
+            }
+          },
+          "boucliers": {
+            "name": "Boucliers",
+            "items": {
+              "sans_bouclier": {
+                "name": "Sans bouclier",
+                "ca_bonus": 0,
+                "price": 0
+              },
+              "bouclier": {
+                "name": "Bouclier",
+                "ca_bonus": 2,
+                "price": 10,
+                "currency": "po"
+              }
+            }
+          }
+        }
+      },
+      "armes": {
+        "name": "Armes",
+        "description": "Équipements d'attaque",
+        "subcategories": {
+          "armes_courantes": {
+            "name": "Armes courantes",
+            "items": {
+              "baton": {
+                "name": "Bâton",
+                "damage": "1d6",
+                "price": 2,
+                "currency": "pa",
+                "type": "corps à corps"
+              },
+              "dague": {
+                "name": "Dague",
+                "damage": "1d4",
+                "price": 2,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "gourdin": {
+                "name": "Gourdin",
+                "damage": "1d4",
+                "price": 1,
+                "currency": "pa",
+                "type": "corps à corps"
+              },
+              "hachette": {
+                "name": "Hachette",
+                "damage": "1d6",
+                "price": 5,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "javeline": {
+                "name": "Javeline",
+                "damage": "1d6",
+                "price": 5,
+                "currency": "pa",
+                "type": "lancer"
+              },
+              "lance": {
+                "name": "Lance",
+                "damage": "1d6",
+                "price": 1,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "marteau_leger": {
+                "name": "Marteau léger",
+                "damage": "1d4",
+                "price": 2,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "masse_armes": {
+                "name": "Masse d'armes",
+                "damage": "1d6",
+                "price": 5,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "massue": {
+                "name": "Massue",
+                "damage": "1d8",
+                "price": 2,
+                "currency": "pa",
+                "type": "corps à corps"
+              },
+              "serpe": {
+                "name": "Serpe",
+                "damage": "1d4",
+                "price": 1,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "arbalete_legere": {
+                "name": "Arbalète légère",
+                "damage": "1d8",
+                "price": 25,
+                "currency": "po",
+                "type": "distance"
+              },
+              "arc_court": {
+                "name": "Arc court",
+                "damage": "1d6",
+                "price": 25,
+                "currency": "po",
+                "type": "distance"
+              },
+              "flechette": {
+                "name": "Fléchette",
+                "damage": "1d4",
+                "price": 5,
+                "currency": "pc",
+                "type": "lancer"
+              },
+              "fronde": {
+                "name": "Fronde",
+                "damage": "1d4",
+                "price": 1,
+                "currency": "pa",
+                "type": "distance"
+              }
+            }
+          },
+          "armes_guerre": {
+            "name": "Armes de guerre",
+            "items": {
+              "cimeterre": {
+                "name": "Cimeterre",
+                "damage": "1d6",
+                "price": 25,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "coutille": {
+                "name": "Coutille",
+                "damage": "1d10",
+                "price": 10,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "epee_deux_mains": {
+                "name": "Épée à deux mains",
+                "damage": "2d6",
+                "price": 50,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "epee_courte": {
+                "name": "Épée courte",
+                "damage": "1d6",
+                "price": 10,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "epee_longue": {
+                "name": "Épée longue",
+                "damage": "1d8",
+                "price": 15,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "fleau_armes": {
+                "name": "Fléau d'armes",
+                "damage": "1d8",
+                "price": 10,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "fouet": {
+                "name": "Fouet",
+                "damage": "1d4",
+                "price": 2,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "hache_deux_mains": {
+                "name": "Hache à deux mains",
+                "damage": "1d12",
+                "price": 30,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "hache_armes": {
+                "name": "Hache d'armes",
+                "damage": "1d8",
+                "price": 10,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "hallebarde": {
+                "name": "Hallebarde",
+                "damage": "1d10",
+                "price": 20,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "lance_arcon": {
+                "name": "Lance d'arçon",
+                "damage": "1d12",
+                "price": 10,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "maillet": {
+                "name": "Maillet",
+                "damage": "2d6",
+                "price": 10,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "marteau_guerre": {
+                "name": "Marteau de guerre",
+                "damage": "1d8",
+                "price": 15,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "morgenstern": {
+                "name": "Morgenstern",
+                "damage": "1d8",
+                "price": 15,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "pic_guerre": {
+                "name": "Pic de guerre",
+                "damage": "1d8",
+                "price": 5,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "pique": {
+                "name": "Pique",
+                "damage": "1d10",
+                "price": 5,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "rapiere": {
+                "name": "Rapière",
+                "damage": "1d8",
+                "price": 25,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "trident": {
+                "name": "Trident",
+                "damage": "1d6",
+                "price": 5,
+                "currency": "po",
+                "type": "corps à corps"
+              },
+              "arbalete_poing": {
+                "name": "Arbalète de poing",
+                "damage": "1d6",
+                "price": 75,
+                "currency": "po",
+                "type": "distance"
+              },
+              "arbalete_lourde": {
+                "name": "Arbalète lourde",
+                "damage": "1d10",
+                "price": 50,
+                "currency": "po",
+                "type": "distance"
+              },
+              "arc_long": {
+                "name": "Arc long",
+                "damage": "1d8",
+                "price": 50,
+                "currency": "po",
+                "type": "distance"
+              },
+              "filet": {
+                "name": "Filet",
+                "damage": null,
+                "price": 1,
+                "currency": "po",
+                "type": "lancer"
+              },
+              "sarbacane": {
+                "name": "Sarbacane",
+                "damage": "1",
+                "price": 10,
+                "currency": "po",
+                "type": "distance"
+              }
+            }
+          }
+        }
+      },
+      "outils": {
+        "name": "Outils",
+        "description": "Outils et instruments divers",
+        "subcategories": {
+          "kits_speciaux": {
+            "name": "Kits spécialisés",
+            "items": {
+              "kit_empoisonneur": {
+                "name": "Kit d'empoisonneur",
+                "price": 50,
+                "currency": "po"
+              },
+              "kit_herboriste": {
+                "name": "Kit d'herboriste",
+                "price": 5,
+                "currency": "po"
+              },
+              "kit_contrefacon": {
+                "name": "Kit de contrefaçon",
+                "price": 15,
+                "currency": "po"
+              },
+              "kit_deguisement": {
+                "name": "Kit de déguisement",
+                "price": 25,
+                "currency": "po"
+              },
+              "outils_navigateur": {
+                "name": "Outils de navigateur",
+                "price": 25,
+                "currency": "po"
+              },
+              "outils_voleur": {
+                "name": "Outils de voleur",
+                "price": 25,
+                "currency": "po"
+              }
+            }
+          },
+          "instruments_musique": {
+            "name": "Instruments de musique",
+            "items": {
+              "chalemie": {
+                "name": "Chalemie",
+                "price": 2,
+                "currency": "po"
+              },
+              "cor": {
+                "name": "Cor",
+                "price": 3,
+                "currency": "po"
+              },
+              "cornemuse": {
+                "name": "Cornemuse",
+                "price": 30,
+                "currency": "po"
+              },
+              "flute": {
+                "name": "Flûte",
+                "price": 2,
+                "currency": "po"
+              },
+              "flute_pan": {
+                "name": "Flûte de pan",
+                "price": 12,
+                "currency": "po"
+              },
+              "luth": {
+                "name": "Luth",
+                "price": 35,
+                "currency": "po"
+              },
+              "lyre": {
+                "name": "Lyre",
+                "price": 30,
+                "currency": "po"
+              },
+              "tambour": {
+                "name": "Tambour",
+                "price": 6,
+                "currency": "po"
+              },
+              "tympanon": {
+                "name": "Tympanon",
+                "price": 25,
+                "currency": "po"
+              },
+              "viole": {
+                "name": "Viole",
+                "price": 30,
+                "currency": "po"
+              }
+            }
+          },
+          "jeux": {
+            "name": "Jeux",
+            "items": {
+              "des": {
+                "name": "Dés",
+                "price": 1,
+                "currency": "pa"
+              },
+              "echecs_draconiques": {
+                "name": "Jeu d'échecs draconiques",
+                "price": 1,
+                "currency": "po"
+              },
+              "cartes": {
+                "name": "Jeu de cartes",
+                "price": 5,
+                "currency": "pa"
+              },
+              "jeu_dragons": {
+                "name": "Jeu des Dragons",
+                "price": 1,
+                "currency": "po"
+              }
+            }
+          },
+          "outils_artisan": {
+            "name": "Outils d'artisan",
+            "items": {
+              "materiel_alchimiste": {
+                "name": "Matériel d'alchimiste",
+                "price": 50,
+                "currency": "po"
+              },
+              "materiel_brasseur": {
+                "name": "Matériel de brasseur",
+                "price": 20,
+                "currency": "po"
+              },
+              "materiel_calligraphe": {
+                "name": "Matériel de calligraphe",
+                "price": 10,
+                "currency": "po"
+              },
+              "materiel_peintre": {
+                "name": "Matériel de peintre",
+                "price": 10,
+                "currency": "po"
+              },
+              "outils_bijoutier": {
+                "name": "Outils de bijoutier",
+                "price": 25,
+                "currency": "po"
+              },
+              "outils_bricoleur": {
+                "name": "Outils de bricoleur",
+                "price": 50,
+                "currency": "po"
+              },
+              "outils_cartographe": {
+                "name": "Outils de cartographe",
+                "price": 15,
+                "currency": "po"
+              },
+              "outils_charpentier": {
+                "name": "Outils de charpentier",
+                "price": 8,
+                "currency": "po"
+              },
+              "outils_cordonnier": {
+                "name": "Outils de cordonnier",
+                "price": 5,
+                "currency": "po"
+              },
+              "outils_forgeron": {
+                "name": "Outils de forgeron",
+                "price": 20,
+                "currency": "po"
+              },
+              "outils_macon": {
+                "name": "Outils de maçon",
+                "price": 10,
+                "currency": "po"
+              },
+              "outils_menuisier": {
+                "name": "Outils de menuisier",
+                "price": 1,
+                "currency": "po"
+              },
+              "outils_potier": {
+                "name": "Outils de potier",
+                "price": 10,
+                "currency": "po"
+              },
+              "outils_souffleur_verre": {
+                "name": "Outils de souffleur de verre",
+                "price": 30,
+                "currency": "po"
+              },
+              "outils_tanneur": {
+                "name": "Outils de tanneur",
+                "price": 5,
+                "currency": "po"
+              },
+              "outils_tisserand": {
+                "name": "Outils de tisserand",
+                "price": 1,
+                "currency": "po"
+              },
+              "ustensiles_cuisinier": {
+                "name": "Ustensiles de cuisinier",
+                "price": 1,
+                "currency": "po"
+              }
+            }
+          },
+          "vehicules": {
+            "name": "Véhicules",
+            "items": {
+              "vehicules_terrestres": {
+                "name": "Véhicules (terrestres)",
+                "price": 0,
+                "note": "Prix variable"
+              },
+              "vehicules_aquatiques": {
+                "name": "Véhicules (aquatiques)",
+                "price": 0,
+                "note": "Prix variable"
+              }
+            }
+          }
+        }
+      },
+      "equipement": {
+        "name": "Équipement général",
+        "description": "Objets divers et équipements d'aventure",
+        "subcategories": {
+          "consommables": {
+            "name": "Consommables",
+            "items": {
+              "acide": {
+                "name": "Acide (fiole)",
+                "price": 25,
+                "currency": "po"
+              },
+              "antidote": {
+                "name": "Antidote (fiole)",
+                "price": 50,
+                "currency": "po"
+              },
+              "eau_benite": {
+                "name": "Eau bénite (flasque)",
+                "price": 25,
+                "currency": "po"
+              },
+              "feu_gregeois": {
+                "name": "Feu grégeois (flasque)",
+                "price": 50,
+                "currency": "po"
+              },
+              "huile": {
+                "name": "Huile (flasque)",
+                "price": 1,
+                "currency": "pa"
+              },
+              "poison": {
+                "name": "Poison (fiole)",
+                "price": 100,
+                "currency": "po"
+              },
+              "potion_guerison": {
+                "name": "Potion de guérison",
+                "price": 50,
+                "currency": "po"
+              },
+              "rations": {
+                "name": "Rations (1 jour)",
+                "price": 5,
+                "currency": "pa"
+              }
+            }
+          },
+          "eclairage": {
+            "name": "Éclairage",
+            "items": {
+              "bougie": {
+                "name": "Bougie",
+                "price": 1,
+                "currency": "pc"
+              },
+              "lampe": {
+                "name": "Lampe",
+                "price": 5,
+                "currency": "pa"
+              },
+              "lanterne_sourde": {
+                "name": "Lanterne sourde",
+                "price": 10,
+                "currency": "po"
+              },
+              "lanterne_capote": {
+                "name": "Lanterne à capote",
+                "price": 5,
+                "currency": "po"
+              },
+              "torche": {
+                "name": "Torche",
+                "price": 1,
+                "currency": "pc"
+              }
+            }
+          },
+          "contenants": {
+            "name": "Contenants",
+            "items": {
+              "bouteille": {
+                "name": "Bouteille",
+                "price": 2,
+                "currency": "po"
+              },
+              "coffre": {
+                "name": "Coffre",
+                "price": 5,
+                "currency": "po"
+              },
+              "cruche": {
+                "name": "Cruche",
+                "price": 2,
+                "currency": "pc"
+              },
+              "fiole": {
+                "name": "Fiole",
+                "price": 1,
+                "currency": "po"
+              },
+              "flasque": {
+                "name": "Flasque",
+                "price": 2,
+                "currency": "pc"
+              },
+              "gourde": {
+                "name": "Gourde",
+                "price": 2,
+                "currency": "pa"
+              },
+              "panier": {
+                "name": "Panier",
+                "price": 4,
+                "currency": "pa"
+              },
+              "sac": {
+                "name": "Sac",
+                "price": 1,
+                "currency": "pc"
+              },
+              "sac_dos": {
+                "name": "Sac à dos",
+                "price": 2,
+                "currency": "po"
+              },
+              "sacoche": {
+                "name": "Sacoche",
+                "price": 5,
+                "currency": "pa"
+              },
+              "seau": {
+                "name": "Seau",
+                "price": 5,
+                "currency": "pc"
+              },
+              "tonneau": {
+                "name": "Tonneau",
+                "price": 2,
+                "currency": "po"
+              }
+            }
+          },
+          "outils_aventure": {
+            "name": "Outils d'aventure",
+            "items": {
+              "belier_portable": {
+                "name": "Bélier portable",
+                "price": 4,
+                "currency": "po"
+              },
+              "cadenas": {
+                "name": "Cadenas",
+                "price": 10,
+                "currency": "po"
+              },
+              "chaine_3m": {
+                "name": "Chaîne de 3 m",
+                "price": 5,
+                "currency": "po"
+              },
+              "corde_chanvre_15m": {
+                "name": "Corde en chanvre de 15 m",
+                "price": 1,
+                "currency": "po"
+              },
+              "corde_soie_15m": {
+                "name": "Corde en soie de 15 m",
+                "price": 10,
+                "currency": "po"
+              },
+              "echelle_3m": {
+                "name": "Échelle de 3 m",
+                "price": 1,
+                "currency": "pa"
+              },
+              "grappin": {
+                "name": "Grappin",
+                "price": 2,
+                "currency": "po"
+              },
+              "kit_escalade": {
+                "name": "Kit d'escalade",
+                "price": 25,
+                "currency": "po"
+              },
+              "marteau": {
+                "name": "Marteau",
+                "price": 1,
+                "currency": "po"
+              },
+              "menottes": {
+                "name": "Menottes",
+                "price": 2,
+                "currency": "po"
+              },
+              "palan": {
+                "name": "Palan",
+                "price": 1,
+                "currency": "po"
+              },
+              "pelle": {
+                "name": "Pelle",
+                "price": 2,
+                "currency": "po"
+              },
+              "perche_3m": {
+                "name": "Perche de 3 m",
+                "price": 5,
+                "currency": "pc"
+              },
+              "pied_biche": {
+                "name": "Pied-de-biche",
+                "price": 2,
+                "currency": "po"
+              },
+              "pioche_mineur": {
+                "name": "Pioche de mineur",
+                "price": 2,
+                "currency": "po"
+              },
+              "piton": {
+                "name": "Piton",
+                "price": 5,
+                "currency": "pc"
+              }
+            }
+          }
+        }
+      }
+    }
+}

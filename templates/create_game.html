@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='create_game.css') }}">
+{% endblock %}
+
+{% block title %}Créer une partie - D&D{% endblock %}
+
+{% block content %}
+<div class="create-game-container">
+    <!-- Formulaire à gauche -->
+    <div class="form-section">
+        <div class="form-container">
+            <h1><i class="material-icons">add_circle</i> Créer une nouvelle partie</h1>
+            
+            <form id="createGameForm" method="POST" action="{{ url_for('create_game_page') }}">
+                <div class="form-group">
+                    <label for="game_name">
+                        <i class="material-icons">drive_file_rename_outline</i>
+                        Nom de la partie
+                    </label>
+                    <input type="text" id="game_name" name="game_name" required 
+                           placeholder="Ex: La Crypte du Dragon Noir">
+                </div>
+
+                <div class="form-group">
+                    <label for="description">
+                        <i class="material-icons">description</i>
+                        Description
+                    </label>
+                    <textarea id="description" name="description" rows="4" 
+                              placeholder="Décrivez votre aventure en quelques mots..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">
+                        <i class="material-icons">lock</i>
+                        Mot de passe (optionnel)
+                    </label>
+                    <input type="password" id="password" name="password" 
+                           placeholder="Laissez vide pour une partie publique">
+                </div>
+
+                <div class="form-group">
+                    <label for="max_players">
+                        <i class="material-icons">group</i>
+                        Nombre maximum de joueurs: <span id="playerCount">5</span>
+                    </label>
+                    <input type="range" id="max_players" name="max_players" 
+                           min="2" max="10" value="5" class="slider">
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <i class="material-icons">settings</i>
+                        Type de partie
+                    </label>
+                    <div class="game-type-options">
+                        <label class="radio-card">
+                            <input type="radio" name="game_type" value="standard" checked>
+                            <div class="card-content">
+                                <i class="material-icons">menu_book</i>
+                                <h3>Standard</h3>
+                                <p>Règles complètes pour joueurs expérimentés</p>
+                            </div>
+                        </label>
+                        <label class="radio-card">
+                            <input type="radio" name="game_type" value="simplified">
+                            <div class="card-content">
+                                <i class="material-icons">school</i>
+                                <h3>Simplifiée</h3>
+                                <p>Règles allégées, parfait pour débuter</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <i class="material-icons">add_circle_outline</i>
+                        Options supplémentaires
+                    </label>
+                    <div class="checkbox-options">
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="allow_spectators" value="1">
+                            <span>Autoriser les spectateurs</span>
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="auto_level" value="1">
+                            <span>Progression automatique des niveaux</span>
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="voice_chat" value="1">
+                            <span>Activer le chat vocal</span>
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="dice_validation" value="1">
+                            <span>Validation des lancers de dés par le MJ</span>
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="create-button">
+                    <i class="material-icons">play_arrow</i>
+                    Créer la partie
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Section visuelle à droite -->
+    <div class="visual-section">
+        <div class="video-container">
+            <video autoplay loop muted playsinline>
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-dungeon-with-torches-on-the-wall-6556-large.mp4" 
+                        type="video/mp4">
+            </video>
+            <div class="overlay">
+                <h2>Créez votre légende</h2>
+                <p>Devenez le Maître du Jeu de votre propre aventure épique</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/create_game.js') }}"></script>
+<script src="{{ url_for('static', filename='js/user-profile.js') }}"></script>
+{% endblock %} 

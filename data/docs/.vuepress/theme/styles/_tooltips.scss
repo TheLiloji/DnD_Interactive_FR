@@ -1,0 +1,113 @@
+.theme--dark {
+  #tooltip {
+    background-color: #333;
+    box-shadow: 0 0 25px #222;
+    color: #fff;
+    .tooltip-content {
+      .tooltip-overflow {
+        background-image: linear-gradient(to bottom, rgba(50,50,50,0), rgba(50,50,50,1));
+      }
+    }
+  }
+}
+#tooltip {
+  position: absolute;
+  display: none;
+  z-index: 1000;
+
+  text-align: left;
+  width: 50vw;
+  max-width: 655px;
+  min-width: 350px;
+  background-color: #fff;
+  color: #555;
+  box-shadow: 0 0 25px #444;
+
+  .tooltip-title {
+    background-color: $color-hero;
+    &.tooltip-spell {
+      background-color: $color-dragon;
+    }
+    &.tooltip-monster {
+      background-color: $color-red;
+    }
+    &.tooltip-condition {
+      background-color: $color-purple;
+    }
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 12px;
+  }
+
+  .tooltip-content {
+    position: relative;
+    font-size: .8rem;
+    max-height: 300px;
+    overflow: hidden;
+    padding: 12px 12px 40px 12px;
+    ul {
+      margin: 0;
+      padding: 0 0 0 15px;
+    }
+    .tooltip-overflow {
+      position: absolute;
+      z-index: 1001;
+      bottom: 0;
+      height: 40px;
+      width: 100%;
+      margin: -12px;
+      background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+    }
+    .spell-details {
+      border-bottom: 2px solid $color-dragon;
+      margin-bottom: .5rem;
+      padding-bottom: .5rem;
+    }
+    .monster-details {
+      border-bottom: 2px solid $color-red;
+      margin-bottom: .5rem;
+      padding-bottom: .5rem;
+    }
+  }
+}
+
+.v-tooltip__content {
+  &.spell-tooltip-container,
+  &.condition-tooltip-container {
+    opacity: 1 !important;
+
+    .spell-tooltip, .condition-tooltip {
+      text-align: left;
+      width: 50vw;
+      max-width: 555px;
+      min-width: 350px;
+      background-color: #fff;
+      color: #555;
+      margin: -5px -16px -21px;
+      padding: 12px;
+      box-shadow: 0 0 12px #333;
+      border-radius: 5px;
+
+      .spell-tooltip-title {
+        background-color: $color-dragon;
+        color: #fff;
+        margin: -12px -12px 6px;
+        padding: 12px;
+        border-radius: 5px 5px 0 0;
+      }
+
+      .spell-details {
+        margin-bottom: 24px;
+      }
+
+      .condition-tooltip-title {
+        background-color: $color-hero;
+        color: #fff;
+        margin: -12px -12px 6px;
+        padding: 12px;
+        border-radius: 5px 5px 0 0;
+      }
+    }
+  }
+}

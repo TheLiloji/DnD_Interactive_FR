@@ -1,0 +1,326 @@
+[
+  {
+    "nom": "Arme de pacte améliorée",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=arme-de-pacte-amelioree",
+    "prerequis": "Prérequis : Pacte de la Lame",
+    "description": "Vous pouvez utiliser n'importe quelle arme que vous invoquez avec votre capacité Pacte de la Lame comme un focaliseur pour vos sorts d'occultiste. De plus, l'arme compte comme une arme magique +1 à l'attaque et aux dégâts, sauf si c'est une arme magique qui possède déjà un bonus pour ces jets. Enfin, l'arme invoquée peut être un arc court, un arc long, une arbalète légère ou une arbalète lourde."
+  },
+  {
+    "nom": "Armure d'ombres",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=armure-d-ombres",
+    "prerequis": "",
+    "description": "Vous pouvez lancer armure de mage sur vous-même à volonté, sans dépenser d'emplacement de sort ni des composantes."
+  },
+  {
+    "nom": "Aspect de la lune",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=aspect-de-la-lune",
+    "prerequis": "Prérequis : Pacte du Grimoire",
+    "description": "Vous n'avez plus besoin de dormir et on ne peut pas vous forcer à dormir par quelque moyen que ce soit. Pour profiter des avantages d'un repos long, vous pouvez passer les 8 heures à effectuer une activité légère, comme lire votre Livre des Ombres ou monter la garde."
+  },
+  {
+    "nom": "Buveuse de vie",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=buveuse-de-vie",
+    "prerequis": "Prérequis : niveau 12, Pacte de la Lame",
+    "description": "Quand vous touchez une créature avec votre arme de pacte, elle subit des dégâts nécrotiques supplémentaires égaux à votre modificateur de Charisme (minimum 1)."
+  },
+  {
+    "nom": "Chaînes des Carcères",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=chaines-des-carceres",
+    "prerequis": "Prérequis : niveau 15, Pacte de la Chaîne",
+    "description": "Vous pouvez lancer immobilisation de monstre à volonté (en ciblant un céleste, un démon ou un élémentaire) sans dépenser d'emplacement de sort ni des composantes. Vous devez avoir terminé un repos long avant de pouvoir réutiliser cette manifestation sur la même créature."
+  },
+  {
+    "nom": "Châtiment occulte",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=chatiment-occulte",
+    "prerequis": "Prérequis : niveau 5, Pacte de la Lame",
+    "description": "Une fois par tour lorsque vous touchez une créature avec votre arme de pacte, vous pouvez dépenser un emplacement de sort d'occultiste pour infliger 1d8 dégâts de force supplémentaires à la cible, plus 1d8 par niveau d'emplacement de sort. Vous pouvez alors aussi la faire tomber à terre si sa taille est TG ou inférieure."
+  },
+  {
+    "nom": "Décharge déchirante",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=decharge-dechirante",
+    "prerequis": "Prérequis : sort mineur décharge occulte",
+    "description": "Lorsque vous lancez décharge occulte, ajoutez votre modificateur de Charisme aux dégâts."
+  },
+  {
+    "nom": "Décharge répulsive",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=decharge-repulsive",
+    "prerequis": "Prérequis : sort mineur décharge occulte",
+    "description": "Quand vous touchez une créature avec décharge occulte, vous pouvez la repousser de 3 mètres en ligne droite."
+  },
+  {
+    "nom": "Don des immortels",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=don-des-immortels",
+    "prerequis": "Prérequis : Pacte de la Chaîne",
+    "description": "Chaque fois que vous récupérez des points de vie alors que votre familier est dans un rayon de 30 mètres autour de vous, traitez tous les dés jetés pour déterminer les points de vie que vous récupérez comme s'ils avaient donné leur valeur maximale."
+  },
+  {
+    "nom": "Don des profondeurs",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=don-des-profondeurs",
+    "prerequis": "Prérequis : niveau 5",
+    "description": "Vous pouvez respirer sous l'eau, et vous gagnez une vitesse de natation égale à votre vitesse de marche. Vous pouvez également lancer respiration aquatique une fois sans utiliser d'emplacement de sort. Vous ne pouvez le lancer de nouveau avant d'avoir terminé un repos long."
+  },
+  {
+    "nom": "Don des protecteurs",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=don-des-protecteurs",
+    "prerequis": "Prérequis : niveau 9, Pacte du Grimoire",
+    "description": "Une créature qui a écrit son nom sur votre Livre des Ombres passe à 1 pv lorsqu'elle tombe à 0 pv (1/repos long)."
+  },
+  {
+    "nom": "Engagement du maître des Chaînes",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=engagement-du-maitre-des-chaines",
+    "prerequis": "Prérequis : Pacte de la Chaîne",
+    "description": "Appel de familier octroie une vitesse de vol/nage, son arme est magique, peut Attaquer et gagne une résistance."
+  },
+  {
+    "nom": "Esprit occulte",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=esprit-occulte",
+    "prerequis": "",
+    "description": "Donne un avantage aux jets de sauvegarde de Constitution pour garder sa concentration sur un sort."
+  },
+  {
+    "nom": "Étreinte de Hadar",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=etreinte-de-hadar",
+    "prerequis": "Prérequis : sort mineur décharge occulte",
+    "description": "Une fois à chacun de vos tours, si vous touchez une créature avec votre décharge occulte, vous pouvez la déplacer en ligne droite de 3 mètres dans votre direction."
+  },
+  {
+    "nom": "Fuite de l'escroc",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=fuite-de-l-escroc",
+    "prerequis": "Prérequis : niveau 7",
+    "description": "Vous pouvez lancer liberté de mouvement sur vous une fois sans dépenser d'emplacement de sort. Vous retrouvez la capacité de le faire lorsque vous terminez un repos long."
+  },
+  {
+    "nom": "Lame assoiffée",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=lame-assoiffee",
+    "prerequis": "Prérequis : niveau 5, Pacte de la Lame",
+    "description": "Vous pouvez attaquer deux fois avec votre arme de pacte, au lieu d'une seule, chaque fois que vous choisissez l'action Attaquer durant votre tour."
+  },
+  {
+    "nom": "Lance de léthargie",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=lance-de-lethargie",
+    "prerequis": "Prérequis : sort mineur décharge occulte",
+    "description": "Une fois à chacun de vos tours, si vous touchez une créature avec votre décharge occulte, vous pouvez réduire la vitesse de cette créature de 3 mètres jusqu'à la fin de votre prochain tour."
+  },
+  {
+    "nom": "Lance occulte",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=lance-occulte",
+    "prerequis": "Prérequis : sort mineur décharge occulte",
+    "description": "Lorsque vous lancez décharge occulte, sa portée passe à 90 mètres."
+  },
+  {
+    "nom": "Langage animal",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=langage-animal",
+    "prerequis": "",
+    "description": "Vous pouvez lancer communication avec les animaux à volonté, sans dépenser d'emplacement de sort."
+  },
+  {
+    "nom": "Lenteur de l'esprit",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=lenteur-de-l-esprit",
+    "prerequis": "Prérequis : niveau 5",
+    "description": "Vous pouvez lancer lenteur une fois en utilisant un emplacement de sort d'occultiste. Vous ne pouvez le lancer de nouveau avant d'avoir terminé un repos long."
+  },
+  {
+    "nom": "Lien du Talisman",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=lien-du-talisman",
+    "prerequis": "Prérequis : niveau 12, Pacte du Talisman",
+    "description": "Téléporte vers le talisman ou vers l'occultiste (BM/repos long)."
+  },
+  {
+    "nom": "Livre des secrets anciens",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=livre-des-secrets-anciens",
+    "prerequis": "Prérequis : Pacte du Grimoire",
+    "description": "Vous pouvez maintenant inscrire des rituels dans votre Livre des Ombres. Choisissez deux sorts de niveau 1 qui sont marqués comme rituel dans la liste de sorts de n'importe quelles classes. Les sorts apparaissent dans le livre et ne comptent pas dans le nombre de sorts connus. Si vous tenez votre Livre des Ombres en main, vous pouvez lancer ces sorts comme des rituels. Vous pouvez lancer ces sorts uniquement comme rituels, à moins que vous ne les appreniez par d'autres moyens. Vous pouvez aussi lancer un sort connu d'occultiste comme rituel s'il est marqué de cette manière. Durant vos aventures vous pouvez copier d'autres rituels dans votre Livre des Ombres. Lorsque vous trouvez ce genre de sorts, vous pouvez les ajouter dans votre livre du moment qu'ils sont d'un niveau égal ou inférieur à la moitié de votre niveau d'occultiste (arrondi au supérieur) et si vous avez le temps de faire la transcription. Pour chaque niveau de sort, celle-ci prend 2 heures et coûte 50 po d'encres rares nécessaires à sa transposition."
+  },
+  {
+    "nom": "Maître des formes",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=maitre-des-formes",
+    "prerequis": "Prérequis : niveau 15",
+    "description": "Vous pouvez lancer modification d'apparence à volonté, sans dépenser d'emplacement de sort."
+  },
+  {
+    "nom": "Maître des ombres",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=maitre-des-ombres",
+    "prerequis": "Prérequis : niveau 5",
+    "description": "Lorsque vous êtes dans une zone de lumière faible ou de ténèbres, vous pouvez utiliser une action pour devenir invisible jusqu'à ce que vous bougiez ou que vous utilisiez une action ou une réaction."
+  },
+  {
+    "nom": "Maléfice accablant",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=malefice-accablant",
+    "prerequis": "Prérequis : niveau 5, sort maléfice ou une capacité d'occultiste qui maudit",
+    "description": "Par une action bonus, vous causez une perturbation psychique autour de la cible maudite par votre sort maléfice ou par une capacité d'occultiste comme Malédiction de la lame maudite ou Mauvais présage. Dans ce cas, vous infligez des dégâts psychiques à la cible et à toutes les créatures de votre choix dans un rayon de 1,50 mètre autour d'elle. Les dégâts psychiques sont égaux à votre modificateur de Charisme (minimum 1). Pour utiliser cette manifestation vous devez pouvoir voir la cible maudite et être au plus à 9 mètres d'elle."
+  },
+  {
+    "nom": "Maléfice implacable",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=malefice-implacable",
+    "prerequis": "Prérequis : niveau 7, sort maléfice ou une capacité d'occultiste qui maudit",
+    "description": "La malédiction crée un lien temporaire entre vous et votre cible. Par une action bonus, vous pouvez magiquement vous téléporter jusqu'à 9 mètres dans un espace inoccupé à un endroit que vous pouvez voir situé à 1,50 mètre ou moins de la cible maudite par votre sort maléfice ou par une capacité d'occultiste comme Malédiction de la lame maudite ou Mauvais présage. Pour ce faire, vous devez être en mesure de voir la cible maudite."
+  },
+  {
+    "nom": "Mille visages",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=mille-visages",
+    "prerequis": "",
+    "description": "Vous pouvez lancer déguisement à volonté, sans dépenser d'emplacement de sort."
+  },
+  {
+    "nom": "Mot d'effroi",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=mot-d-effroi",
+    "prerequis": "Prérequis : niveau 7",
+    "description": "Vous pouvez lancer confusion une fois en utilisant un emplacement de sort d'occultiste. Vous ne pouvez le lancer de nouveau avant d'avoir terminé un repos long."
+  },
+  {
+    "nom": "Murmures de la tombe",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=murmures-de-la-tombe",
+    "prerequis": "Prérequis : niveau 9",
+    "description": "Vous pouvez lancer communication avec les morts à volonté, sans dépenser d'emplacement de sort."
+  },
+  {
+    "nom": "Murmures ensorcelants",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=murmures-ensorcelants",
+    "prerequis": "Prérequis : niveau 7",
+    "description": "Vous pouvez lancer compulsion une fois en utilisant un emplacement de sort d'occultiste. Vous ne pouvez le lancer de nouveau avant d'avoir terminé un repos long."
+  },
+  {
+    "nom": "Oeil du gardien des runes",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=oeil-du-gardien-des-runes",
+    "prerequis": "",
+    "description": "Vous pouvez lire toutes les formes d'écritures."
+  },
+  {
+    "nom": "Pas aérien",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=pas-aerien",
+    "prerequis": "Prérequis : niveau 9",
+    "description": "Vous pouvez lancer lévitation sur vous-même à volonté, sans dépenser d'emplacement de sort ni des composantes."
+  },
+  {
+    "nom": "Perception transférée",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=perception-transferee",
+    "prerequis": "",
+    "description": "Vous pouvez utiliser une action pour toucher un humanoïde consentant, afin de voir et de ressentir au travers de ses sens, jusqu'à la fin de votre prochain tour. Aussi longtemps que la créature est sur le même plan d'existence que vous, vous pouvez utiliser une action durant les tours suivants pour maintenir la connexion, étendant sa durée jusqu'à la fin de votre prochain tour. Tant que vous discernez les choses par le biais des sens de la créature, vous bénéficiez de tous les sens spéciaux de celle-ci, en revanche vous êtes complètement aveugle et sourd à votre environnement immédiat."
+  },
+  {
+    "nom": "Présence captivante",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=presence-captivante",
+    "prerequis": "",
+    "description": "Vous acquérez la maîtrise des compétences Persuasion et Tromperie."
+  },
+  {
+    "nom": "Protection du Talisman",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=protection-du-talisman",
+    "prerequis": "Prérequis : niveau 7, Pacte du Talisman",
+    "description": "Lorsque le porteur de votre talisman échoue à un jet de sauvegarde il peut ajouter 1d4 pour tenter de changer le résultat."
+  },
+  {
+    "nom": "Regard fantomatique",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=regard-fantomatique",
+    "prerequis": "Prérequis : niveau 7",
+    "description": "Par une action, vous pouvez voir à travers les objets solides à une portée de 9 mètres. Sur cette distance, vous avez la vision dans le noir si vous ne l'aviez pas déjà. Cette vue spéciale dure 1 minute ou jusqu'à ce que votre concentration se termine (comme si vous vous concentriez sur un sort). Pendant ce temps, vous percevez les objets comme des images fantomatiques et transparentes. Une fois que vous avez utilisé cette manifestation, vous devez terminer un repos court ou long avant de pouvoir la réutiliser."
+  },
+  {
+    "nom": "Représailles du Talisman",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=represailles-du-talisman",
+    "prerequis": "Prérequis : Pacte du Talisman",
+    "description": "Lorsque le porteur de votre talisman est touché, vous pouvez infliger des dégâts psychiques égaux à votre bonus de maîtrise."
+  },
+  {
+    "nom": "Royaumes lointains",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=royaumes-lointains",
+    "prerequis": "Prérequis : niveau 15",
+    "description": "Vous pouvez lancer oeil magique à volonté, sans dépenser d'emplacement de sort."
+  },
+  {
+    "nom": "Saut d'Outremonde",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=saut-d-outremonde",
+    "prerequis": "Prérequis : niveau 9",
+    "description": "Vous pouvez lancer saut sur vous-même à volonté, sans dépenser d'emplacement de sort ni des composantes."
+  },
+  {
+    "nom": "Sbires du chaos",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=sbires-du-chaos",
+    "prerequis": "Prérequis : niveau 9",
+    "description": "Vous pouvez lancer invocation d'élémentaire une fois en utilisant un emplacement de sort d'occultiste. Vous ne pouvez le lancer de nouveau avant d'avoir terminé un repos long."
+  },
+  {
+    "nom": "Scribe des horizons",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=scribe-des-horizons",
+    "prerequis": "Prérequis : niveau 5, Pacte du Grimoire",
+    "description": "Permet de lancer communication à distance vers une cible qui a écrit son nom sur votre Livre des Ombres."
+  },
+  {
+    "nom": "Sculpteur de chair",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=sculpteur-de-chair",
+    "prerequis": "Prérequis : niveau 7",
+    "description": "Vous pouvez lancer métamorphose une fois en utilisant un emplacement de sort d'occultiste. Vous ne pouvez le lancer de nouveau avant d'avoir terminé un repos long."
+  },
+  {
+    "nom": "Servitude de la tombe",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=servitude-de-la-tombe",
+    "prerequis": "Prérequis : niveau 5",
+    "description": "Permet de lancer animation des morts (1/repos long)."
+  },
+  {
+    "nom": "Sombre présage",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=sombre-presage",
+    "prerequis": "Prérequis : niveau 5",
+    "description": "Vous pouvez lancer malédiction une fois en utilisant un emplacement de sort d'occultiste. Vous ne pouvez le lancer de nouveau avant d'avoir terminé un repos long."
+  },
+  {
+    "nom": "Tombe de Levistus",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=tombe-de-levistus",
+    "prerequis": "Prérequis : niveau 5",
+    "description": "Par une réaction lorsque vous prenez des dégâts, vous pouvez vous enterrer dans de la glace, laquelle fond à la fin de votre prochain tour. Vous gagnez 10 points de vie temporaires par niveau d'occultiste, puis subissez les points de dégâts que vous venez de recevoir. Immédiatement après avoir pris les dégâts, vous gagnez la vulnérabilité aux dégâts de feu, votre vitesse tombe à 0 et vous êtes incapable d'agir. Tous ces effets, dont les points de vie temporaires restants, prennent fin lorsque la glace fond. Une fois que vous avez utilisé cette manifestation, vous devez terminer un repos court ou long avant de pouvoir la réutiliser."
+  },
+  {
+    "nom": "Vigueur fiélonne",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=vigueur-fielonne",
+    "prerequis": "",
+    "description": "Vous pouvez lancer simulacre de vie sur vous-même à volonté comme un sort de niveau 1, sans dépenser d'emplacement de sort ni des composantes."
+  },
+  {
+    "nom": "Vision de sorcier",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=vision-de-sorcier",
+    "prerequis": "Prérequis : niveau 15",
+    "description": "Vous pouvez voir la forme véritable de chaque métamorphe ou créature dissimulée par la magie des illusions ou de la transmutation, si la créature est dans un rayon de 9 mètres autour de vous et dans votre ligne de mire."
+  },
+  {
+    "nom": "Vision du diable",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=vision-du-diable",
+    "prerequis": "",
+    "description": "Vous voyez normalement dans les ténèbres, qu'elles soient magiques ou non, jusqu'à une distance de 36 mètres."
+  },
+  {
+    "nom": "Vision occulte",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=vision-occulte",
+    "prerequis": "",
+    "description": "Vous pouvez lancer détection de la magie à volonté, sans dépenser d'emplacement de sort ni des composantes."
+  },
+  {
+    "nom": "Visions embrumées",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=visions-embrumees",
+    "prerequis": "",
+    "description": "Vous pouvez lancer image silencieuse à volonté, sans dépenser d'emplacement de sort ni des composantes."
+  },
+  {
+    "nom": "Voile d'ombres",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=voile-d-ombres",
+    "prerequis": "Prérequis : niveau 15",
+    "description": "Vous pouvez lancer invisibilité à volonté, sans dépenser d'emplacement de sort."
+  },
+  {
+    "nom": "Voile de mouches",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=voile-de-mouches",
+    "prerequis": "Prérequis : niveau 5",
+    "description": "Par une action bonus, vous pouvez vous entourer d'une aura magique qui ressemble à un essaim de mouches bourdonnantes. L'aura s'étend de vous sur 1,50 mètre dans toutes les directions, mais est bloquée par un abri total. Elle dure tant que vous n'êtes pas incapable d'agir ou jusqu'à ce que vous l'annuliez en utilisant une action bonus. L'aura vous donne un avantage aux jets de Charisme (Intimidation) mais un désavantage à tous les autres jets de Charisme. En outre, une créature qui commence son tour dans l'aura prend des dégâts de poison égaux à votre modificateur de Charisme (minimum 0). Une fois que vous avez utilisé cette manifestation, vous devez terminer un repos court ou long avant de pouvoir la réutiliser."
+  },
+  {
+    "nom": "Voix du maître des Chaînes",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=voix-du-maitre-des-chaines",
+    "prerequis": "Prérequis : Pacte de la Chaîne",
+    "description": "Vous pouvez communiquer avec votre familier par télépathie et percevoir les choses par le biais de ses sens, aussi longtemps que vous êtes sur le même plan d'existence. En outre, pendant que vous voyez au travers des sens de votre familier, vous pouvez le faire parler, avec votre voix, même si celui-ci est normalement incapable de discourir."
+  },
+  {
+    "nom": "Voleur des cinq destinées",
+    "url": "https://www.aidedd.org/dnd/invocations.php?vf=voleur-des-cinq-destinees",
+    "prerequis": "",
+    "description": "Vous pouvez lancer fléau une fois en utilisant un emplacement de sort d'occultiste. Vous ne pouvez le lancer de nouveau avant d'avoir terminé un repos long."
+  }
+]

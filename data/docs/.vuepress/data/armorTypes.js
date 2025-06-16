@@ -1,0 +1,33 @@
+export const armorTypes = {
+  "armure matelassée": { value: 11, maxDex: false },
+  "armure de cuir": { value: 11, maxDex: false },
+  "armure de cuir clouté": { value: 12, maxDex: false },
+  "armure de peau": { value: 12, maxDex: 2 },
+  "chemise de mailles": { value: 13, maxDex: 2 },
+  "armure d'écailles": { value: 14, maxDex: 2 },
+  "cuirasse": { value: 14, maxDex: 2 },
+  "demi-plate": { value: 15, maxDex: 2 },
+  "armure annelée": { value: 14, maxDex: 0 },
+  "cotte de mailles": { value: 16, maxDex: 0 },
+  "clibanion": { value: 17, maxDex: 0 },
+  "harnois": { value: 18, maxDex: 0 },
+}
+
+export const ARMORTYPES = [
+  { label: "Aucune", value: null },
+  { label: "Armure du mage", value: 'armure du mage' },
+  { label: "Armure naturelle", value: 'armure naturelle' },
+  { label: "Armure matelassée", value: 'armure matelassée' },
+  { label: "Armure de cuir", value: 'armure de cuir' },
+  { label: "Armure de cuir clouté", value: 'armure de cuir clouté' },
+  { label: "Armure de peau", value: 'armure de peau' },
+  { label: "Chemise de maille", value: 'chemise de mailles' },
+  { label: "Armure d'écailles", value: "armure d'écailles" },
+  { label: "Cuirasse", value: 'cuirasse' },
+  { label: "Demi-plate", value: 'demi-plate' },
+  { label: "Armure annelée", value: 'armure annelée' },
+  { label: "Cotte de mailles", value: 'cotte de mailles' },
+  { label: "Clibanion", value: 'clibanion' },
+  { label: "Harnois", value: 'harnois' },
+  { label: "Autre", value: 'custom' },
+]

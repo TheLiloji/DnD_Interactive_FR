@@ -1,0 +1,15 @@
+{
+  "name": "projetdnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@3d-dice/dice-box": "^1.1.4"
+  }
+}

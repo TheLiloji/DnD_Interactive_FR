@@ -1,0 +1,205 @@
+[
+  {
+    "type":"Classe",
+    "nom":"Barbare",
+    "resume":"Un guerrier bestial guidé par la rage, capable de prouesses physiques démesurées.",
+    "caractéristique":"Force",
+    "de_vie":"d12"
+  },
+  {
+    "type":"Classe",
+    "nom":"Barde",
+    "resume":"Un artiste polyvalent dont la magie provient de la musique et de l'inspiration.",
+    "caractéristique":"Charisme",
+    "de_vie":"d8"
+  },
+  {
+    "type":"Classe",
+    "nom":"Clerc",
+    "resume":"Un fidèle serviteur divin dont la foi se manifeste par des sorts puissants et un rôle de soutien.",
+    "caractéristique":"Sagesse",
+    "de_vie":"d8"
+  },
+  {
+    "type":"Classe",
+    "nom":"Druide",
+    "resume":"Gardien de la nature, capable de se transformer en animal et de lancer des sorts naturels.",
+    "caractéristique":"Sagesse",
+    "de_vie":"d8"
+  },
+  {
+    "type":"Classe",
+    "nom":"Ensorceleur",
+    "resume":"Doté d'un pouvoir magique inné, l'ensorceleur canalise son énergie brute en sorts dévastateurs.",
+    "caractéristique":"Charisme",
+    "de_vie":"d6"
+  },
+  {
+    "type":"Classe",
+    "nom":"Guerrier",
+    "resume":"Un maître du combat armé, aussi à l'aise avec la tactique qu'avec la force brute.",
+    "caractéristique":"Force ou Dextérité",
+    "de_vie":"d10"
+  },
+  {
+    "type":"Classe",
+    "nom":"Magicien",
+    "resume":"Un érudit de la magie, dont la puissance provient d'années d'étude des arcanes.",
+    "caractéristique":"Intelligence",
+    "de_vie":"d6"
+  },
+  {
+    "type":"Classe",
+    "nom":"Moine",
+    "resume":"Un combattant spirituel, rapide et précis, utilisant son ki pour des techniques spéciales.",
+    "caractéristique":"Dextérité et Sagesse",
+    "de_vie":"d8"
+  },
+  {
+    "type":"Classe",
+    "nom":"Paladin",
+    "resume":"Un champion sacré guidé par un serment, combinant armes et magie divine.",
+    "caractéristique":"Force et Charisme",
+    "de_vie":"d10"
+  },
+  {
+    "type":"Classe",
+    "nom":"Rôdeur",
+    "resume":"Explorateur des contrées sauvages, chasseur de créatures, discret et rusé.",
+    "caractéristique":"Dextérité et Sagesse",
+    "de_vie":"d10"
+  },
+  {
+    "type":"Classe",
+    "nom":"Roublard",
+    "resume":"Maître de la discrétion, des embuscades et des coups précis et meurtriers.",
+    "caractéristique":"Dextérité",
+    "de_vie":"d8"
+  },
+  {
+    "type":"Race",
+    "nom":"Demi-elfe",
+    "resume":"Les demi-elfes combinent grâce, ambition et adaptabilité. Parfaits diplomates ou aventuriers.",
+    "caractéristique":"Charisme (+2), +1 dans deux autres"
+  },
+  {
+    "type":"Race",
+    "nom":"Demi-orc",
+    "resume":"Forts et féroces, les demi-orcs brillent dans les combats au corps à corps.",
+    "caractéristique":"Force (+2), Constitution (+1)"
+  },
+  {
+    "type":"Race",
+    "nom":"Elfe",
+    "resume":"Agiles et vifs, les elfes vivent longtemps et excellent dans la magie ou l'archerie.",
+    "caractéristique":"Dextérité (+2)"
+  },
+  {
+    "type":"Race",
+    "nom":"Gnome",
+    "resume":"Petits, curieux et inventifs, les gnomes sont attirés par la magie et la mécanique.",
+    "caractéristique":"Intelligence (+2)"
+  },
+  {
+    "type":"Race",
+    "nom":"Halfelin",
+    "resume":"Chanceux et discrets, les halfelins sont difficiles à attraper et très sociables.",
+    "caractéristique":"Dextérité (+2)"
+  },
+  {
+    "type":"Race",
+    "nom":"Humain",
+    "resume":"Polyvalents, les humains s'adaptent à tout et apprennent vite dans tous les domaines.",
+    "caractéristique":"+1 à toutes les caractéristiques"
+  },
+  {
+    "type":"Race",
+    "nom":"Nain",
+    "resume":"Robustes et résistants, les nains sont de puissants guerriers et artisans.",
+    "caractéristique":"Constitution (+2)"
+  },
+  {
+    "type":"Race",
+    "nom":"Tieffelin",
+    "resume":"Mystérieux et marqués par l'enfer, les tieffelins sont dotés d'un grand charisme et d'un flair magique.",
+    "caractéristique":"Charisme (+2), Intelligence (+1)"
+  },
+  {
+    "type":"Historique",
+    "nom":"Acolyte",
+    "resume":"Élevé dans un temple ou une religion, vous êtes versé dans les rites et la foi.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Artisan de guilde",
+    "resume":"Membre reconnu d'une guilde, vous avez un métier et un réseau.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Charlatan",
+    "resume":"Vous vivez de mensonges, d'arnaques, et de tours d'adresse.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Criminel",
+    "resume":"Vous avez un passé douteux : vol, assassinat ou contrebande.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Ermite",
+    "resume":"Isolé longtemps, vous êtes revenu porteur de vérités ou de secrets.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Héros du peuple",
+    "resume":"Figure locale respectée, protecteur des innocents et champion de la justice.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Noble",
+    "resume":"Né dans la richesse, vous avez un statut, une éducation et de l'influence.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Sauvageon",
+    "resume":"Élevé dans la nature ou hors des normes sociales, vous êtes proche du sauvage.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Marin",
+    "resume":"Habitué à la vie en mer, vous maîtrisez navigation, gréements et discipline.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Soldat",
+    "resume":"Ancien militaire, discipliné, rôdé aux batailles et à la hiérarchie.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Enfant des rues",
+    "resume":"Survivant urbain, malin, discret, débrouillard.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Artiste",
+    "resume":"Chanteur, acrobate, conteur : vous savez captiver un public.",
+    "caractéristique":null
+  },
+  {
+    "type":"Historique",
+    "nom":"Sage",
+    "resume":"Adepte de la connaissance, vous vivez pour étudier et comprendre le monde.",
+    "caractéristique":null
+  }
+]

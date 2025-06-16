@@ -1,0 +1,400 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+.characters-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #f8f9fa;
+    min-height: 100vh;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    color: #2c3e50;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.character-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.character-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.character-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.character-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.character-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.character-avatar i {
+    font-size: 30px;
+    color: #6c757d;
+}
+
+.character-name {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.character-details {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.character-class {
+    font-weight: 600;
+    color: #e65100;
+    margin: 0;
+}
+
+.character-race {
+    color: #2e7d32;
+    margin: 0;
+}
+
+.character-background {
+    color: #7b1fa2;
+    margin: 0;
+    font-style: italic;
+}
+
+.character-subclass {
+    color: #1565c0;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.character-actions {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.character-card:hover .character-actions {
+    opacity: 1;
+}
+
+.btn-action {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+    color: #495057;
+}
+
+.btn-action:hover {
+    transform: scale(1.1);
+}
+
+.btn-action.view {
+    background: #e7f3ff;
+    color: #0066cc;
+}
+
+.btn-action.delete {
+    background: #ffeaea;
+    color: #dc3545;
+}
+
+.character-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.stat-item {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.stat-value {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.stat-label {
+    color: #6c757d;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.no-characters {
+    text-align: center;
+    padding: 3rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.no-characters i {
+    font-size: 64px;
+    color: #dee2e6;
+    margin-bottom: 1rem;
+}
+
+.no-characters h2 {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.navigation-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+</style>
+{% endblock %}
+
+{% block title %}Mes personnages - D&D{% endblock %}
+
+{% block content %}
+<div class="characters-container">
+    <div class="page-header">
+        <h1>
+            <i class="material-icons">group</i>
+            Mes personnages ({{ characters|length }})
+        </h1>
+        <a href="{{ url_for('character_creation') }}" class="btn btn-primary">
+            <i class="material-icons">add</i>
+            Nouveau personnage
+        </a>
+    </div>
+
+    {% if characters %}
+        <div class="characters-grid">
+            {% for character in characters %}
+            <div class="character-card" data-index="{{ loop.index0 }}">
+                <div class="character-actions">
+                    <button class="btn-action view" data-index="{{ loop.index0 }}" title="Voir la fiche">
+                        <i class="material-icons">visibility</i>
+                    </button>
+                    <button class="btn-action delete" data-index="{{ loop.index0 }}" data-name="{{ character.name }}" title="Supprimer">
+                        <i class="material-icons">delete</i>
+                    </button>
+                </div>
+
+                <div class="character-header">
+                    <div class="character-avatar">
+                        {% if character.finalization and character.finalization.image_url %}
+                            <img src="{{ character.finalization.image_url }}" alt="{{ character.name }}">
+                        {% else %}
+                            <i class="material-icons">person</i>
+                        {% endif %}
+                    </div>
+                    <div>
+                        <h3 class="character-name">{{ character.name }}</h3>
+                        <div class="character-details">
+                            <p class="character-class">{{ character.class.title() }} niveau {{ character.level }}</p>
+                            <p class="character-race">{{ character.race.title() }}</p>
+                            <p class="character-background">{{ character.background.title() }}</p>
+                            {% if character.subclass %}
+                                <p class="character-subclass">{{ character.subclass }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="character-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">{{ character.level }}</div>
+                        <div class="stat-label">Niveau</div>
+                    </div>
+                    <div class="stat-item">
+                        {% set con_bonus = character.racial_choices.get('constitution', 0) if character.racial_choices else 0 %}
+                        {% set con_modifier = ((character.abilities.constitution + con_bonus - 10) // 2) %}
+                        {% set hp = get_hit_die(character.class) + con_modifier + ((character.level - 1) * (get_hit_die(character.class) // 2 + 1 + con_modifier)) %}
+                        <div class="stat-value">{{ hp if hp > 0 else 'N/A' }}</div>
+                        <div class="stat-label">PV</div>
+                    </div>
+                    <div class="stat-item">
+                        {% if character.equipment and character.equipment.selected_armor %}
+                            {% set dex_bonus = character.racial_choices.get('dexterite', 0) if character.racial_choices else 0 %}
+                            {% set dex_mod = ((character.abilities.dexterite + dex_bonus - 10) // 2) %}
+                            <div class="stat-value">{{ 10 + dex_mod }}</div>
+                        {% else %}
+                            {% set dex_bonus = character.racial_choices.get('dexterite', 0) if character.racial_choices else 0 %}
+                            {% set dex_mod = ((character.abilities.dexterite + dex_bonus - 10) // 2) %}
+                            <div class="stat-value">{{ 10 + dex_mod }}</div>
+                        {% endif %}
+                        <div class="stat-label">CA</div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="no-characters">
+            <i class="material-icons">person_add</i>
+            <h2>Aucun personnage créé</h2>
+            <p>Commencez votre aventure en créant votre premier personnage !</p>
+            <a href="{{ url_for('character_creation') }}" class="btn btn-primary">
+                <i class="material-icons">add</i>
+                Créer mon premier personnage
+            </a>
+        </div>
+    {% endif %}
+
+    <div class="navigation-footer">
+        <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">
+            <i class="material-icons">arrow_back</i>
+            Retour au tableau de bord
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Fonction utilitaire pour obtenir les dés de vie par classe
+function getHitDie(className) {
+    const hitDice = {
+        'barbare': 12, 'guerrier': 10, 'paladin': 10, 'rôdeur': 10,
+        'barde': 8, 'clerc': 8, 'druide': 8, 'moine': 8, 'roublard': 8, 'sorcier': 8,
+        'ensorceleur': 6, 'magicien': 6
+    };
+    return hitDice[className.toLowerCase()] || 8;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Clic sur une carte de personnage
+    document.querySelectorAll('.character-card').forEach(card => {
+        card.addEventListener('click', function(e) {
+            // Ne pas déclencher si on clique sur un bouton d'action
+            if (e.target.closest('.btn-action')) return;
+            
+            const index = this.dataset.index;
+            window.location.href = `/character/${index}`;
+        });
+    });
+
+    // Boutons de visualisation
+    document.querySelectorAll('.btn-action.view').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const index = this.dataset.index;
+            window.location.href = `/character/${index}`;
+        });
+    });
+
+    // Boutons de suppression
+    document.querySelectorAll('.btn-action.delete').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const index = this.dataset.index;
+            const name = this.dataset.name;
+            
+            if (confirm(`Êtes-vous sûr de vouloir supprimer le personnage "${name}" ?\\n\\nCette action est irréversible.`)) {
+                fetch(`/delete_character/${index}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        location.reload();
+                    } else {
+                        alert('Erreur lors de la suppression: ' + data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('Erreur:', error);
+                    alert('Erreur lors de la suppression');
+                });
+            }
+        });
+    });
+});
+</script>
+{% endblock %} 

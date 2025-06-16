@@ -1,0 +1,305 @@
+{% extends "base.html" %}
+
+{% block title %}{{ game.name }} - D&D{% endblock %}
+
+{% block head %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+<script src="{{ url_for('static', filename='libs/three.min.js') }}"></script>
+<script src="{{ url_for('static', filename='libs/cannon.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='game.css') }}">
+{% endblock %}
+
+{% block content %}
+<div id="notifications"></div>
+
+<div class="game-container">
+    <aside class="sidebar">
+        <div class="game-header">
+            <h2>{{ game.name }}</h2>
+            {% if game.description %}
+            <p class="game-description">{{ game.description }}</p>
+            {% endif %}
+            <div class="game-code">Code: {{ game_id }}</div>
+        </div>
+
+        <div class="game-info">
+            <div class="info-item">
+                <i class="material-icons">group</i>
+                <span>{{ game.players|length }}/{{ game.max_players }} joueurs</span>
+            </div>
+            <div class="info-item">
+                <i class="material-icons">settings</i>
+                <span>{{ game.game_type|title }}</span>
+            </div>
+            {% if is_dm %}
+            <button class="edit-settings-btn" id="editSettingsBtn">
+                <i class="material-icons">edit</i>
+                Modifier les paramètres
+            </button>
+            {% endif %}
+        </div>
+        
+        <div class="players-section">
+            <h3>Joueurs</h3>
+            <ul class="players-list">
+                <!-- DM -->
+                <li class="player-item">
+                    <div class="player-avatar">
+                        {% if dm.avatar %}
+                        <img src="{{ dm.avatar }}" alt="{{ dm.pseudo }}">
+                        {% else %}
+                        {{ dm.pseudo[0]|upper }}
+                        {% endif %}
+                    </div>
+                    <div class="player-info">
+                        <span class="player-name">{{ dm.pseudo }}</span>
+                        <div class="player-badges">
+                            <span class="dm-badge">MJ</span>
+                            {% if current_user.email == game.dm_email %}
+                            <span class="self-badge">Vous</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Autres joueurs -->
+                {% for player in players %}
+                <li class="player-item">
+                    <div class="player-avatar">
+                        {% if player.avatar %}
+                        <img src="{{ player.avatar }}" alt="{{ player.pseudo }}">
+                        {% else %}
+                        {{ player.pseudo[0]|upper }}
+                        {% endif %}
+                    </div>
+                    <div class="player-info">
+                        <span class="player-name">{{ player.pseudo }}</span>
+                        {% if current_user.email == player.email %}
+                        <div class="player-badges">
+                            <span class="self-badge">Vous</span>
+                        </div>
+                        {% endif %}
+                    </div>
+                </li>
+                {% endfor %}
+
+                {% if not game.players %}
+                <p class="no-players">Aucun joueur n'a encore rejoint la partie</p>
+                {% endif %}
+            </ul>
+        </div>
+        
+        <!-- Contrôles pour les dés 3D -->
+        <div class="dice-controls">
+            <h3>Dés 3D</h3>
+            <div class="dice-control-group">
+                <button class="toggle-3d-btn" id="toggle3D">
+                    <i class="material-icons">3d_rotation</i>
+                    Mode 3D
+                </button>
+                <button class="clear-dice-btn" id="clearDice">
+                    <i class="material-icons">clear</i>
+                    Effacer
+                </button>
+            </div>
+            
+            <!-- Options avancées -->
+            <div class="dice-3d-options" id="dice3dOptions" style="display: none;">
+                <div class="option-group">
+                    <label for="diceSound">
+                        <input type="checkbox" id="diceSound" checked>
+                        <span>Effets sonores</span>
+                    </label>
+                </div>
+                <div class="option-group">
+                    <label for="diceShadows">
+                        <input type="checkbox" id="diceShadows" checked>
+                        <span>Ombres</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <div class="dice-results" id="dice-results">
+            <!-- Les résultats des dés seront ajoutés ici dynamiquement -->
+        </div>
+    </main>
+</div>
+
+<!-- Menu des dés amélioré -->
+<button class="dice-fab" id="diceMenuBtn">🎲</button>
+<div class="dice-menu" id="diceMenu">
+    <div class="dice-menu-header">
+        <h3>Lanceur de Dés</h3>
+        <div class="dice-count-container">
+            <label for="diceCount">Nombre:</label>
+            <input type="number" class="dice-count" id="diceCount" value="1" min="1" max="20">
+        </div>
+        <div class="visibility-container">
+        <label class="dice-visibility">
+            <input type="checkbox" id="diceVisibility" checked>
+                <span>🔓 Public</span>
+        </label>
+        </div>
+    </div>
+    
+    <!-- Lancers composés -->
+    <div class="composite-roll-section">
+        <h4>Lancer Composé</h4>
+        <div class="composite-input-container">
+            <input type="text" id="compositeRoll" placeholder="Ex: 2d10+3d6+5" class="composite-input">
+            <button class="composite-btn" id="rollComposite">🎲 Lancer</button>
+        </div>
+        <div class="composite-examples">
+            <button class="example-btn" data-formula="1d20+5">1d20+5</button>
+            <button class="example-btn" data-formula="2d10+2d6">2d10+2d6</button>
+            <button class="example-btn" data-formula="3d6+2">3d6+2</button>
+            <button class="example-btn" data-formula="1d8+1d4+3">1d8+1d4+3</button>
+        </div>
+    </div>
+    
+    <!-- Modificateurs -->
+    <div class="modifiers-section">
+        <h4>Modificateurs</h4>
+        <div class="modifiers-buttons">
+            <button class="modifier-btn active" data-mod="0">0</button>
+            <button class="modifier-btn" data-mod="+1">+1</button>
+            <button class="modifier-btn" data-mod="+2">+2</button>
+            <button class="modifier-btn" data-mod="+3">+3</button>
+            <button class="modifier-btn" data-mod="+5">+5</button>
+            <button class="modifier-btn" data-mod="-1">-1</button>
+            <button class="modifier-btn" data-mod="-2">-2</button>
+            <button class="modifier-btn" data-mod="ADV">ADV</button>
+        </div>
+        <div class="current-modifier">
+            <span>Modificateur: <span id="currentMod">0</span></span>
+        </div>
+    </div>
+    
+    <!-- Dés principaux -->
+    <div class="main-dice-section">
+        <h4>Dés Standards</h4>
+    <div class="dice-buttons">
+            <button class="dice-btn d4" data-dice="d4">
+                <div class="dice-icon">🔺</div>
+                <span>D4</span>
+            </button>
+            <button class="dice-btn d6" data-dice="d6">
+                <div class="dice-icon">⚀</div>
+                <span>D6</span>
+            </button>
+            <button class="dice-btn d8" data-dice="d8">
+                <div class="dice-icon">🔷</div>
+                <span>D8</span>
+            </button>
+            <button class="dice-btn d10" data-dice="d10">
+                <div class="dice-icon">🔸</div>
+                <span>D10</span>
+            </button>
+            <button class="dice-btn d12" data-dice="d12">
+                <div class="dice-icon">🔹</div>
+                <span>D12</span>
+            </button>
+            <button class="dice-btn d20" data-dice="d20">
+                <div class="dice-icon">⭐</div>
+                <span>D20</span>
+            </button>
+            <button class="dice-btn d100" data-dice="d100">
+                <div class="dice-icon">💯</div>
+                <span>D100</span>
+            </button>
+        </div>
+    </div>
+    
+    <!-- Actions rapides -->
+    <div class="quick-actions">
+        <button class="quick-btn attack-btn">⚔️ Attaque</button>
+        <button class="quick-btn damage-btn">💥 Dégâts</button>
+        <button class="quick-btn save-btn">🛡️ Sauvegarde</button>
+    </div>
+    
+    <!-- Contrôles 3D -->
+    <div class="dice-3d-controls">
+        <button class="toggle-3d-mini" id="toggle3DMini">
+            <i class="material-icons">3d_rotation</i>
+            <span>Mode 3D</span>
+        </button>
+        <button class="clear-dice-mini" id="clearDiceMini">
+            <i class="material-icons">clear</i>
+            <span>Effacer</span>
+        </button>
+    </div>
+</div>
+
+<!-- Modal des paramètres de partie -->
+{% if is_dm %}
+<div class="settings-modal" id="settingsModal">
+    <div class="settings-content">
+        <h2>Paramètres de la partie</h2>
+        <form id="gameSettingsForm">
+            <div class="settings-group">
+                <label for="gameName">Nom de la partie</label>
+                <input type="text" id="gameName" value="{{ game.name }}" required>
+            </div>
+
+            <div class="settings-group">
+                <label for="gameDescription">Description</label>
+                <textarea id="gameDescription">{{ game.description }}</textarea>
+            </div>
+
+            <div class="settings-group">
+                <label for="maxPlayers">Nombre maximum de joueurs</label>
+                <input type="range" id="maxPlayers" min="2" max="10" value="{{ game.max_players }}">
+                <span id="maxPlayersValue">{{ game.max_players }}</span>
+            </div>
+
+            <div class="settings-group">
+                <label for="gameType">Type de partie</label>
+                <select id="gameType">
+                    <option value="standard" {% if game.game_type == 'standard' %}selected{% endif %}>Standard</option>
+                    <option value="simplified" {% if game.game_type == 'simplified' %}selected{% endif %}>Simplifiée</option>
+                </select>
+            </div>
+
+            <div class="settings-options">
+                <label class="settings-option">
+                    <input type="checkbox" id="allowSpectators" {% if game.options.allow_spectators %}checked{% endif %}>
+                    <span>Autoriser les spectateurs</span>
+                </label>
+
+                <label class="settings-option">
+                    <input type="checkbox" id="autoLevel" {% if game.options.auto_level %}checked{% endif %}>
+                    <span>Progression automatique des niveaux</span>
+                </label>
+
+                <label class="settings-option">
+                    <input type="checkbox" id="diceValidation" {% if game.options.dice_validation %}checked{% endif %}>
+                    <span>Validation des lancers de dés</span>
+                </label>
+            </div>
+
+            <div class="settings-actions">
+                <button type="button" class="cancel-btn" id="cancelSettings">Annuler</button>
+                <button type="submit" class="save-btn">Enregistrer</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endif %}
+
+<script type="text/javascript">
+    window.playerEmail = '{{ current_user.email }}';
+    window.isDm = {% if is_dm %}true{% else %}false{% endif %};
+    window.gameId = '{{ game_id }}';
+</script>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/dice3d.js') }}"></script>
+<script src="{{ url_for('static', filename='socket.js') }}"></script>
+<script src="{{ url_for('static', filename='js/game_settings.js') }}"></script>
+<script src="{{ url_for('static', filename='js/user-profile.js') }}"></script>
+{% endblock %} 

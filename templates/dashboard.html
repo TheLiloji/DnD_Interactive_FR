@@ -1,0 +1,200 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock %}
+
+{% block title %}Tableau de bord - D&D{% endblock %}
+
+{% block content %}
+<!-- Conteneur principal -->
+<div class="main-container">
+    <!-- Tile Créer une partie -->
+    <div class="tile create-game" data-action="create">
+        <div class="tile-content">
+            <i class="material-icons" style="font-size: 48px;">add_circle</i>
+            <h2>Créer une partie</h2>
+            <p>Devenez Maître du Jeu et créez votre propre aventure</p>
+        </div>
+    </div>
+
+    <!-- Tile Rejoindre une partie -->
+    <div class="tile join-game" data-action="join">
+        <div class="tile-content">
+            <i class="material-icons" style="font-size: 48px;">group_add</i>
+            <h2>Rejoindre une partie</h2>
+            <p>Rejoignez une partie existante avec un code</p>
+        </div>
+    </div>
+</div>
+
+<!-- Bouton Tutoriel en bas de page -->
+<div class="bottom-tutorial">
+    <div class="tile tutorial" data-action="tutorial">
+        <div class="tile-content">
+            <i class="material-icons" style="font-size: 32px;">school</i>
+            <h3>Tutoriel D&D</h3>
+            <p>Nouveau dans l'univers ? Découvrez les bases du jeu</p>
+        </div>
+    </div>
+</div>
+
+<!-- Sidebar gauche -->
+<aside class="sidebar left">
+    <div class="sidebar-content">
+        <ul class="menu-list">
+            <li><a href="{{ url_for('dashboard') }}"><i class="material-icons">dashboard</i>Tableau de bord</a></li>
+            <li><a href="{{ url_for('character_creation') }}"><i class="material-icons">person_add</i>Créer un personnage</a></li>
+            <li><a href="#characters"><i class="material-icons">person</i>Mes personnages</a></li>
+            <li><a href="#games"><i class="material-icons">games</i>Mes parties</a></li>
+            <li><a href="#rules"><i class="material-icons">book</i>Règles du jeu</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <a href="#settings"><i class="material-icons">settings</i>Paramètres</a>
+        </div>
+    </div>
+</aside>
+
+<!-- Sidebar droite -->
+<aside class="sidebar right">
+    <div class="sidebar-content">
+        <div class="sidebar-header">
+            <h3>Mes personnages</h3>
+            <a href="{{ url_for('character_creation') }}" class="btn-add-character" title="Créer un nouveau personnage">
+                <i class="material-icons">add</i>
+            </a>
+        </div>
+        
+        <div class="characters-list">
+            {% if characters %}
+                {% for character in characters %}
+                <div class="character-card" data-character-index="{{ loop.index0 }}">
+                     <div class="character-avatar">
+                         {% if character.finalization and character.finalization.image_url %}
+                             <img src="{{ character.finalization.image_url }}" alt="{{ character.name }}">
+                         {% else %}
+                             <i class="material-icons">person</i>
+                         {% endif %}
+                     </div>
+                     <div class="character-info">
+                         <h4>{{ character.name }}</h4>
+                         <p class="character-class">{{ character.class.title() }} niveau {{ character.level }}</p>
+                         <p class="character-race">{{ character.race.title() }}</p>
+                         {% if character.subclass %}
+                             <p class="character-subclass">{{ character.subclass }}</p>
+                         {% endif %}
+                     </div>
+                     <div class="character-actions">
+                         <button class="btn-action view-btn" data-index="{{ loop.index0 }}" title="Voir la fiche">
+                             <i class="material-icons">visibility</i>
+                         </button>
+                         <button class="btn-action delete-btn" data-index="{{ loop.index0 }}" data-name="{{ character.name }}" title="Supprimer">
+                             <i class="material-icons">delete</i>
+                         </button>
+                     </div>
+                 </div>
+                {% endfor %}
+            {% else %}
+                <div class="no-characters">
+                    <i class="material-icons">person_add</i>
+                    <p>Aucun personnage créé</p>
+                    <a href="{{ url_for('character_creation') }}" class="btn btn-primary">Créer mon premier personnage</a>
+                </div>
+            {% endif %}
+        </div>
+        
+        {% if characters %}
+        <div class="sidebar-footer">
+            <a href="{{ url_for('characters_list') }}" class="view-all-link">
+                <i class="material-icons">list</i>
+                Voir tous mes personnages
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</aside>
+
+<!-- Boutons toggle des sidebars -->
+<button class="sidebar-toggle left">
+    <i class="material-icons">menu</i>
+</button>
+<button class="sidebar-toggle right">
+    <i class="material-icons">person</i>
+</button>
+
+<!-- Modal pour rejoindre une partie -->
+<div id="joinGameModal" class="modal">
+    <div class="modal-content">
+        <h2>Rejoindre une partie</h2>
+        <form method="POST" action="{{ url_for('join_game') }}">
+            <div class="form-group">
+                <label for="game_code">Code de la partie :</label>
+                <input type="text" id="game_code" name="game_code" required>
+            </div>
+            <button type="submit" class="btn">Rejoindre</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+<script src="{{ url_for('static', filename='js/user-profile.js') }}"></script>
+<script src="{{ url_for('static', filename='js/preloader.js') }}"></script>
+
+<script>
+// Gestion des interactions avec les personnages
+document.addEventListener('DOMContentLoaded', function() {
+    // Clic sur une carte de personnage pour la visualiser
+    document.querySelectorAll('.character-card').forEach(card => {
+        card.addEventListener('click', function() {
+            const index = this.dataset.characterIndex;
+            if (index !== undefined) {
+                window.location.href = `/character/${index}`;
+            }
+        });
+    });
+
+    // Boutons de visualisation
+    document.querySelectorAll('.view-btn').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const index = this.dataset.index;
+            window.location.href = `/character/${index}`;
+        });
+    });
+
+    // Boutons de suppression
+    document.querySelectorAll('.delete-btn').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const index = this.dataset.index;
+            const name = this.dataset.name;
+            
+            if (confirm(`Êtes-vous sûr de vouloir supprimer le personnage "${name}" ?`)) {
+                fetch(`/delete_character/${index}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        location.reload(); // Recharger la page pour mettre à jour la liste
+                    } else {
+                        alert('Erreur lors de la suppression: ' + data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('Erreur:', error);
+                    alert('Erreur lors de la suppression');
+                });
+            }
+        });
+    });
+});
+</script>
+{% endblock %} 
