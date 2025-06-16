@@ -1680,6 +1680,93 @@
                 "appearance": "On le voit mais on ne le reagrde pas",
                 "history": "Y'a rien, c'est vide"
             }
+        },
+        {
+            "name": "qzd",
+            "level": 1,
+            "class": "clerc",
+            "race": "nain",
+            "background": "militaire",
+            "abilities": {
+                "force": 10,
+                "dexterite": 10,
+                "constitution": 10,
+                "intelligence": 10,
+                "sagesse": 10,
+                "charisme": 10
+            },
+            "skills": [],
+            "owner": "zaccharieber@gmail.com",
+            "created_at": "2025-06-16T10:12:26.387992",
+            "progression_choice": "single",
+            "selected_spells": [
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Flamme sacrée\"\ndescription: \"Une lumière s'abat sur la cible et lui inflige 1d8 dégâts radiants.\"\nschool: \"Évocation\"\nlevel: 0\nconcentration: false\ncasting_time: \"1 action\"\nduration: \"instantanée\"\nrange: \"18 mètres\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: false\n  materials: \"\"\nritual: false\nclasses:\n    - Clerc",
+                    "duration": "instantanée",
+                    "level": 0,
+                    "range": "18 mètres",
+                    "school": "Évocation",
+                    "title": "Flamme sacrée"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Balisage\"\ndescription: \"Rayon infligeant 4d6 dégâts radiants. La cible brille pendant un tour.\"\nschool: \"Évocation\"\nlevel: 1\nconcentration: false\ncasting_time: \"1 action\"\nduration: \"1 round\"\nrange: \"36 mètres\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: false\nritual: false\nclasses:\n    - Clerc",
+                    "duration": "1 round",
+                    "level": 1,
+                    "range": "36 mètres",
+                    "school": "Évocation",
+                    "title": "Balisage"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Bénédiction\"\ndescription: \"Jusqu'à trois cibles peuvent ajouter 1d4 à leurs jets d'attaque et de sauvegarde.\"\nschool: \"Enchantement\"\nlevel: 1\nconcentration: true\ncasting_time: \"1 action\"\nduration: \"jusqu'à 1 minute\"\nrange: \"9 mètres\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: true\n  materials: \"un peu d'eau bénite à asperger\"\nritual: false\nclasses:\n    - Clerc\n    - Paladin",
+                    "duration": "jusqu'à 1 minute",
+                    "level": 1,
+                    "range": "9 mètres",
+                    "school": "Enchantement",
+                    "title": "Bénédiction"
+                },
+                {
+                    "accessible": true,
+                    "casting_time": "1 action",
+                    "description": "title: \"Détection du mal et du bien\"\ndescription: \"Détecte les créatures bénéfiques ou maléfiques par nature.\"\nschool: \"Divination\"\nlevel: 1\nconcentration: true\ncasting_time: \"1 action\"\nduration: \"jusqu'à 10 minutes\"\nrange: \"personnelle\"\ncomponents:\n  verbal: true\n  somatic: true\n  material: false\nritual: false\nclasses:\n    - Clerc\n    - Paladin",
+                    "duration": "jusqu'à 10 minutes",
+                    "level": 1,
+                    "range": "personnelle",
+                    "school": "Divination",
+                    "title": "Détection du mal et du bien"
+                }
+            ],
+            "racial_choices": {},
+            "class_skills": [],
+            "equipment": {
+                "custom_equipment": "qzdljb",
+                "selected_armor": "",
+                "selected_shield": "",
+                "selected_main_weapon": "",
+                "selected_secondary_weapon": "",
+                "selected_backup_weapon": "",
+                "selected_inventory": [
+                    "[]"
+                ]
+            },
+            "finalization": {
+                "sex": "Femme",
+                "alignment": "",
+                "age": "",
+                "height": "",
+                "weight": "",
+                "image_url": "",
+                "eyes": "",
+                "skin": "",
+                "hair": "",
+                "appearance": "",
+                "history": ""
+            }
         }
     ]
 }

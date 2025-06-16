@@ -1,0 +1,29 @@
+
+🧹 RAPPORT DE NETTOYAGE - 2025-06-16 10:04:34
+============================================================
+
+📊 STATISTIQUES:
+- Templates supprimés: 2
+- Scripts Python supprimés: 5
+- Fichiers JSON supprimés: 2
+- Fichiers JS supprimés: 2
+- Bibliothèques supprimées: 3
+- Images nettoyées: D20 et DndMeme folders + 3 GIFs
+- Requirements.txt nettoyé: ✅
+- Dossiers vides supprimés: Multiple
+
+🔒 FICHIERS CONSERVÉS (importants):
+- base.html (utilisé par d'autres templates)
+- Toutes les dépendances Flask essentielles
+- Assets dice3d (sons utilisés)
+- Textures (utilisées par dice3d)
+
+⚠️  SAUVEGARDE:
+- Tous les fichiers supprimés ont été sauvegardés
+- Vérifiez le fonctionnement avant de supprimer la sauvegarde
+
+📈 BÉNÉFICES:
+- Projet plus propre et maintenable
+- Réduction significative de la taille
+- Suppression du code mort
+- Structure plus claire
